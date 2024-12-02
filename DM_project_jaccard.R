@@ -19,7 +19,7 @@ library(mclust)
 library(data.table)
 library(factoextra)
 library(plotly)
-
+library(hopkins)
 
 ############## DATA ##############
 
@@ -30,9 +30,9 @@ channel_info <- read_csv("youtube/clustering/channel_info.csv")
 commenter_jaccard <- read_csv("youtube/clustering/commenter_jaccard.csv")
 # View(commenter_jaccard)
 
-# Load the data (Matas)
-channel_info <- read_csv("data/channel_info.csv")
-commenter_jaccard <- read_csv("data/comment_jaccard_matrix.csv")
+# Load the data (Matas 1)
+channel_info <- read_csv("Desktop/Data Mining/channel_info.csv")
+commenter_jaccard <- read_csv("Desktop/Data Mining/comment_jaccard_matrix.csv")
 
 ############## K-Medoids Clustering ############## 
 
@@ -42,7 +42,7 @@ similarity_matrix <- as.matrix(commenter_jaccard[, -1])
 # Ensure the similarity matrix is symmetric
 similarity_matrix <- (similarity_matrix + t(similarity_matrix)) / 2
 
-# Remove dimnames to avoid warnings
+# Remove dimnames
 rownames(similarity_matrix) <- NULL
 colnames(similarity_matrix) <- NULL
 
@@ -51,6 +51,9 @@ distance_matrix <- as.dist(1 - similarity_matrix)
 
 # Convert the dist object to a full matrix for Elbow Method
 distance_matrix_full <- as.matrix(distance_matrix)
+
+# Print the Hopkins Statistic
+print(paste("Hopkins Statistic:", round(hopkins_stat, 4)))
 
 # Elbow Method to Determine Optimal k
 k_values <- 2:15
@@ -63,20 +66,20 @@ total_wsd_medoids <- sapply(k_values, function(k) {
   }))
 })
 
-# Plot the Elbow Curve
+# Plot the Elbow Curve (the lower the better)
 plot(k_values, total_wsd_medoids, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Distances",
      main = "Elbow Method for K-Medoids")
 
-# Store average silhouette width for each k
+# Store average silhouette width for each k 
 silhouette_scores <- sapply(k_values, function(k) {
   kmedoids_result <- pam(distance_matrix, k)
   silhouette_result <- silhouette(kmedoids_result$clustering, dist(distance_matrix))
   mean(silhouette_result[, 3])  # Average silhouette width
 })
 
-# Plot Silhouette Scores
+# Plot Silhouette Scores (the bigger the better)
 plot(k_values, silhouette_scores, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
@@ -88,14 +91,14 @@ print(data.frame(k = k_values, silhouette_score = silhouette_scores))
 # Gap statistic
 gap_stat <- clusGap(distance_matrix_full, FUN = pam, K.max = 15, B = 50)
 
-# Plot the Gap Statistic
+# Plot the Gap Statistic (the bigger the better)
 fviz_gap_stat(gap_stat)
 
 # Inspect Gap Statistic
 print(gap_stat)
 
 # Choose the optimal k (based on the Elbow Method, or use silhouette width)
-optimal_k <- 7  # probably 6 or 8 according to Elbow
+optimal_k <- 7  # probably 6 or 8 according to Elbow 
                 # 7 according to Silhoutte
                 # 4 according to Gap Statistic
 
@@ -110,6 +113,14 @@ commenter_jaccard$kmedoids_cluster <- kmedoids_clusters
 
 # Multidimensional Scaling (MDS) for Visualization
 mds_coords <- cmdscale(distance_matrix, k = 2)
+
+# Compute Hopkins Statistic
+set.seed(123)
+hopkins_stat <- hopkins(mds_coords) 
+
+# Print the Hopkins Statistic
+print(paste("Hopkins Statistic:", round(hopkins_stat, 4))) # Hopkins stat is the same
+# for k-means
 
 # Prepare data for visualization
 kmedoids_data <- data.frame(
@@ -250,8 +261,10 @@ fviz_gap_stat(gap_stat_means)
 # Inspect Gap Statistic
 print(gap_stat_means)
 
-num_clusters <- 6
-
+# Run K-means
+k <- 6
+kmeans_result <- kmeans(kmeans_data[, 1:2], centers = k, nstart = 25)
+                        
 # Add cluster labels to the dataset
 kmeans_data$cluster <- as.factor(kmeans_result$cluster)
 
@@ -273,7 +286,7 @@ ggplot(kmeans_data, aes(x = X1, y = X2, color = cluster)) +
 scaled_matrix <- scale(similarity_matrix)
 
 # Method 1: k-Distance Plot to Find Optimal `eps`
-k <- 4  # Typically, k = minPts - 1
+k <- 6  # Typically, k = minPts - 1
 knn_distances <- kNNdist(scaled_matrix, k = k)
 
 # Plot k-distance to find the "elbow"
@@ -285,7 +298,7 @@ plot(
 )
 
 # Based on the elbow in the plot, choose a value for `eps`
-eps_value <- 16  # Adjust based on the elbow in the k-distance plot
+eps_value <- 0.05  # Adjust based on the elbow in the k-distance plot
 min_points <- 4    # Typical values are between 3 and 10
 
 # Perform DBSCAN
@@ -294,8 +307,10 @@ dbscan_result <- dbscan(distance_matrix, eps = eps_value, minPts = min_points)
 # Add cluster labels to the dataset
 commenter_jaccard$dbscan_cluster <- dbscan_result$cluster
 
-# Reduce dimensionality using MDS
-mds_coords <- cmdscale(as.dist(1 - similarity_matrix), k = 2)
+# Compute Hopkins Statistic
+set.seed(123)
+hopkins_stat_dbscan <- hopkins(mds_coords)
+print(paste("Hopkins Statistic for DBSCAN:", round(hopkins_stat_dbscan, 4)))
 
 # Prepare data for visualization
 visualization_data_dbscan <- data.frame(
@@ -340,7 +355,6 @@ hc_clusters <- cutree(hc_result, k = num_clusters)
 commenter_jaccard$hc_cluster <- hc_clusters
 
 # Visualize clusters using MDS
-mds_coords <- cmdscale(distance_matrix, k = 2)
 visualization_data_aggl <- data.frame(
   X1 = mds_coords[, 1],
   X2 = mds_coords[, 2],
@@ -385,7 +399,6 @@ divisive_clusters <- cutree(as.hclust(divisive_result), k = num_clusters)
 commenter_jaccard$divisive_cluster <- divisive_clusters
 
 # Visualize the clusters using MDS
-mds_coords <- cmdscale(distance_matrix, k = 2)
 visualization_data_div <- data.frame(
   X1 = mds_coords[, 1],
   X2 = mds_coords[, 2],
@@ -426,7 +439,6 @@ summary(phc_result)
 commenter_jaccard$phc_cluster <- phc_result$classification
 
 # Visualize the clustering results using MDS
-mds_coords <- cmdscale(distance_matrix, k = 2)
 visualization_data_prob <- data.frame(
   X1 = mds_coords[, 1],
   X2 = mds_coords[, 2],
@@ -466,7 +478,6 @@ spectral_result <- specc(symmetric_similarity_matrix, centers = num_clusters)
 commenter_jaccard$spectral_cluster <- as.factor(spectral_result@.Data)
 
 # Visualize the clusters using MDS
-mds_coords <- cmdscale(distance_matrix, k = 2)
 visualization_data_spec <- data.frame(
   X1 = mds_coords[, 1],
   X2 = mds_coords[, 2],
