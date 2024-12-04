@@ -92,12 +92,12 @@ plot(k_values, silhouette_scores, type = "b", pch = 19, frame = FALSE,
      main = "Silhouette Method for K-Medoids")
 
 # Gap statistic
-gap_stat <- clusGap(distance_matrix_full, FUN = pam, K.max = 15, B = 50)
+#gap_stat <- clusGap(distance_matrix_full, FUN = pam, K.max = 15, B = 50)
 # Plot the Gap Statistic
-fviz_gap_stat(gap_stat)
+#fviz_gap_stat(gap_stat)
 
 # Inspect Gap Statistic
-print(gap_stat)
+#print(gap_stat)
 
 # Choose the optimal k (based on the Elbow Method, or use silhouette width)
 k <- 7  # probably 6 or 8 according to Elbow
@@ -170,9 +170,9 @@ plot(k_values, silhouette_scores_means, type = "b", pch = 19, frame = FALSE,
      main = "Silhouette Method for K-Means")
 
 # Gap Statistic for K-Means
-gap_stat_means <- clusGap(kmeans_data[, 1:2], FUN = kmeans, nstart = 25, K.max = 15, B = 50)
+#gap_stat_means <- clusGap(kmeans_data[, 1:2], FUN = kmeans, nstart = 25, K.max = 15, B = 50)
 # Plot the Gap Statistic
-fviz_gap_stat(gap_stat_means)
+#fviz_gap_stat(gap_stat_means)
 
 # Run K-means
 k <- 6
