@@ -30,11 +30,12 @@ channel_info <- read_csv("youtube/clustering/channel_info.csv")
 commenter_jaccard <- read_csv("youtube/clustering/commenter_jaccard.csv")
 # View(commenter_jaccard)
 
-# Load the data (Matas 1)
-channel_info <- read_csv("Desktop/Data Mining/channel_info.csv")
-commenter_jaccard <- read_csv("Desktop/Data Mining/comment_jaccard_matrix.csv")
+# Load the data (Matas)
+setwd("C:/Users/DELL i5/OneDrive/Desktop/Data Mining/data-mining")
+channel_info <- read_csv("data/channel_info.csv")
+commenter_jaccard <- read_csv("data/comment_jaccard_matrix.csv")
 
-############## K-Medoids Clustering ############## 
+############## Similarity and Distance Matrix Preparation ##############
 
 # Define similarity matrix
 similarity_matrix <- as.matrix(commenter_jaccard[, -1])
@@ -42,74 +43,13 @@ similarity_matrix <- as.matrix(commenter_jaccard[, -1])
 # Ensure the similarity matrix is symmetric
 similarity_matrix <- (similarity_matrix + t(similarity_matrix)) / 2
 
-# Remove dimnames
+# Remove dimnames to avoid warnings
 rownames(similarity_matrix) <- NULL
 colnames(similarity_matrix) <- NULL
 
 # Convert similarity matrix to a distance matrix
 distance_matrix <- as.dist(1 - similarity_matrix)
-
-# Convert the dist object to a full matrix for Elbow Method
 distance_matrix_full <- as.matrix(distance_matrix)
-
-# Print the Hopkins Statistic
-print(paste("Hopkins Statistic:", round(hopkins_stat, 4)))
-
-# Elbow Method to Determine Optimal k
-k_values <- 2:15
-total_wsd_medoids <- sapply(k_values, function(k) {
-  kmedoids_result <- pam(distance_matrix, k)
-  sum(sapply(1:k, function(cluster) {
-    cluster_members <- which(kmedoids_result$clustering == cluster)
-    cluster_distances <- distance_matrix_full[cluster_members, cluster_members]
-    sum(cluster_distances)
-  }))
-})
-
-# Plot the Elbow Curve (the lower the better)
-plot(k_values, total_wsd_medoids, type = "b", pch = 19, frame = FALSE,
-     xlab = "Number of Clusters (k)",
-     ylab = "Total Within-Cluster Sum of Distances",
-     main = "Elbow Method for K-Medoids")
-
-# Store average silhouette width for each k 
-silhouette_scores <- sapply(k_values, function(k) {
-  kmedoids_result <- pam(distance_matrix, k)
-  silhouette_result <- silhouette(kmedoids_result$clustering, dist(distance_matrix))
-  mean(silhouette_result[, 3])  # Average silhouette width
-})
-
-# Plot Silhouette Scores (the bigger the better)
-plot(k_values, silhouette_scores, type = "b", pch = 19, frame = FALSE,
-     xlab = "Number of Clusters (k)",
-     ylab = "Average Silhouette Score",
-     main = "Silhouette Method for K-Medoids")
-
-# Print scores for inspection
-print(data.frame(k = k_values, silhouette_score = silhouette_scores))
-
-# Gap statistic
-gap_stat <- clusGap(distance_matrix_full, FUN = pam, K.max = 15, B = 50)
-
-# Plot the Gap Statistic (the bigger the better)
-fviz_gap_stat(gap_stat)
-
-# Inspect Gap Statistic
-print(gap_stat)
-
-# Choose the optimal k (based on the Elbow Method, or use silhouette width)
-optimal_k <- 7  # probably 6 or 8 according to Elbow 
-# 7 according to Silhoutte
-# 4 according to Gap Statistic
-
-# Perform K-Medoids clustering with the chosen number of clusters
-kmedoids_result <- pam(distance_matrix, k = optimal_k)
-
-# Extract cluster labels
-kmedoids_clusters <- kmedoids_result$clustering
-
-# Add cluster labels to the original data
-commenter_jaccard$kmedoids_cluster <- kmedoids_clusters
 
 # Multidimensional Scaling (MDS) for Visualization
 mds_coords <- cmdscale(distance_matrix, k = 2)
@@ -119,8 +59,59 @@ set.seed(123)
 hopkins_stat <- hopkins(mds_coords) 
 
 # Print the Hopkins Statistic
-print(paste("Hopkins Statistic:", round(hopkins_stat, 4))) # Hopkins stat is the same
-# for k-means
+print(paste("Hopkins Statistic:", round(hopkins_stat, 4)))
+
+############## K-Medoids Clustering ############## 
+
+# Elbow Method to Determine Optimal k
+k_values <- 2:15
+total_wsd_medoids <- sapply(k_values, function(k) {
+  kmedoids_result <- pam(distance_matrix, k)
+  sum(sapply(1:k, function(cluster) {
+    cluster_members <- which(kmedoids_result$clustering == cluster)
+    cluster_distances <- distance_matrix[cluster_members, cluster_members]
+    sum(cluster_distances)
+  }))
+})
+# Plot the Elbow Curve
+plot(k_values, total_wsd_medoids, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)",
+     ylab = "Total Within-Cluster Sum of Distances",
+     main = "Elbow Method for K-Medoids")
+
+# Store average silhouette width for each k
+silhouette_scores <- sapply(k_values, function(k) {
+  kmedoids_result <- pam(distance_matrix, k)
+  silhouette_result <- silhouette(kmedoids_result$clustering, dist(distance_matrix))
+  mean(silhouette_result[, 3])  # Average silhouette width
+})
+# Plot Silhouette Scores
+plot(k_values, silhouette_scores, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)",
+     ylab = "Average Silhouette Score",
+     main = "Silhouette Method for K-Medoids")
+
+# Gap statistic
+gap_stat <- clusGap(distance_matrix_full, FUN = pam, K.max = 15, B = 50)
+# Plot the Gap Statistic
+fviz_gap_stat(gap_stat)
+
+# Inspect Gap Statistic
+print(gap_stat)
+
+# Choose the optimal k (based on the Elbow Method, or use silhouette width)
+k <- 7  # probably 6 or 8 according to Elbow
+# 7 according to Silhoutte
+# 4 according to Gap Statistic
+
+# Perform K-Medoids clustering with the chosen number of clusters
+kmedoids_result <- pam(distance_matrix, k = k)
+
+# Extract cluster labels
+kmedoids_clusters <- kmedoids_result$clustering
+
+# Add cluster labels to the original data
+commenter_jaccard$kmedoids_cluster <- kmedoids_clusters
 
 # Prepare data for visualization
 kmedoids_data <- data.frame(
@@ -148,78 +139,6 @@ ggplot(kmedoids_data, aes(x = X1, y = X2, color = cluster)) +
     axis.text = element_text(size = 10)
   )
 
-#### IMPROVING VISUALIZATION #### -----------------
-
-# Each medoid in a separate panel
-ggplot(kmedoids_data, aes(x = X1, y = X2)) +
-  geom_point(aes(color = cluster), size = 3, alpha = 0.8) +
-  geom_text(aes(label = title), size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
-  scale_color_brewer(palette = "Set1") +
-  labs(
-    title = "K-Medoids Clustering (Faceted by Cluster)",
-    x = "MDS Dimension 1",
-    y = "MDS Dimension 2"
-  ) +
-  facet_wrap(~ cluster, ncol = 3) +  # Separate each cluster into its own panel
-  theme_minimal() +
-  theme(
-    legend.position = "none",  # Remove legend since we are faceting
-    plot.title = element_text(hjust = 0.5, size = 14),
-    axis.title = element_text(size = 12),
-    axis.text = element_text(size = 10)
-  )
-
-
-# Interactive plot with no channel names
-plot <- ggplot(kmedoids_data, aes(x = X1, y = X2, color = cluster, text = title)) +
-  geom_point(size = 3, alpha = 0.8) +
-  scale_color_brewer(palette = "Set1") +
-  labs(
-    title = "K-Medoids Clustering (Interactive)",
-    x = "MDS Dimension 1",
-    y = "MDS Dimension 2"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(hjust = 0.5, size = 14),
-    axis.title = element_text(size = 12),
-    axis.text = element_text(size = 10)
-  )
-
-ggplotly(plot, tooltip = "text")
-
-
-library(Rtsne)
-
-# Perform t-SNE on the distance matrix
-tsne_result <- Rtsne(distance_matrix_full, is_distance = TRUE)
-
-# Create a data frame for the t-SNE results
-kmedoids_data_tsne <- data.frame(
-  X1 = tsne_result$Y[, 1],
-  X2 = tsne_result$Y[, 2],
-  cluster = as.factor(kmedoids_clusters),  # Ensure cluster is a factor
-  title = commenter_jaccard$title
-)
-
-# Plot the t-SNE results
-ggplot(kmedoids_data_tsne, aes(x = X1, y = X2, color = cluster)) +
-  geom_point(size = 3, alpha = 0.8) +
-  geom_text(aes(label = title), size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
-  scale_color_brewer(palette = "Set1") +
-  labs(
-    title = "K-Medoids Clustering (t-SNE Visualization)",
-    x = "t-SNE Dimension 1",
-    y = "t-SNE Dimension 2"
-  ) +
-  theme_minimal() +
-  theme(
-    legend.position = "bottom",
-    plot.title = element_text(hjust = 0.5, size = 14),
-    axis.title = element_text(size = 12),
-    axis.text = element_text(size = 10)
-  )
-
 ############## K-Means Clustering ############## 
 
 # Reduction to 2D
@@ -232,7 +151,6 @@ wss_means <- sapply(k_values, function(k) {
   kmeans_result <- kmeans(kmeans_data[, 1:2], centers = k, nstart = 25)
   kmeans_result$tot.withinss
 })
-
 # Plot the Elbow Curve
 plot(k_values, wss_means, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
@@ -245,7 +163,6 @@ silhouette_scores_means <- sapply(k_values, function(k) {
   silhouette_result <- silhouette(kmeans_result$cluster, dist(kmeans_data[, 1:2]))
   mean(silhouette_result[, 3])  # Average silhouette width
 })
-
 # Plot Silhouette Scores
 plot(k_values, silhouette_scores_means, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
@@ -254,12 +171,8 @@ plot(k_values, silhouette_scores_means, type = "b", pch = 19, frame = FALSE,
 
 # Gap Statistic for K-Means
 gap_stat_means <- clusGap(kmeans_data[, 1:2], FUN = kmeans, nstart = 25, K.max = 15, B = 50)
-
 # Plot the Gap Statistic
 fviz_gap_stat(gap_stat_means)
-
-# Inspect Gap Statistic
-print(gap_stat_means)
 
 # Run K-means
 k <- 6
@@ -282,12 +195,9 @@ ggplot(kmeans_data, aes(x = X1, y = X2, color = cluster)) +
 
 ############## DBSCAN (Density-Based Spatial Clustering of Applications with Noise) ############## 
 
-# Define similarity matrix and scale it
-scaled_matrix <- scale(similarity_matrix)
-
 # Method 1: k-Distance Plot to Find Optimal `eps`
 k <- 6  # Typically, k = minPts - 1
-knn_distances <- kNNdist(scaled_matrix, k = k)
+knn_distances <- kNNdist(similarity_matrix, k = k)
 
 # Plot k-distance to find the "elbow"
 plot(
@@ -298,19 +208,14 @@ plot(
 )
 
 # Based on the elbow in the plot, choose a value for `eps`
-eps_value <- 0.05  # Adjust based on the elbow in the k-distance plot
-min_points <- 4    # Typical values are between 3 and 10
+eps_value <- 1.36  # Adjust based on the elbow in the k-distance plot
+min_points <- 7    # Typical values are between 3 and 10
 
 # Perform DBSCAN
 dbscan_result <- dbscan(distance_matrix, eps = eps_value, minPts = min_points)
 
 # Add cluster labels to the dataset
 commenter_jaccard$dbscan_cluster <- dbscan_result$cluster
-
-# Compute Hopkins Statistic
-set.seed(123)
-hopkins_stat_dbscan <- hopkins(mds_coords)
-print(paste("Hopkins Statistic for DBSCAN:", round(hopkins_stat_dbscan, 4)))
 
 # Prepare data for visualization
 visualization_data_dbscan <- data.frame(
@@ -331,7 +236,7 @@ ggplot(visualization_data_dbscan, aes(x = X1, y = X2, color = cluster)) +
 
 # Testing min points and eps values (we probably need a bigged data frame)
 for (minPts_test in 1:4) {
-  for (eps_test in seq(0.5, 17, by = 0.5)) {
+  for (eps_test in seq(0.5, 2, by = 0.05)) {
     test_result <- dbscan(similarity_matrix, eps = eps_test, minPts = minPts_test)
     cat("\nDBSCAN with eps =", eps_test, "and minPts =", minPts_test, "\n")
     print(table(test_result$cluster))
@@ -341,15 +246,14 @@ for (minPts_test in 1:4) {
 ############## Hierarchical Agglomerative Clustering ############## 
 
 # Perform hierarchical clustering using Ward's method
-distance_matrix <- as.dist(1 - similarity_matrix)
 hc_result <- hclust(distance_matrix, method = "ward.D2")
 
 # Plot the dendrogram
 plot(hc_result, main = "Agglomerative Hierarchical Clustering", sub = "", xlab = "", cex = 0.8)
 
 # Cut the dendrogram into clusters
-num_clusters <- 6  # Adjustable (naudoju 6, nes tu nauji 6 :))
-hc_clusters <- cutree(hc_result, k = num_clusters)
+k <- 6  
+hc_clusters <- cutree(hc_result, k = k)
 
 # Add cluster labels to the dataset
 commenter_jaccard$hc_cluster <- hc_clusters
