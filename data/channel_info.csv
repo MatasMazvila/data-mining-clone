@@ -1,25 +1,32 @@
-,channelId,title,description,publishedAt,viewCount,subscriberCount,videoCount,topicCategories,country,period_views,period_comments,period_video_count,most_common_video_category,commenter_count,subs_processed,sub_count,most_common_video_category_name
-0,UC-5h-SLwhnOOfIo9rmKETvg,nešvankiai,"Patruliai Nešvankuliai: Nedas Kybartas & Deividas Rumbutis
-",2023-01-16T09:33:24.851143Z,2152835,33800,36,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Film']",LT,738074,1003,16,23,748,True,8601,Komedijos
-1,UC-AGx7rM_mBqesECSVp-x8w,Skirmantas Malinauskas,Padėkite man kurti šį kanalą. Ačiū!,2013-11-01T20:51:25Z,28511818,181000,201,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,5102322,27852,30,22,9219,True,26503,Žmonės ir tinklaraščiai
-2,UC-FiCX5iSeFIcsCHKbyUEkw,Svarbeuse Dariti,"CREATIVE GAMING ir ne tik KANALAS.
+channelId,title,description,publishedAt,viewCount,subscriberCount,videoCount,topicCategories,country,period_views,period_comments,period_video_count,most_common_video_category,most_common_video_category_name,subs_processed,commenter_count,sub_count
+UC-5h-SLwhnOOfIo9rmKETvg,nešvankiai,"Patruliai Nešvankuliai: Nedas Kybartas & Deividas Rumbutis
+",2023-01-16T09:33:24.851143Z,2152835,33800,36,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Film']",LT,738074,1003,16,23,Komedijos,True,748,9486
+UC-AGx7rM_mBqesECSVp-x8w,Skirmantas Malinauskas,Padėkite man kurti šį kanalą. Ačiū!,2013-11-01T20:51:25Z,28511818,181000,201,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,5102322,27852,30,22,Žmonės ir tinklaraščiai,True,9219,29769
+UC-FiCX5iSeFIcsCHKbyUEkw,Svarbeuse Dariti,"CREATIVE GAMING ir ne tik KANALAS.
 
 GTA, WARZONE, CS:GO ir daug dar visko. 
-",2020-01-31T21:26:10.211912Z,21105917,68100,534,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,923185,1206,53,20,742,True,9244,Žaidimai
-3,UC-GHVQuPDutZj6P6KSdLbVA,KONTRA,Mes esam KONTRA,2021-03-25T00:08:48.767834Z,3765548,21600,331,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,233855,647,22,24,374,True,5930,Pramogos
-4,UC03F7VecXoT8LpXh6nFwhZw,Eastern European,"Sveiki atvykę į Easterno kanalą :)
+",2020-01-31T21:26:10.211912Z,21105917,68100,534,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,923185,1206,53,20,Žaidimai,True,742,10541
+UC-GHVQuPDutZj6P6KSdLbVA,KONTRA,Mes esam KONTRA,2021-03-25T00:08:48.767834Z,3765548,21600,331,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,233855,647,22,24,Pramogos,True,374,6660
+UC03F7VecXoT8LpXh6nFwhZw,Eastern European,"Sveiki atvykę į Easterno kanalą :)
 www.easterneuropean.lt
 For business inquiries contact: easterneuropean1@gmail.com
-Dėl reklamos susisiekite: easterneuropean1@gmail.com",2014-08-30T09:23:39Z,30260727,119000,560,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,688518,1626,27,24,978,True,12641,Pramogos
-5,UC0DS5iTuwjrzDXnjvo1dKyA,LaLand Music,"Record label / music blog founded in October 2019, Lithuania
+Dėl reklamos susisiekite: easterneuropean1@gmail.com",2014-08-30T09:23:39Z,30260727,119000,560,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,688518,1626,27,24,Pramogos,True,978,14431
+UC0DS5iTuwjrzDXnjvo1dKyA,LaLand Music,"Record label / music blog founded in October 2019, Lithuania
 
 Inquiries, bookings – lalandmuzika@gmail.com
 
-If you love LALA, this is your land!",2019-10-19T22:55:23.361666Z,32282967,19600,33,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,3392406,429,3,10,317,True,1662,Muzika
-6,UC0jgtGY99WwWWixOhX4Vglw,"O, Dangau!","Sporto ir pramoginio turinio kanalas. Daugiau https://osportas.lt/
+If you love LALA, this is your land!",2019-10-19T22:55:23.361666Z,32282967,19600,33,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,3392406,429,3,10,Muzika,True,317,1991
+UC0Ikrjpalg3uP1FOpbt96nA,TheDavisD,"Music producer from Lithuania
+Singer/Rapper
 
-",2014-03-02T14:34:20Z,19399147,34500,2024,"['https://en.wikipedia.org/wiki/Basketball', 'https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Association_football']",LT,2880675,6028,204,17,1811,True,7990,Sportas
-7,UC18wxTZHiS7W6lIDTU6A0tQ,Artur Lebedenko Swan,"Kanalas, kuriame kartu su Artur Lebedenko-Swan pasirenk į gilius ir prasmingus pokalbius su savo srities profesionalais ir žinomais žmonėmis. Pokalbiai apie esmę, be skandalų, paskalų ir intrigų. Laidose kiekvienas pašnekovas pasineria į tai, kas yra jo viduje. Kiekvienas iš mūsų esame praėję ilgą ar trumpą gyvenimo mokyklą, tad laidų ir viso video turinio tikslas tas žinias, klaidas ir laimėjimus perduoti žiurovams. 
+Mostly emotional music works",2015-11-12T17:05:15Z,8428506,24600,56,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Music']",LT,344256,278,13,10,Muzika,True,163,1373
+UC0jgtGY99WwWWixOhX4Vglw,"O, Dangau!","Sporto ir pramoginio turinio kanalas. Daugiau https://osportas.lt/
+
+",2014-03-02T14:34:20Z,19399147,34500,2024,"['https://en.wikipedia.org/wiki/Basketball', 'https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Association_football']",LT,2880675,6028,204,17,Sportas,True,1811,8850
+UC0kDZuHsOjuYLm8DeFNpB_Q,Tonis & Miledi,"Oficialus dainų autoriaus ir atlikėjo Antonijaus Žilinsko - Tonio (ex grupė ""Miledi"") ""YouTube"" kanalas.
+
+Hi, I'm Lithuanian singer and songwriter Antonijus Žilinskas - Tonis (ex band ""Miledi""). This is my official channel of author's music & lyrics. All audio content in this channel is created and copyrighted by me. And I have all commercial-use rights and permissions to the video background content. Subscribe to stay up to date on new visual & music releases!",2015-09-15T20:58:16Z,70877595,66300,123,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,597274,187,6,10,Muzika,True,125,2536
+UC18wxTZHiS7W6lIDTU6A0tQ,Artur Lebedenko Swan,"Kanalas, kuriame kartu su Artur Lebedenko-Swan pasirenk į gilius ir prasmingus pokalbius su savo srities profesionalais ir žinomais žmonėmis. Pokalbiai apie esmę, be skandalų, paskalų ir intrigų. Laidose kiekvienas pašnekovas pasineria į tai, kas yra jo viduje. Kiekvienas iš mūsų esame praėję ilgą ar trumpą gyvenimo mokyklą, tad laidų ir viso video turinio tikslas tas žinias, klaidas ir laimėjimus perduoti žiurovams. 
 
 #ArturLebedenkoSwan #TapkGeresniu #MotyvuotiAtletai
 
@@ -36,58 +43,102 @@ If you love LALA, this is your land!",2019-10-19T22:55:23.361666Z,32282967,19600
 👉 Instagram - https://www.instagram.com/motyvuotiatletai
 👉 Facebook - https://www.facebook.com/motyvuotiatletai
 
-",2015-01-19T09:38:22Z,5295213,102000,465,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,3648228,10332,113,22,4134,True,11544,Žmonės ir tinklaraščiai
-8,UC1Ou_J5eSfdeXsGKogXviDg,deMiko,,2017-06-27T14:58:47Z,19475222,156000,55,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Humour']",LT,378591,605,9,23,476,True,17571,Komedijos
-9,UC27kQkmlXN14WZFaYK3OSkw,BaltaLietuviS," - Zinokit pats ahujiel kai suzinojau kad toks esu. :D
+",2015-01-19T09:38:22Z,5295213,102000,465,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,3648228,10332,113,22,Žmonės ir tinklaraščiai,True,4134,13009
+UC1Ou_J5eSfdeXsGKogXviDg,deMiko,,2017-06-27T14:58:47Z,19475222,156000,55,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Humour']",LT,378591,605,9,23,Komedijos,True,476,19397
+UC1YxybOuX74IVYTubk8JvBA,DDrive,"Apie automobilius, automobilius ir dar apie automobilius :) ",2015-09-07T16:33:07Z,14209655,74800,387,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,357770,484,28,2,Automobiliai ir transporto priemonės,True,240,444
+UC27kQkmlXN14WZFaYK3OSkw,BaltaLietuviS," - Zinokit pats ahujiel kai suzinojau kad toks esu. :D
 
 mane rasite facebook: http://facebook.com/real.baltalietuvis
-Turi klausimu ar pasiulymu bet noretusi anonimiskumo? Klausk : www.ask.fm/FroterLT",2015-04-23T12:13:51Z,4512476,20800,1154,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,274133,1894,67,10,812,True,3506,Muzika
-10,UC2WIVF_mLli_L7aTu5P7bBw,Enoxas,"Labas visiems! Šiame kanale įkeliu šmaikščius vaizdo įrašus, kuriuose žaidžiu žaidimus, darau parodijas ar atpasakoju kokią tai įdomią istoriją. Viskas maždaug susiję su žaidimais, filmukais ir panašiai. Tad jeigu tave tai sudomino, nepamiršk paspausti varpelio ir prenumeruoti mygtuko! :D
+Turi klausimu ar pasiulymu bet noretusi anonimiskumo? Klausk : www.ask.fm/FroterLT",2015-04-23T12:13:51Z,4512476,20800,1154,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,274133,1894,67,10,Muzika,True,812,3979
+UC2WIVF_mLli_L7aTu5P7bBw,Enoxas,"Labas visiems! Šiame kanale įkeliu šmaikščius vaizdo įrašus, kuriuose žaidžiu žaidimus, darau parodijas ar atpasakoju kokią tai įdomią istoriją. Viskas maždaug susiję su žaidimais, filmukais ir panašiai. Tad jeigu tave tai sudomino, nepamiršk paspausti varpelio ir prenumeruoti mygtuko! :D
 
-Business Inquiries: enoxsfan@gmail.com (El. Paštas bendradarbiavimui) ",2014-10-29T12:02:59Z,39726066,72900,481,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action_game']",LT,1173207,2806,45,20,1123,True,4180,Žaidimai
-11,UC2Wz6pfNFWpGcVYdq1QHTGg,Fuxeris,Email for advertisement purposes and collaboration - fuxeris.business@gmail.com,2014-12-03T15:39:23Z,6089309,32200,443,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,755357,1596,77,20,699,True,3286,Žaidimai
-12,UC2YJqEBVKtrez-2D_imQ5xg,On1Beat,House Music Producer& Dj,2013-12-09T22:25:12Z,10799141,21700,39,"['https://en.wikipedia.org/wiki/Independent_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,997399,555,5,10,242,True,1580,Muzika
-13,UC3di3V-QXNXVOmOYrzw7NfA,Įdomioji Dokumentika,"Sveiki atvykę į Įdomiosios Dokumentikos kanalą. 
+Business Inquiries: enoxsfan@gmail.com (El. Paštas bendradarbiavimui) ",2014-10-29T12:02:59Z,39726066,72900,481,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action_game']",LT,1173207,2806,45,20,Žaidimai,True,1123,4724
+UC2Wz6pfNFWpGcVYdq1QHTGg,Fuxeris,Email for advertisement purposes and collaboration - fuxeris.business@gmail.com,2014-12-03T15:39:23Z,6089309,32200,443,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,755357,1596,77,20,Žaidimai,True,699,3694
+UC2YJqEBVKtrez-2D_imQ5xg,On1Beat,House Music Producer& Dj,2013-12-09T22:25:12Z,10799141,21700,39,"['https://en.wikipedia.org/wiki/Independent_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,997399,555,5,10,Muzika,True,242,1809
+UC34HdjDzZQaB1yvcP1mkqcw,Danieliusnet,"Danielius.net jau nuo 2008 metų rengia video reportažus iš visos Pietų Lietuvos, ypač – provincijos miestelių ir kaimelių. 
+Jei turite galimybę, paremkite finansiškai:   https://contribee.com/danieliusnet
+Ačiū.
+",2009-06-01T14:33:38Z,35424163,24200,3545,['https://en.wikipedia.org/wiki/Music'],LT,1881539,1169,204,22,Žmonės ir tinklaraščiai,True,354,894
+UC3AIq3_6PilrTnMg5rTwncg,ŽVEJO KELIAS SU RIČARDU,"Kanalas skirtas žvejams,tiek mègèjams,tiek profesionalams.Jaigu norite žiūrėti ilgesnes laidas prisijunkite prie Contribee https://contribee.com/zvejo-kelias
+Reikia žūklės prekių,užeik į parduotuvę zvejokelias.com 
+Žvejojam ir vasara ,ir žiema!
+Turite noro pasireklamuoti,ar paremti mus,kreipkitės: zvejokelias@yahoo.com, 868447331",2017-12-28T16:13:19Z,6746739,18700,752,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Pet']",LT,769111,5118,129,22,Žmonės ir tinklaraščiai,True,1889,3827
+UC3AnPfSXw9th62F5P32Jwjg,DEPRESINIS,,2017-12-02T22:18:12Z,8729976,18700,78,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Music']",LT,311752,369,7,10,Muzika,True,221,1280
+UC3di3V-QXNXVOmOYrzw7NfA,Įdomioji Dokumentika,"Sveiki atvykę į Įdomiosios Dokumentikos kanalą. 
 Įdomioji Dokumentika yra mano hobis. O jūsų palaikymas ir noras pažinti mus supantį pasaulį, verčia mane tobulėti ir nesustoti ties tuo, ką aš darau. 🙂
 
 Šiame kanale galite rasti įvairiausių video: nuo įdomiosios Lietuvos istorijos, paslaptingų nutikimų iki mokslo sunkiai paaiškinamų dalykų. 🔭
 
 Ačiū, kad užsukote. 
 Nepamirškite užsiprenumeruoti mūsų kanalo. 
-O dabar, iki susitikimo, kitame Įdomiosios Dokumentikos video. 🙂",2019-01-23T07:54:46Z,8357029,49100,227,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film', 'https://en.wikipedia.org/wiki/Knowledge']",LT,565616,996,32,27,554,True,9358,Švietimas
-14,UC3VYJScZFP-abuT_Dc1vYng,Žaidimų Balsas,"Žaidimų naujienos iš viso pasaulio. Tikrų ""Geimerių"" kanalas. 
+O dabar, iki susitikimo, kitame Įdomiosios Dokumentikos video. 🙂",2019-01-23T07:54:46Z,8357029,49100,227,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film', 'https://en.wikipedia.org/wiki/Knowledge']",LT,565616,996,32,27,Švietimas,True,554,10803
+UC3JxzJVewryyPRq-fxJ_xPA,Popkultūra,,2008-11-25T19:54:55Z,16716833,17500,63,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,654798,165,4,10,Muzika,True,116,1143
+UC3VYJScZFP-abuT_Dc1vYng,Žaidimų Balsas,"Žaidimų naujienos iš viso pasaulio. Tikrų ""Geimerių"" kanalas. 
 Turite kokių pasiūlymų Žaidimų Balsui - rašykite mums adresu admin@zaidimubalsas.lt. 
 Norite padėkoti ir prisidėti prie tolimesnio Žaidimų Balso augimo? Paremkite projektą - https://www.paypal.me/zaidimubalsas
 AČIŪ, kad esate su Žaidimų Balsu ;)
 
-",2011-03-14T17:52:15Z,16503930,76600,1898,"['https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1088071,5254,88,20,1671,True,8920,Žaidimai
-15,UC4KnMZaxcv1KZDAJsgHXcOA,Lietuvos nacionalinis radijas ir televizija,"Oficialus LRT YouTube kanalas: nuo mėgstamiausių laidų ir išskirtinio turinio iki EUROVIZIJA.LT dainų.
+",2011-03-14T17:52:15Z,16503930,76600,1898,"['https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1088071,5254,88,20,Žaidimai,True,1671,10016
+UC4KnMZaxcv1KZDAJsgHXcOA,Lietuvos nacionalinis radijas ir televizija,"Oficialus LRT YouTube kanalas: nuo mėgstamiausių laidų ir išskirtinio turinio iki EUROVIZIJA.LT dainų.
 
-https://www.lrt.lt/",2009-10-22T10:53:09Z,292617717,206000,40934,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,1198351,1661,151,25,894,True,11067,Naujienos ir politika
-16,UC54OBiaV7RctGSFJb9EEdbw,15min,"15min  – oficialus portalo video kanalas. Žiūrėkite, prenumeruokite ir dalinkitės!",2006-10-31T11:46:19Z,102081415,113000,12601,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,3250608,10077,282,25,4001,True,7597,Naujienos ir politika
-17,UC5EnP1BsbglaAcf3kXDbkCw,Husarai Official,"Koncertų užsakymas Mob. tel.: +370 673 16517
-facebook.com/HusaraiOfficial",2015-01-22T11:41:19Z,24657562,20100,36,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,337713,171,3,10,95,True,774,Muzika
-18,UC5IzAroYmQ6FjU0G2w_9Ccg,Komentaras TV,"Komentaras TV žiūrint galima sužinoti daug daugiau ir būti informuotam, o tai reiškia - ginkluotam! Turite teise žinoti daugiau.
+https://www.lrt.lt/",2009-10-22T10:53:09Z,292617717,206000,40934,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,1198351,1661,151,25,Naujienos ir politika,True,894,12861
+UC54OBiaV7RctGSFJb9EEdbw,15min,"15min  – oficialus portalo video kanalas. Žiūrėkite, prenumeruokite ir dalinkitės!",2006-10-31T11:46:19Z,102081415,113000,12601,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,3250608,10077,282,25,Naujienos ir politika,True,4001,8590
+UC5EnP1BsbglaAcf3kXDbkCw,Husarai Official,"Koncertų užsakymas Mob. tel.: +370 673 16517
+facebook.com/HusaraiOfficial",2015-01-22T11:41:19Z,24657562,20100,36,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,337713,171,3,10,Muzika,True,95,952
+UC5IzAroYmQ6FjU0G2w_9Ccg,Komentaras TV,"Komentaras TV žiūrint galima sužinoti daug daugiau ir būti informuotam, o tai reiškia - ginkluotam! Turite teise žinoti daugiau.
 
 Neprikausoma spauda (Free press) Laikraštis ""Karštas komentaras""
 Naujienų portalas norintiems žinoti kas vyksta,o ne kas atsitiko...
-www.komentaras.lt",2010-07-19T08:39:47Z,37634714,51500,1666,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,7483514,46570,312,25,5377,True,5508,Naujienos ir politika
-19,UC5_-x4ZlNgrI3Gzf9uDkW_A,InfamousJJ,"Household Name
+www.komentaras.lt",2010-07-19T08:39:47Z,37634714,51500,1666,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,7483514,46570,312,25,Naujienos ir politika,True,5377,6895
+UC5M8DYSnXiz8GarqeHcT8RQ,Insane Lukas,"Follow my journey : https://www.facebook.com/officialLukasSmagurauskas/
+Instagram : https://www.instagram.com/insane_lukas/",2014-10-20T12:49:28Z,3294194,21500,291,"['https://en.wikipedia.org/wiki/Physical_fitness', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Health']",LT,136136,876,14,17,Sportas,True,364,4027
+UC5_-x4ZlNgrI3Gzf9uDkW_A,InfamousJJ,"Household Name
 
-For business related inquiries: infamousjj@amg.gg",2018-03-14T08:57:36Z,16890100,286000,42,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Strategy_video_game']",LT,1491307,1822,3,20,1187,True,189,Žaidimai
-20,UC6rlTjdr8cqk4IJe1GoWukQ,PildykLT,"Čia tavęs laukia daugybė PILDYK YouTuber’ių nuotykių: Talžūnas, Stimo, Aqva ir Demino nuolat dalyvauja įvairiuose iššūkiuose, filmuoja vlogus, geimina, žaidžia kitus žaidimus, atsakinėja į aštrius klausimus, daro LIVE transliacijas ir kitus smagius video.
+For business related inquiries: infamousjj@amg.gg",2018-03-14T08:57:36Z,16890100,286000,42,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Strategy_video_game']",LT,1491307,1822,3,20,Žaidimai,True,1187,212
+UC6rlTjdr8cqk4IJe1GoWukQ,PildykLT,"Čia tavęs laukia daugybė PILDYK YouTuber’ių nuotykių: Talžūnas, Stimo, Aqva ir Demino nuolat dalyvauja įvairiuose iššūkiuose, filmuoja vlogus, geimina, žaidžia kitus žaidimus, atsakinėja į aštrius klausimus, daro LIVE transliacijas ir kitus smagius video.
 
-",2009-03-10T08:41:39Z,203416672,158000,2146,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,16055447,21404,259,24,7387,True,7823,Pramogos
-21,UC6YiCjXRKaKZjxANP1XSsgQ,Ilja Laurs,"Serial entrepreneur and investor with a history of establishing and growing nine-figure companies from scratch and multiple successful exits. Ilja currently chairs Nextury Group, overseeing a range of high-tech investment funds from venture capital for startups to hedge funds investing in global multi-billion dollar companies.
+",2009-03-10T08:41:39Z,203416672,158000,2146,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,16055447,21404,259,24,Pramogos,True,7387,8809
+UC6vWEacEgwaing5dS47EKEw,Meskutis,Sveiki atvyke į mano kanalą! Šiame kanale pamatysite daug žvejybos vaizdo įrašu ir kitų video. 😁,2016-04-28T11:20:01Z,3756937,11800,1497,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Casual_game', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Pet']",LT,631781,2325,170,20,Žaidimai,True,748,2003
+UC6YiCjXRKaKZjxANP1XSsgQ,Ilja Laurs,"Serial entrepreneur and investor with a history of establishing and growing nine-figure companies from scratch and multiple successful exits. Ilja currently chairs Nextury Group, overseeing a range of high-tech investment funds from venture capital for startups to hedge funds investing in global multi-billion dollar companies.
 
-Ilja has received numerous accolades, including ""European Manager of the Year"" by the European Business Press Association, ""25 European Tech Leaders"" by the Wall Street Journal, ""Top 40 People in Mobile"" by Informa Telecoms and Media, ""20 Brightest Business Minds"" by the Baltic Business Forum, ""10 Start-ups That Will Change Your Life"" by TIME magazine, and ""Technology Pioneer"" by the World Economic Forum in Davos. As a respected thought leader, he frequently presents at major ICT conferences and is often cited in media outlets such as the Wall Street Journal, Forbes, CNN, CNBC, BBC, and Bloomberg.",2011-08-24T16:23:27Z,1069207,16200,185,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Society']",LT,371241,585,48,28,312,True,2541,Mokslas ir technologijos
-22,UC7d2GUwPgJ8_3luxmIDm7QQ,Ignas Lelys,I’m ready – let’s do this.,2015-04-02T15:40:51Z,5322714,37500,65,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,505547,1679,6,24,1504,True,5189,Pramogos
-23,UC962MKsp3HK-ker1plMA9NQ,Pralaužk Vieną Šaltą,"Pralaužk Vieną Šaltą - jau ketvirtus metus skaičiuojantis ir sustoti nesiruošiantis podkastas. Kalbėti vis dar neišmokom, bet jau ir nebežadam, kad išmoksim. Bet prižadėti, kad ir toliau išvysite daugybę įdomių, mažiau ar daugiau žinomų pašnekovų, mes galime. Neįpareigojantys pokalbiai, atskleistos paslaptys, daug nejuokingų ir juokingų bajerių visada lauks jūsų mūsų laidose! 
-",2018-03-27T09:56:35Z,20284939,63600,382,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Entertainment']",LT,2153663,2324,31,23,1286,True,12988,Komedijos
-24,UCA9SSzRNDGo6JrPAiKlDVvg,Šventinis bankuchenas,"Sveiki, Gintarai, ačiū, kad užėjote. Jei jūs ne Gintaras, tai tada ačiū, ne Gintarai, kad užėjote.",2013-01-08T10:00:48Z,16704144,52100,172,['https://en.wikipedia.org/wiki/Music'],LT,182500,580,14,23,328,True,5575,Komedijos
-25,UCAg0AYy46QFO7S_UPf99niA,Šeškės,,2015-08-27T11:26:08Z,35202167,22100,25,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2511101,396,1,10,262,True,1740,Muzika
-26,UCatO2WWiSu2s1nV5QfyWv_A,A Team Comedy,,2022-07-18T11:06:29.489596Z,11761494,41700,118,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,3273446,3523,48,22,1628,True,9012,Žmonės ir tinklaraščiai
-27,UCazByhbmztoIg6ZKeI25PGw,Martial Arts Journey with Rokas,"USDC Retreat registration open now!
+Ilja has received numerous accolades, including ""European Manager of the Year"" by the European Business Press Association, ""25 European Tech Leaders"" by the Wall Street Journal, ""Top 40 People in Mobile"" by Informa Telecoms and Media, ""20 Brightest Business Minds"" by the Baltic Business Forum, ""10 Start-ups That Will Change Your Life"" by TIME magazine, and ""Technology Pioneer"" by the World Economic Forum in Davos. As a respected thought leader, he frequently presents at major ICT conferences and is often cited in media outlets such as the Wall Street Journal, Forbes, CNN, CNBC, BBC, and Bloomberg.",2011-08-24T16:23:27Z,1069207,16200,185,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Society']",LT,371241,585,48,28,Mokslas ir technologijos,True,312,2805
+UC7d2GUwPgJ8_3luxmIDm7QQ,Ignas Lelys,I’m ready – let’s do this.,2015-04-02T15:40:51Z,5322714,37500,65,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,505547,1679,6,24,Pramogos,True,1504,5775
+UC7pUm8XfQNzCGYbKvzbhoew,Ūkininkas Petras Šiaučiunas,,2012-02-10T20:47:00Z,37290311,73100,672,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,6141230,8499,95,22,Žmonės ir tinklaraščiai,True,2748,11578
+UC8eF_-Lc1ZZbav5-A8gAlPA,Robertas Mackevicius,"Kanalas apie tai, ko daug kas nežino...
+
+Facebook puslapis: https://www.facebook.com/Lietuviškas-Orgonitas-Lithuanian-Orgonite-691080584272210/",2013-08-26T11:16:52Z,2643024,15400,806,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,113694,1132,39,27,Švietimas,True,449,1883
+UC962MKsp3HK-ker1plMA9NQ,Pralaužk Vieną Šaltą,"Pralaužk Vieną Šaltą - jau ketvirtus metus skaičiuojantis ir sustoti nesiruošiantis podkastas. Kalbėti vis dar neišmokom, bet jau ir nebežadam, kad išmoksim. Bet prižadėti, kad ir toliau išvysite daugybę įdomių, mažiau ar daugiau žinomų pašnekovų, mes galime. Neįpareigojantys pokalbiai, atskleistos paslaptys, daug nejuokingų ir juokingų bajerių visada lauks jūsų mūsų laidose! 
+",2018-03-27T09:56:35Z,20284939,63600,382,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Entertainment']",LT,2153663,2324,31,23,Komedijos,True,1286,14309
+UC9iV_jDimIVtFhDbTwOE4BA,Manc Mantas,"Manc Mantas Unit RECORD LABEL!!!
+
+Manc Mantas - mantasmantanas@gmail.com send tracks to this mail for upload
+
+This channel is created for promoting all artist and all music styles! All music in this channel was upload with permissions from artists.
+
+WHITELIST CONTENT!!!
+
+SNAPCHAT - mancmantas
+
+Submissions/Demos mantasmantanas@gmail.com
+
+►ＬＩＫＥ
+►ＣＯＭＭＥＮＴ
+►ＳＨＡＲＥ
+►ＳＵＢＳＣＲＩＢＥ
+
+For COPYRIGHT ISSUES, please contact me via e-mail or facebook and your song/picture will be removed immediately✔✔✔
+►(mantasmantanas@gmail.com)◄
+►(https://www.facebook.com/mantas.manc)◄
+",2013-01-07T20:42:15Z,293492426,373000,795,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,1151883,118,37,10,Muzika,True,85,6514
+UCA0W6g87xiDcL12w4v4VjaA,Dr. Tomas Ruginis,Asmeninis kanalas apie žygius ir nuotykius laukinėje gamtoje,2011-11-13T20:53:01Z,1731597,11500,125,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Tourism']",LT,723336,2776,34,24,Pramogos,True,752,4531
+UCA9SSzRNDGo6JrPAiKlDVvg,Šventinis bankuchenas,"Sveiki, Gintarai, ačiū, kad užėjote. Jei jūs ne Gintaras, tai tada ačiū, ne Gintarai, kad užėjote.",2013-01-08T10:00:48Z,16704144,52100,172,['https://en.wikipedia.org/wiki/Music'],LT,182500,580,14,23,Komedijos,True,328,6214
+UCAfBxqDr55ui8TpG9NGSe8Q,Savo Varpinė,,2016-12-21T16:51:57Z,5431439,16500,800,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,253515,1340,54,25,Naujienos ir politika,True,429,3644
+UCafZsPU4RRJcnife4DxIlBQ,Deep Russia HQ,"Deep Russia HQ — it's record label. 
+All that the content is Deep Russia HQ original contents. 
+",2017-11-27T09:55:48Z,95543014,162000,190,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,262396,253,65,10,Muzika,True,100,1192
+UCAg0AYy46QFO7S_UPf99niA,Šeškės,,2015-08-27T11:26:08Z,35202167,22100,25,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2511101,396,1,10,Muzika,True,262,2023
+UCatO2WWiSu2s1nV5QfyWv_A,A Team Comedy,,2022-07-18T11:06:29.489596Z,11761494,41700,118,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,3273446,3523,48,22,Žmonės ir tinklaraščiai,True,1628,9927
+UCazByhbmztoIg6ZKeI25PGw,Martial Arts Journey with Rokas,"USDC Retreat registration open now!
 
 https://www.usdchampionship.com/retreat
 
@@ -104,8 +155,20 @@ Hi! My name is Rokas. I've been doing Aikido for more than 15 years, taught it a
 Check out my reality show Ultimate Self-Defense Championship where six martial artists compete in self-defense challenges: https://www.usdchampionship.com
 
 #aikido #martialarts #bjj #mma
-",2011-11-29T07:18:19Z,94845320,540000,710,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Mixed_martial_arts', 'https://en.wikipedia.org/wiki/Sport']",LT,11055590,27797,34,17,14770,True,1564,Sportas
-28,UCBfH3ES1MSxx5PEa5vey2BA,Camiworld,"Surinkim 19k sub iki naujų metų🙏
+",2011-11-29T07:18:19Z,94845320,540000,710,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Mixed_martial_arts', 'https://en.wikipedia.org/wiki/Sport']",LT,11055590,27797,34,17,Sportas,True,14770,1713
+UCbaJi_yC1xnDb8NKZZCjzKw,Agro Žmonės,"Šis projektas atsirado iš idėjos suburti technikos mėgėjų bendruomenę, tad  laukiame visų, neabejingų technikai!
+
+Mūsų tikslas - kurti kokybišką turinį apie agro verslą. Esame didžiausia Fecebook bendruomenė nuo 2013 metų ( 82.8k) 
+Taip pat mus galite sekti Instagram ir TokTok (nuorodas rasite žemiau). 
+
+YouTube aktyviai veiklą pradėjome 2021m vasarą, ir panašu, kad visai neblogai sekasi… :)
+ 
+Jei patinka mūsų kuriamas turinys, kviečiam PRENUMERUOTI mūsų kanalą. :)
+
+Ačiū ir žiūrim! :)
+",2015-01-13T21:09:52Z,4961477,16700,248,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Knowledge']",LT,1092632,1754,69,22,Žmonės ir tinklaraščiai,True,667,3170
+UCBAsvVsiCA8V_gdcK9H_wug,ba.,Our fourth full length studio album out this winter. ,2010-03-09T17:27:43Z,6688030,16200,40,"['https://en.wikipedia.org/wiki/Independent_music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Rock_music', 'https://en.wikipedia.org/wiki/Music']",LT,284118,136,3,10,Muzika,True,109,1762
+UCBfH3ES1MSxx5PEa5vey2BA,Camiworld,"Surinkim 19k sub iki naujų metų🙏
 Labas, labas, labas!
 Mano kanale daugiausia dėmesio skiriu kriminalinėms istorijoms!  #baisiosistorijos #lietuviskai #baisiosistorijoslietuviskai #camiworld #istorija
 
@@ -115,21 +178,27 @@ Instagram: kamilesvedaite
 Tik Tok- kamilesved
 
 
-",2019-04-26T10:49:15Z,3948548,18000,339,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,533517,1621,30,24,521,True,2389,Pramogos
-29,UCbFNeKuUvv7seF_FzcnQ5cQ,OpenPlay,"Record label/production house in Lithuania
+",2019-04-26T10:49:15Z,3948548,18000,339,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,533517,1621,30,24,Pramogos,True,521,2644
+UCbFNeKuUvv7seF_FzcnQ5cQ,OpenPlay,"Record label/production house in Lithuania
 
 Inquiries, bookings – bookings@openplay.lt
-Music – music@openplay.lt",2019-02-17T18:45:46Z,126461405,49500,37,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,12734142,2035,6,10,1304,True,3561,Muzika
-30,UCBs5dk42VN2vp94pGXabu5A,Stanislavas Stavickis (Stano),Muzika ir ne tik :),2010-03-23T13:18:00Z,43355260,37300,172,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,1573865,307,3,10,187,True,1947,Muzika
-31,UCC9zTGIT11HXwGm_VBQFAqQ,Viktorija Rupeikytė - Victoria,Oficialus Viktorija Rupeikytė - VICTORIA kanalas.,2012-12-21T20:36:09Z,37648875,30100,39,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,765732,447,10,10,186,True,1973,Muzika
-32,UCCalAruxHTue9RLP4bJld5g,Alfa TV,Media Alfa.lt naujienų portalas vaizdo siužetai video ivykiai sportas krepšinis pramogos televizija,2009-09-08T11:37:31Z,12538725,10900,3000,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,424475,3294,41,25,1550,True,1159,Naujienos ir politika
-33,UCCvFgRQ1YYuhehXEfrnPbCQ,Furytto,,2020-06-15T00:15:54.668093Z,20495918,18600,20,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2675897,543,7,10,346,True,2041,Muzika
-34,UCcvVfDUS3d13aB3ruwEUm_w,Simonas Dailidė,"Namelis ant vandens, ledinės maudynės, vw t3 autobusiukas, aktualijos, pramogos, provokacijos, menas, gamta. Apie viską ir apie nieką.
+Music – music@openplay.lt",2019-02-17T18:45:46Z,126461405,49500,37,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,12734142,2035,6,10,Muzika,True,1304,4069
+UCBMut_tSxuqtmQRNgkTIyWA,интерпретация ,"альтернативный источник интерпретаций официальных новостей, обзор текущих событий, анализ политических и экономических процессов 
 
-",2011-12-11T20:16:30Z,7190830,29000,659,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Tourism']",LT,278861,382,47,22,175,True,4475,Žmonės ir tinklaraščiai
-35,UCCX6462ljZ6VEZqwd-gg8gg,Augustas Šuliauskas,"Krepšinio analizė: komandų taktikos, žaidėjų sprendimai, įdomiausi deriniai.
-",2011-05-30T12:21:28Z,1417138,19400,49,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Basketball']",LT,1068277,3714,37,17,1085,True,5393,Sportas
-36,UCDF_o0ZaVoej59FxmY5dEcA,OpTV,"Sveiki atvykę į OpTV, kanalą! 
+
+",2020-09-29T11:06:04.800733Z,1880158,107000,136,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,447479,5369,35,29,Unknown,True,1165,1118
+UCBs5dk42VN2vp94pGXabu5A,Stanislavas Stavickis (Stano),Muzika ir ne tik :),2010-03-23T13:18:00Z,43355260,37300,172,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,1573865,307,3,10,Muzika,True,187,2331
+UCByxMqoDp_8BJLjBLl27ofQ,Dovydas Šimašius,Mėgstu pagyventi miške.,2020-04-01T16:33:54.530412Z,1027637,18300,24,"['https://en.wikipedia.org/wiki/Tourism', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Hobby']",LT,609622,1803,11,22,Žmonės ir tinklaraščiai,True,982,6484
+UCC9zTGIT11HXwGm_VBQFAqQ,Viktorija Rupeikytė - Victoria,Oficialus Viktorija Rupeikytė - VICTORIA kanalas.,2012-12-21T20:36:09Z,37648875,30100,39,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,765732,447,10,10,Muzika,True,186,2399
+UCCalAruxHTue9RLP4bJld5g,Alfa TV,Media Alfa.lt naujienų portalas vaizdo siužetai video ivykiai sportas krepšinis pramogos televizija,2009-09-08T11:37:31Z,12538725,10900,3000,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,424475,3294,41,25,Naujienos ir politika,True,1550,1355
+UCcKEC_5VZfxu8Az6yMXTPEA,Mechanikas Lukas,,2012-03-19T21:08:54Z,12501358,30900,587,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,312117,1364,40,2,Automobiliai ir transporto priemonės,True,420,5677
+UCCvFgRQ1YYuhehXEfrnPbCQ,Furytto,,2020-06-15T00:15:54.668093Z,20495918,18600,20,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2675897,543,7,10,Muzika,True,346,2296
+UCcvVfDUS3d13aB3ruwEUm_w,Simonas Dailidė,"Namelis ant vandens, ledinės maudynės, vw t3 autobusiukas, aktualijos, pramogos, provokacijos, menas, gamta. Apie viską ir apie nieką.
+
+",2011-12-11T20:16:30Z,7190830,29000,659,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Tourism']",LT,278861,382,47,22,Žmonės ir tinklaraščiai,True,175,5287
+UCCX6462ljZ6VEZqwd-gg8gg,Augustas Šuliauskas,"Krepšinio analizė: komandų taktikos, žaidėjų sprendimai, įdomiausi deriniai.
+",2011-05-30T12:21:28Z,1417138,19400,49,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Basketball']",LT,1068277,3714,37,17,Sportas,True,1085,5926
+UCDF_o0ZaVoej59FxmY5dEcA,OpTV,"Sveiki atvykę į OpTV, kanalą! 
 
 Jei apie tave nekalba OpTV - tau dar reikia pasistengti!
 Apie Lietuvos ir pasaulio politiką, politikus, ""žvaigždes"", pakilimus ir nuopolius, sėkmę ir laikinus pralaimėjimus -  su humoru, linksmai, šmaikščiai, net šaržuojant, bet iš esmės. Mūsų ekspertai nešykšti ironijos, tikslių, aštrių metaforų, kurios padeda perprasti politinės Lietuvos pelkės burbulus akimirksniu.  
@@ -140,30 +209,46 @@ Mūsų komandą subūrę žmonės Rūta Janutienė, Valdas Vasiliauskas ir Vytau
 
 MŪSŲ MISIJA -  laisva, drąsi, išmintinga, smagi viešoji erdvė pasikalbėti apie esminius dalykus. 
 
-",2020-05-12T04:57:47.455628Z,90264698,79000,5356,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,9181593,18838,498,22,3702,True,6215,Žmonės ir tinklaraščiai
-37,UCdhTPRhBPs9CtSckvPhrZbw,Bičiuliai,"Dėl koncertų kreipkitės: +3706050176
-Koncertuojame miesto šventėse, klubuose, privačiuose vakarėliuose. Gera, linksma ir užvedanti muzika pavers jūsų šventę ypatinga",2020-03-02T11:51:46.652636Z,12216826,12400,20,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,1118183,166,3,10,107,True,413,Muzika
-38,UCd_X6pYUoiXLynQN79biVGw,PROTO INDUSTRIJA,"PROTO INDUSTRIJA - laida apie lietuviškus protus ir bepročius, gerąja to žodžio prasme. Mes nagrinėjame verslo įmones, vlog'erius, efektyvius, nestandartiškai mąstančius ir kūrybingus žmones. Mūsų tikslas - kurti kokybišką internetinį turinį, turtinti save ir savo sekėjus, gilinantis į pasiekusių žmonių sėkmes ir nesėkmes.
+",2020-05-12T04:57:47.455628Z,90264698,79000,5356,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,9181593,18838,498,22,Žmonės ir tinklaraščiai,True,3702,7548
+UCDgxvfxgqCHwIU8hdH_ruAg,Mr. Bullet,"Welcome to Mr. Bullet's YouTube channel! Discover the innovative world of ""iBots,"" his latest NFT collection blending modern design, luxury, and AI tech. Subscribe for exclusive content and join us in redefining creativity! 
+📱 #iBots ☛ https://opensea.io/ibotsprod
+© Mr.Bullet, 2024
+
+
+",2007-07-05T10:45:36Z,12509379,11500,89,"['https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Reggae', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,989579,235,9,10,Muzika,True,79,1508
+UCdhTPRhBPs9CtSckvPhrZbw,Bičiuliai,"Dėl koncertų kreipkitės: +3706050176
+Koncertuojame miesto šventėse, klubuose, privačiuose vakarėliuose. Gera, linksma ir užvedanti muzika pavers jūsų šventę ypatinga",2020-03-02T11:51:46.652636Z,12216826,12400,20,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,1118183,166,3,10,Muzika,True,107,523
+UCdOoN3WOefqtvWor9B7Yyiw,Mokslo sriuba,"Internetinė televizija „Mokslo sriuba"" – tai ne pelno siekianti jaunų žmonių iniciatyva populiarinti mokslą visuomenėje. Mokslas ir technologijos ateina pas tave!",2012-03-13T13:27:36Z,12767351,48300,1317,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Knowledge']",LT,272429,577,74,27,Švietimas,True,276,8613
+UCdSfr4yXqQQ24tnmznXGJ2Q,Alytaus gidas,Alytausgidas.lt – pirmas ir populiariausias interneto naujienų bei videoreportažų portalas Dzūkijoje,2012-03-29T08:43:01Z,9339313,10100,2507,['https://en.wikipedia.org/wiki/Society'],LT,329973,241,77,24,Pramogos,True,113,766
+UCDuAvQX1CBuYugB0VzW3kgw,KONFLIKTAI,"KONFLIKTINĖS SITUACIJOS
+
+Julius Paškevičius
+",2019-12-13T12:44:33.045367Z,3310527,24200,253,"['https://en.wikipedia.org/wiki/Film', 'https://en.wikipedia.org/wiki/Entertainment']",LT,189020,269,62,23,Komedijos,True,109,3612
+UCd_X6pYUoiXLynQN79biVGw,PROTO INDUSTRIJA,"PROTO INDUSTRIJA - laida apie lietuviškus protus ir bepročius, gerąja to žodžio prasme. Mes nagrinėjame verslo įmones, vlog'erius, efektyvius, nestandartiškai mąstančius ir kūrybingus žmones. Mūsų tikslas - kurti kokybišką internetinį turinį, turtinti save ir savo sekėjus, gilinantis į pasiekusių žmonių sėkmes ir nesėkmes.
 
 PRENUMERUOKITE mūsų kanalą Youtube ir sekite mus Facebook: https://www.facebook.com/protoindustrija
 
 Norintys paremti mūsų projektą, tai gali padaryti PATREON platformoje: https://www.patreon.com/protoindustrija
 
-Jei turite klausimų ar pasiūlymų, rašykite mums: info@protoindustrija.lt",2018-01-04T20:33:47Z,9677165,63200,249,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Business']",LT,1447645,1376,21,22,708,True,7366,Žmonės ir tinklaraščiai
-39,UCE7woOlj0S64Eef0lMzv-rA,UBR Team,"Mes esame UBR komanda! Kuriame įvairius video susijusius su automobiliais. Mūsų žinomiausi projektai: ""BMW M5 už 500€""- su 500€ kišenėje pirkdami bei parduodami automobilius pasiekėme savo tikslą - nusipirkome BMW M5 E60. ""KARDANAI IR PUSAŠIAI"" - dvi komandos gavo po 2000€ ir per dvi savaites perekūpindami turėjo uždirbti kuo daugiau pinigų. Negana to, mėgstame realizuoti tai kas netikėtai šauna į galvą - Seat Ibiza pavertėme baseinu , o Renault Megane helovino proga tapo moliūgu .
+Jei turite klausimų ar pasiūlymų, rašykite mums: info@protoindustrija.lt",2018-01-04T20:33:47Z,9677165,63200,249,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Business']",LT,1447645,1376,21,22,Žmonės ir tinklaraščiai,True,708,8189
+UCE3HmKGoLkkZkVDc8x55oVg,ekspertai. TV,"Ekspertai.eu – vienintelis priklausomas tinklalapis Lietuvoje. Tinklalapio valdytoja asociacija „Global Gaze Network“.
+",2013-11-25T10:18:41Z,12731998,25100,1074,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,3934436,53244,318,25,Naujienos ir politika,True,4087,4497
+UCE7woOlj0S64Eef0lMzv-rA,UBR Team,"Mes esame UBR komanda! Kuriame įvairius video susijusius su automobiliais. Mūsų žinomiausi projektai: ""BMW M5 už 500€""- su 500€ kišenėje pirkdami bei parduodami automobilius pasiekėme savo tikslą - nusipirkome BMW M5 E60. ""KARDANAI IR PUSAŠIAI"" - dvi komandos gavo po 2000€ ir per dvi savaites perekūpindami turėjo uždirbti kuo daugiau pinigų. Negana to, mėgstame realizuoti tai kas netikėtai šauna į galvą - Seat Ibiza pavertėme baseinu , o Renault Megane helovino proga tapo moliūgu .
 
 Nepraleiskite naujienų ir sekite mus YouTube, Facebook ir Instagram platformose - UBR TEAM. 
-",2019-03-26T06:45:57Z,31491718,68500,611,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,2140227,3704,62,2,1335,True,9835,Automobiliai ir transporto priemonės
-40,UCeh-LKZdJzMRyTB-iSjvKHw,LTU Republic 2,Čia tikras LTU Republic?,2016-09-05T21:52:55Z,5695091,39000,145,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,251588,354,6,20,257,True,5248,Žaidimai
-41,UCelxKSvh03EOTzlPB3_GNJg,Mantas Stonkus,"Sveiki atvykę, aš Mantas Stonkus aktorius, komikas ir tėvas dviejų. Čia mano kanalas, kuriame rasite: 
+",2019-03-26T06:45:57Z,31491718,68500,611,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,2140227,3704,62,2,Automobiliai ir transporto priemonės,True,1335,11383
+UCeh-LKZdJzMRyTB-iSjvKHw,LTU Republic 2,Čia tikras LTU Republic?,2016-09-05T21:52:55Z,5695091,39000,145,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,251588,354,6,20,Žaidimai,True,257,5905
+UCekX_LmtbFG6mbZ_5n3pAnA,tikriejiZAS,"oficialus ŽAS youtube kanalas
+official youtube channel of Lithuanian music band ŽAS (ZAS)",2010-12-21T21:42:01Z,11177685,10800,62,"['https://en.wikipedia.org/wiki/Rock_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,358574,157,2,10,Muzika,True,119,1386
+UCelxKSvh03EOTzlPB3_GNJg,Mantas Stonkus,"Sveiki atvykę, aš Mantas Stonkus aktorius, komikas ir tėvas dviejų. Čia mano kanalas, kuriame rasite: 
 - Vlogai iš asmeninio gyvenimo
 - Comedy sketch'ai
 - Kūrybiniai spektaklių ir standup'o procesai, renginių užkulisiai
 - Kelionių vaizdai, įspūdžiai, maistas
 - Laidos
 Jei kažkas pasikeis, pranešiu. Ačiū, kad žiūrite!
-",2015-08-11T18:27:06Z,5830017,62600,66,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,1852758,2129,20,23,1377,True,12561,Komedijos
-42,UCENG8DTPvfImIGAs9lxc0yg,Vikkyxo,"Sveiki! Esu Viktorija kontento kureja socialiniuose tinkluose. Man yra 28 metai ir esu dvynuku Milanos ir Mayson mama. Gyvenam UK jau 15 metu. Šiam kanale dalinuosi savo kasdienybe ir gyvenimu UK , jei patinka mano video prisijunk ir prenumeruok ši kanala! ❤️
+",2015-08-11T18:27:06Z,5830017,62600,66,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,1852758,2129,20,23,Komedijos,True,1377,13853
+UCENG8DTPvfImIGAs9lxc0yg,Vikkyxo,"Sveiki! Esu Viktorija kontento kureja socialiniuose tinkluose. Man yra 28 metai ir esu dvynuku Milanos ir Mayson mama. Gyvenam UK jau 15 metu. Šiam kanale dalinuosi savo kasdienybe ir gyvenimu UK , jei patinka mano video prisijunk ir prenumeruok ši kanala! ❤️
 
 ---Kaip mane rasti : 
 Instagram @vikkyxo  https://www.instagram.com/vikkyxo/?hl=en
@@ -174,36 +259,45 @@ connect via email /
 e-mail: vikamails96@gmail.com & 
 vikkyxo@yahoo.com 
 
-Ačiu, kad esat su manimi 🥰🦋",2012-07-10T19:28:59Z,3401170,14900,370,"['https://en.wikipedia.org/wiki/Fashion', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,210958,541,24,22,185,True,682,Žmonės ir tinklaraščiai
-43,UCffk0-fAK4iU2-I7xQA3Ksg,GJan,"Singer & songwriter, artist + nature lover 🌱🌎🎵
-",2010-11-24T09:35:45Z,123734597,153000,47,"['https://en.wikipedia.org/wiki/Independent_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2332742,282,5,10,207,True,8068,Muzika
-44,UCftf9_oBkjFawes3MbsDeRw,Betsafe-LKL TV,"Oficialus Lietuvos krepšinio lygos TV kanalas.
-Official Lithuanian Basketball League Channel.",2013-09-06T10:47:14Z,40328396,33600,10026,"['https://en.wikipedia.org/wiki/Basketball', 'https://en.wikipedia.org/wiki/Sport']",LT,1281452,1895,246,17,633,True,4215,Sportas
-45,UCF_n3ZgqJnoaAqSGmdBieiQ,Krebždesys,"Turime mašinas, norime parodyti mūsų auto kultūra.
+Ačiu, kad esat su manimi 🥰🦋",2012-07-10T19:28:59Z,3401170,14900,370,"['https://en.wikipedia.org/wiki/Fashion', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,210958,541,24,22,Žmonės ir tinklaraščiai,True,185,784
+UCESoik0OImHC9MuCb4f-ukg,Nėra ką žiūrėti,"Kanalas ""Nėra ką žiūrėti"" susikurė iš neturėjimo ką žiūrėti tam, kad daugiau nebūtų taip, kad nebūtų ką žiūrėti. Prisijunkite prie nėra ką žiūrėtojų gretų spusteldami sabscraibinimo mygtukėlį. Ačiū labai ir smagiai Jums kažką pažiūrėt!",2021-01-14T10:01:39.213698Z,9726987,45300,174,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Entertainment']",LT,709202,694,9,24,Pramogos,True,449,11355
+UCF65Qc9bPx7rV2Z1Nq-z5NA,Mokytojas - ūkininkas Tomas Samalius,"Esu fizikos ir informacinių technologijų mokytojas. Šiuo metu bandau sukurti šilauogių ūkį, visą procesą filmuoju ir talpinu youtube.
+Kanale taip pat yra vaizdo įrašai fizikos ir informacinių technologijų tematika.
+",2014-10-30T13:42:49Z,1342030,11500,167,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Knowledge']",LT,215973,1661,29,22,Žmonės ir tinklaraščiai,True,455,1826
+UCffk0-fAK4iU2-I7xQA3Ksg,GJan,"Singer & songwriter, artist + nature lover 🌱🌎🎵
+",2010-11-24T09:35:45Z,123734597,153000,47,"['https://en.wikipedia.org/wiki/Independent_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2332742,282,5,10,Muzika,True,207,9176
+UCftf9_oBkjFawes3MbsDeRw,Betsafe-LKL TV,"Oficialus Lietuvos krepšinio lygos TV kanalas.
+Official Lithuanian Basketball League Channel.",2013-09-06T10:47:14Z,40328396,33600,10026,"['https://en.wikipedia.org/wiki/Basketball', 'https://en.wikipedia.org/wiki/Sport']",LT,1281452,1895,246,17,Sportas,True,633,4691
+UCF_n3ZgqJnoaAqSGmdBieiQ,Krebždesys,"Turime mašinas, norime parodyti mūsų auto kultūra.
 
 
 
-For business inquiries: simonas_ivanovas@yahoo.com",2016-09-22T15:30:25Z,14774230,53200,311,"['https://en.wikipedia.org/wiki/Motorsport', 'https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Sport']",LT,345798,728,20,2,371,True,6703,Automobiliai ir transporto priemonės
-46,UCG4us5gyFFnVbuE_jy7FjtQ,Darius Žaidžia,,2011-04-17T10:19:16Z,33880598,98800,868,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Simulation_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Strategy_video_game']",LT,167690,778,19,20,449,True,4829,Žaidimai
-47,UCgG6-eQtPhAdr3GxYEN0HJw,Edvisss,"Mano vardas yra Edvinas, nors labiau esu žinomas kaip ""Edvisss"" arba tiesiog Edvis. Jeigu pirmą kartą mane atradote, tai trumpai - pagrinde kanalas orientuotas į žaidimus, tačiau pasitaiko ir vlogų, kelionių, montažų - ar net visokiausio maisto/gėrimų ragavimų! Žodžiu, pasitaiko labai įvairaus turinio :)
+For business inquiries: simonas_ivanovas@yahoo.com",2016-09-22T15:30:25Z,14774230,53200,311,"['https://en.wikipedia.org/wiki/Motorsport', 'https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Sport']",LT,345798,728,20,2,Automobiliai ir transporto priemonės,True,371,7835
+UCG4us5gyFFnVbuE_jy7FjtQ,Darius Žaidžia,,2011-04-17T10:19:16Z,33880598,98800,868,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Simulation_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Strategy_video_game']",LT,167690,778,19,20,Žaidimai,True,449,5445
+UCgG6-eQtPhAdr3GxYEN0HJw,Edvisss,"Mano vardas yra Edvinas, nors labiau esu žinomas kaip ""Edvisss"" arba tiesiog Edvis. Jeigu pirmą kartą mane atradote, tai trumpai - pagrinde kanalas orientuotas į žaidimus, tačiau pasitaiko ir vlogų, kelionių, montažų - ar net visokiausio maisto/gėrimų ragavimų! Žodžiu, pasitaiko labai įvairaus turinio :)
 
 ● Discord Serveris: https://discord.gg/edvisss
 ● Instagram: https://www.instagram.com/edvisss_/
 ● TikTok: https://www.tiktok.com/@edvisss_official
 
 Ir žinoma jeigu kanalas sudomino, tai spustelkit tą gražų raudoną mygtuką prenumeruoti! :P
-",2010-11-07T18:26:56Z,167998617,168000,1847,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Casual_game', 'https://en.wikipedia.org/wiki/Simulation_video_game']",LT,8331263,22688,147,20,8271,True,7583,Žaidimai
-48,UCgIz8LhjMkloTrSNVP4pvPA,Rokas Yan,,2013-07-03T19:17:49Z,36740811,24400,17,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,10099632,1098,5,10,827,True,2085,Muzika
-49,UCgrARHFsPZbciBu10Y5425Q,Pagal Jurgį,"Esu verslininkas Jurgis Adomavičius. Man pavyko ne tik sukurti verslą, bet ir išplėsti jį į kitas šalis. Perėjau daug verslo etapų ir susidūriau su daug iššūkių, ne tik profesinių, bet ir asmeninių. Verslui augant, jų tik daugėja. Bet kartu auga ir įgytos patirties, išspręstų problemų, pasiektų tikslų ir įgyvendintų idėjų portfelis.
+",2010-11-07T18:26:56Z,167998617,168000,1847,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Casual_game', 'https://en.wikipedia.org/wiki/Simulation_video_game']",LT,8331263,22688,147,20,Žaidimai,True,8271,8512
+UCGGIvPZYmLA3NeBWVAvZPaw,Deividas Bastys,Dėl koncertų kreiptis tel. +37063167361,2009-11-08T09:30:09Z,17747705,16400,63,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,449437,232,2,10,Muzika,True,92,895
+UCgIz8LhjMkloTrSNVP4pvPA,Rokas Yan,,2013-07-03T19:17:49Z,36740811,24400,17,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,10099632,1098,5,10,Muzika,True,827,2348
+UCGmWhZyaoEL7ZAIPCy05sVA,Sheras Zyske,"instagram - @sheraszyske
+tiktok - @sheraszyske
+",2011-07-11T12:00:06Z,107294462,118000,337,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Motorsport']",LT,93167241,2698,67,17,Sportas,True,2149,321
+UCgrARHFsPZbciBu10Y5425Q,Pagal Jurgį,"Esu verslininkas Jurgis Adomavičius. Man pavyko ne tik sukurti verslą, bet ir išplėsti jį į kitas šalis. Perėjau daug verslo etapų ir susidūriau su daug iššūkių, ne tik profesinių, bet ir asmeninių. Verslui augant, jų tik daugėja. Bet kartu auga ir įgytos patirties, išspręstų problemų, pasiektų tikslų ir įgyvendintų idėjų portfelis.
  
 YouTube kanale ""Pagal Jurgį""  atskleidžiu visą tiesą apie savo verslo užkulisius. Tai, kas ten vyksta, yra ne tik mano, bet ir kiekvieno verslininko kasdienybė. Problemos. Iššūkiai. Sprendimų paieškos. Progreso stebėjimas. Pinigai ir jų valdymas. Motyvacija. Laikas šeimai. Asmeniniai siekiai. Ir, žinoma, automobiliai.
  
 Dar kalbinu įdomius žmones. Klausinėju apie jų verslą, domiuosi jų įžvalgomis ir pritaikau jas savo tikslams pasiekti.
 Tai  autentiškiausias kanalas apie verslą: čia nėra surepetuotų epizodų ar atidirbtų klausimų, apie visas sėkmės ir nesėkmes kalbu atvirai ir be užuolankų. Jei jums tai įdomu - prenumeruokite!
-",2017-12-09T18:05:13Z,4204500,23400,555,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,273595,1153,56,22,470,True,3813,Žmonės ir tinklaraščiai
-50,UCHeeV7aYglZc6jd5y3IPECA,Autoplius.lt,"Lankomiausias transporto skelbimų portalas Lietuvoje! https://www.autoplius.lt
-Sekite Autoplius.lt Instagram: https://www.instagram.com/autoplius.lt",2014-02-03T08:45:24Z,14220553,22000,515,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,251939,414,33,2,177,True,3043,Automobiliai ir transporto priemonės
-51,UCHfPkYmMT9RNyHH8zMZ9R1g,Važiuojam AUTO,"www.facebook.com/AutoPatikros
+",2017-12-09T18:05:13Z,4204500,23400,555,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,273595,1153,56,22,Žmonės ir tinklaraščiai,True,470,4446
+UCGxTKPFUVEI5iVp7M9fQbCw,Skill4ltu Extra,"2nd WoT YT channel of Skill4ltu, for all the mid tier gameplay you could ever want!",2021-10-27T11:14:40.622449Z,13315301,52200,615,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Strategy_video_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action-adventure_game']",LT,1745811,3949,86,20,Žaidimai,True,1856,1678
+UCHeeV7aYglZc6jd5y3IPECA,Autoplius.lt,"Lankomiausias transporto skelbimų portalas Lietuvoje! https://www.autoplius.lt
+Sekite Autoplius.lt Instagram: https://www.instagram.com/autoplius.lt",2014-02-03T08:45:24Z,14220553,22000,515,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,251939,414,33,2,Automobiliai ir transporto priemonės,True,177,3554
+UCHfPkYmMT9RNyHH8zMZ9R1g,Važiuojam AUTO,"www.facebook.com/AutoPatikros
 
 IŠSIRINKTO PIRKTI AUTOMOBILIO patikra profesionalia įranga, kėbulo paruošimo patikra, kompiterinės diagnostikos atlikimas, automobilio ridos ir nusidėvėjimo nustatymas
 
@@ -215,12 +309,13 @@ PADEDAME ĮMONĖMS ĮSIGYTI REIKALINGĄ TRANSPORTĄ. Surasime ir patikrinsime Ju
 
 
 
-",2018-04-30T19:47:45Z,1150685,11600,236,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,536085,1716,119,22,694,True,1758,Žmonės ir tinklaraščiai
-52,UChrJ09nCp7pp2pqp0SgJdNQ,Negyvas Eteris,"Įspėjimas: Šios laidos turinys skirtas asmenims, sulaukusiems 18 metų, kurie pagal galiojančius LR įstatymus turi teisę naudotis tokio pobūdžio informacija.
+",2018-04-30T19:47:45Z,1150685,11600,236,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,536085,1716,119,22,Žmonės ir tinklaraščiai,True,694,2136
+UChmbvGtjGOFvNE-IAHbAZZw,Dapa Deep,,2012-11-29T14:48:15Z,298966107,450000,215,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,1878168,1719,22,10,Muzika,True,800,3194
+UChrJ09nCp7pp2pqp0SgJdNQ,Negyvas Eteris,"Įspėjimas: Šios laidos turinys skirtas asmenims, sulaukusiems 18 metų, kurie pagal galiojančius LR įstatymus turi teisę naudotis tokio pobūdžio informacija.
 Jei jums nėra 18 metų, prašome neatidaryti vaizdo įrašų „Negyvas eteris“ kanale. Jei jums jau yra 18 metų, žiūrėdami vaizdo įrašus „Negyvas eteris“ kanale, patvirtinate, kad vaizdinė ir grafinė informacija bus skirta tik jūsų asmeniniam naudojimui ir saugoma nuo nepilnamečių.
 
-""Vėl Tie Patys..."" - podkastas su Mantu Katleriu, Rolandu Mackevičium ir Mantu Stonkum.",2019-10-01T13:50:40Z,129648405,193000,637,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film']",LT,13050511,10505,88,22,4131,True,22186,Žmonės ir tinklaraščiai
-53,UChsTN0Rfpq22Quu3ANClLgA,LaisvėsTV X,"„Laisvės TV X"" – lietuviškas YouTube kanalas!
+""Vėl Tie Patys..."" - podkastas su Mantu Katleriu, Rolandu Mackevičium ir Mantu Stonkum.",2019-10-01T13:50:40Z,129648405,193000,637,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film']",LT,13050511,10505,88,22,Žmonės ir tinklaraščiai,True,4131,24655
+UChsTN0Rfpq22Quu3ANClLgA,LaisvėsTV X,"„Laisvės TV X"" – lietuviškas YouTube kanalas!
 
 Sek mus:
 🟣  Prenumeruok kanalą: http://bit.ly/SubLTVX
@@ -228,10 +323,18 @@ Sek mus:
 🟣  Facebook'e: https://www.facebook.com/laisvestvx
 🟣  TikTok'e: https://www.tiktok.com/@laisvestvx
 
-",2017-10-06T11:32:02Z,37333247,124000,955,"['https://en.wikipedia.org/wiki/Technology', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,2258337,2603,47,24,1377,True,14981,Pramogos
-54,UCHYZOrUANsJHRIVnj-4qMAQ,LTU Republic,Tas kur Zita ir GTA Reisai,2014-08-01T12:34:15Z,46299973,140000,291,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,311176,297,13,20,222,True,10698,Žaidimai
-55,UCiiIry0ECWg1rvcFAxv8R1Q,Vu Records,,2013-02-17T16:36:48Z,55315382,44200,252,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,745125,209,8,10,112,True,1759,Muzika
-56,UCIQ0kNyV_ZtqAqXMjFXk_zA,Eltis LT,"Elektriko kanalas, apie elektros montavimus.
+",2017-10-06T11:32:02Z,37333247,124000,955,"['https://en.wikipedia.org/wiki/Technology', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,2258337,2603,47,24,Pramogos,True,1377,16604
+UCHyxY7Hy7mhi-QxD7-Oy1fA,jLcs2,,2016-08-30T11:43:57Z,5357371,127000,104,"['https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action_game']",LT,4014448,11349,71,20,Žaidimai,True,8546,4311
+UCHYZOrUANsJHRIVnj-4qMAQ,LTU Republic,Tas kur Zita ir GTA Reisai,2014-08-01T12:34:15Z,46299973,140000,291,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,311176,297,13,20,Žaidimai,True,222,12093
+UCiiIry0ECWg1rvcFAxv8R1Q,Vu Records,,2013-02-17T16:36:48Z,55315382,44200,252,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,745125,209,8,10,Muzika,True,112,2127
+UCIiQPgJAKDn8R0_8uHvyjvQ,Edmundas Kučinskas,"EDMUNDAS KUČINSKAS  – vienas populiariausių Lietuvos dainininkų, įrodęs, jog sceną aktyviai šturmuoti ne vėlu sulaukus ir keturiasdešimties. Būtent tiek Edmundui buvo, kai jis 1996 metais įrašė albumą ""Meilės laiptai"" ir užkariavo gerbėjų simpatijas po daugiau nei 10 metų trukusios karjeros pertraukos (8-9 dešimtmečiuose dainavo grupėje ""Nerija"").
+
+Sugrįžęs ir palaikomas lietuviškos muzikos radijo stočių, atlikėjas greitai tapo vyresnės publikos numylėtiniu – melodingos dainos ir puikūs vokaliniai duomenys užkariavo klausytojų simpatijas.
+
+Per dešimtmetį 9-nis albumus išleidęs atlikėjas daug koncertuoja, du sykius (2004 ir 2006 m.) buvo tarp Eurovizijos atrankos favoritų, taip pat sukūrė vaidmenį Klaipėdos muzikinio teatro spektaklyje ""Paryžiaus katedra"".
+
+Antano Šabaniausko premija apdovanotam vokalistui netrūksta veiklos - jis yra Klaipėdos miesto tarybos narys, taip pat populiarios TV3 laidos „Penktadienio muzikos šou“ vedėjas.",2017-11-13T13:52:41Z,13759379,13900,126,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,701061,329,3,10,Muzika,True,272,853
+UCIQ0kNyV_ZtqAqXMjFXk_zA,Eltis LT,"Elektriko kanalas, apie elektros montavimus.
 El. paštas:  info@eltis.lt
 Tel. +370 683 46 901 
 Mūsų tinklalapis: https://www.eltis.lt
@@ -240,41 +343,65 @@ Mūsų dar vienas Instagram: https://instagram.com/lukas_eltis.lt?igshid=YmMyMTA
 Sekite mus Facebook : https://www.facebook.com/eltis.lt/
 Mūsų Patreon : https://www.patreon.com/Eltis
 Mūsų Contrebee : https://contribee.com/eltis
-",2019-10-01T04:29:54Z,1901575,11200,180,"['https://en.wikipedia.org/wiki/Technology', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,163385,792,27,22,262,True,1708,Žmonės ir tinklaraščiai
-57,UCIVhrAjaVwWMBnGi3fD79eA,Diana ir draugai,"Sveiki visi. Mano vardas Diana! Noriu pasidalinti savo epiniais nuotykiais, problemomis ir parodijomis, istorijomis apie mokyklą, apie pirmąją meilę, išdavystę ir draugystę. Su manimi visada bus smagu. Sveiki atvykę ❤️",2021-11-17T13:25:01.276971Z,55862234,46600,920,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,6401494,16531,287,22,2944,True,1478,Žmonės ir tinklaraščiai
-58,UCJ3I8U0z1SG48jhbpKSbSWA,Aleksandr Lukjanov,"Šiame kanale eksperimentuojame su pinigais, savo pavyzdžiu motyvuoju žmones pradėti investuoti ir jausti saugumą dėl pinigų tiek šiandien tiek ateityje. Jei nori pradėti, bet nežinai kaip - susipažink su turiniu šiame kanale ir pradėk kelionę savo geresnio rytojaus link ;)
-",2016-12-31T09:18:08Z,2129357,15500,534,['https://en.wikipedia.org/wiki/Knowledge'],LT,643412,5170,245,27,900,True,2129,Švietimas
-59,UCj5sdOdmY70LG1tIQxgk6nA,Omantas,"""NEJUOKINGA"" Pokalbinė yra laida, kuri suburia du žmones atviram bei nuoširdžiam pokalbiui - kaip namuose.",2014-04-03T13:18:00Z,1516605,54500,75,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,287022,707,34,20,314,True,8830,Žaidimai
-60,UCj9-mhMdqVARMZnkY7F0srw,Martynas Kavaliauskas,"
+",2019-10-01T04:29:54Z,1901575,11200,180,"['https://en.wikipedia.org/wiki/Technology', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,163385,792,27,22,Žmonės ir tinklaraščiai,True,262,2077
+UCIVhrAjaVwWMBnGi3fD79eA,Diana ir draugai,"Sveiki visi. Mano vardas Diana! Noriu pasidalinti savo epiniais nuotykiais, problemomis ir parodijomis, istorijomis apie mokyklą, apie pirmąją meilę, išdavystę ir draugystę. Su manimi visada bus smagu. Sveiki atvykę ❤️",2021-11-17T13:25:01.276971Z,55862234,46600,920,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,6401494,16531,287,22,Žmonės ir tinklaraščiai,True,2944,1658
+UCJ3I8U0z1SG48jhbpKSbSWA,Aleksandr Lukjanov,"Šiame kanale eksperimentuojame su pinigais, savo pavyzdžiu motyvuoju žmones pradėti investuoti ir jausti saugumą dėl pinigų tiek šiandien tiek ateityje. Jei nori pradėti, bet nežinai kaip - susipažink su turiniu šiame kanale ir pradėk kelionę savo geresnio rytojaus link ;)
+",2016-12-31T09:18:08Z,2129357,15500,534,['https://en.wikipedia.org/wiki/Knowledge'],LT,643412,5170,245,27,Švietimas,True,900,2388
+UCj5sdOdmY70LG1tIQxgk6nA,Omantas,"""NEJUOKINGA"" Pokalbinė yra laida, kuri suburia du žmones atviram bei nuoširdžiam pokalbiui - kaip namuose.",2014-04-03T13:18:00Z,1516605,54500,75,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,287022,707,34,20,Žaidimai,True,314,9861
+UCj9-mhMdqVARMZnkY7F0srw,Martynas Kavaliauskas,"
 
 
-",2012-11-19T13:22:59Z,13103856,11400,7,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,5594036,721,2,10,417,True,831,Muzika
-61,UCjC_7hcKPAWHnGOLjjvgzIg,Paulius Samoška,"Apleistos vietos, kelionės ir trauklapiai.",2006-03-22T19:22:56Z,30108755,176000,193,"['https://en.wikipedia.org/wiki/Tourism', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,8890512,33952,42,19,9828,True,25712,Kelionės ir renginiai
-62,UCJhkoXOQKRwgy9fiPAIQfdQ,cestovas,"Kuriu tai, kas man patinka, ir tuo mėgaujuos:) ",2013-10-11T14:16:04Z,21551785,89000,142,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1525778,1778,45,24,1100,True,8881,Pramogos
-63,UCjLbOtscFwzSxrKL6zGXPPg,Donny Montell,"Donatas Montvydas (born October 22, 1987), better known by his stage name Donny Montell, is a Lithuanian singer-songwriter who represented Lithuania at the Eurovision Song Contest 2012 and 2016. Donatas Montvydas was born in Vilnius, Lithuania. His mother was a gymnast and his father was a drummer of the a famous hard rock group „Plackartas"". Montvydas' older sister is a professional dancer. His interest in music began at a young age.As a child, Montvydas was highly influenced by artists such as Michael Jackson and rock band Queen and would often impersonate these artists from a young age. He also admires Freddie Mercury for his personality.Montvydas also stated that his father is his biggest inspiration.",2011-05-17T17:35:23Z,68290811,75300,99,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,327545,107,1,10,94,True,3496,Muzika
-64,UCJNrC76wIItdjIYpYp2z2gg,Saulius Prūsaitis oficialus kanalas,Oficialus atlikėjo Sauliaus Prūsaičio YouTube puslapis,2015-01-09T17:18:52Z,101783800,96900,53,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Rock_music']",LT,2023672,378,4,10,274,True,4638,Muzika
-65,UCJSj6uL1lhWyINtLQGJH3SA,SelMusic,► Official SEL YouTube Channel ► Oficialus SEL YouTube kanalas,2017-04-10T01:59:31Z,122901751,85400,226,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,4448933,1102,5,10,722,True,7932,Muzika
-66,UCJYwnI5j7VPhuKWtzoczWjQ,Hypocrite,Ditirambai Dievui Dionisui,2020-03-19T14:44:19.184807Z,9742373,11000,26,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Hip_hop_music']",LT,1238884,237,5,10,181,True,1436,Muzika
-67,UCk34DAiWZ1hTX9uOKnHgyow,Lrytas.lt,"Lrytas – vienas populiariausių video kanalų lietuviškame internete! Lrytas – tai portalas, kuriame pateikiamos karščiausios naujienos iš Lietuvos ir viso pasaulio. Įvykiai, videonaujienos, verslas, sportas, komentarai, diskusijos ir daugiau.",2014-12-18T11:54:16Z,86871811,75700,32112,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,165525,643,37,25,342,True,4464,Naujienos ir politika
-68,UCk9M329cK-P8FBaCc73TUvg,2Kvėpavimas,,2016-04-09T18:11:51Z,73648472,42900,33,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,4856394,390,6,10,289,True,3491,Muzika
-69,UCL-SD4SxzxpxxfYz3EpESkw,Andrius Talzunas,,2013-09-06T20:17:05Z,26992239,114000,202,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,1243600,2061,19,22,1287,True,7506,Žmonės ir tinklaraščiai
-70,UClIoXNB_OPXetcsubnNWMYA,Martas Tankevičius,"🌅 Mėgstu kurti verslus ir video turinį
+",2012-11-19T13:22:59Z,13103856,11400,7,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,5594036,721,2,10,Muzika,True,417,966
+UCJBpu_3csr7ZsfTWbY11gAA,Tortasis,"pabuciuosiu jei pasubinsi
+
+Pasiekimai:
+1 prenumeratorius: ✅
+100 prenumeratorių: ✅
+500 prenumeratorių: ✅
+1000 prenumeratorių: ✅
+5000 prenumeratorių: ✅
+10k prenumeratorių: ✅
+15k prenumeratorių: ❌
+20k prenumeratorių: ❌
+",2018-09-08T10:59:21Z,2080546,10500,434,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,249960,3022,29,20,Žaidimai,True,1290,1362
+UCjC_7hcKPAWHnGOLjjvgzIg,Paulius Samoška,"Apleistos vietos, kelionės ir trauklapiai.",2006-03-22T19:22:56Z,30108755,176000,193,"['https://en.wikipedia.org/wiki/Tourism', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,8890512,33952,42,19,Kelionės ir renginiai,True,9828,29379
+UCjhGZL45ttNNc-Klui868eQ,3SUNC,Įsigyk mūsų CD ir MERCH čia: www.3sunc.lt,2013-06-12T09:13:19Z,16755385,24700,87,"['https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Music']",LT,339973,132,4,10,Muzika,True,104,2887
+UCJhkoXOQKRwgy9fiPAIQfdQ,cestovas,"Kuriu tai, kas man patinka, ir tuo mėgaujuos:) ",2013-10-11T14:16:04Z,21551785,89000,142,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1525778,1778,45,24,Pramogos,True,1100,9996
+UCjLbOtscFwzSxrKL6zGXPPg,Donny Montell,"Donatas Montvydas (born October 22, 1987), better known by his stage name Donny Montell, is a Lithuanian singer-songwriter who represented Lithuania at the Eurovision Song Contest 2012 and 2016. Donatas Montvydas was born in Vilnius, Lithuania. His mother was a gymnast and his father was a drummer of the a famous hard rock group „Plackartas"". Montvydas' older sister is a professional dancer. His interest in music began at a young age.As a child, Montvydas was highly influenced by artists such as Michael Jackson and rock band Queen and would often impersonate these artists from a young age. He also admires Freddie Mercury for his personality.Montvydas also stated that his father is his biggest inspiration.",2011-05-17T17:35:23Z,68290811,75300,99,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,327545,107,1,10,Muzika,True,94,4005
+UCJNrC76wIItdjIYpYp2z2gg,Saulius Prūsaitis oficialus kanalas,Oficialus atlikėjo Sauliaus Prūsaičio YouTube puslapis,2015-01-09T17:18:52Z,101783800,96900,53,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Rock_music']",LT,2023672,378,4,10,Muzika,True,274,5408
+UCJSj6uL1lhWyINtLQGJH3SA,SelMusic,► Official SEL YouTube Channel ► Oficialus SEL YouTube kanalas,2017-04-10T01:59:31Z,122901751,85400,226,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Electronic_music']",LT,4448933,1102,5,10,Muzika,True,722,9175
+UCJYwnI5j7VPhuKWtzoczWjQ,Hypocrite,Ditirambai Dievui Dionisui,2020-03-19T14:44:19.184807Z,9742373,11000,26,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Hip_hop_music']",LT,1238884,237,5,10,Muzika,True,181,1673
+UCk34DAiWZ1hTX9uOKnHgyow,Lrytas.lt,"Lrytas – vienas populiariausių video kanalų lietuviškame internete! Lrytas – tai portalas, kuriame pateikiamos karščiausios naujienos iš Lietuvos ir viso pasaulio. Įvykiai, videonaujienos, verslas, sportas, komentarai, diskusijos ir daugiau.",2014-12-18T11:54:16Z,86871811,75700,32112,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,165525,643,37,25,Naujienos ir politika,True,342,5236
+UCk9M329cK-P8FBaCc73TUvg,2Kvėpavimas,,2016-04-09T18:11:51Z,73648472,42900,33,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,4856394,390,6,10,Muzika,True,289,4073
+UCKbE0fxHvMcwFLtsUd4pwSQ,ErycTriceps,"Full-time streamer/content creator currently grinding CS2, hope you enjoy!",2011-05-21T17:50:01Z,36638630,331000,1034,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action-adventure_game']",LT,786476,1321,118,20,Žaidimai,True,800,463
+UCKMQxO-cZPu9K9hzuDcsNLg,MAFIA,"""THIS IS MAFIA""  music label  founded in 2016!
+
+● Submissions / Demos: info@thisismafia.com or https://www.thisismafia.com
+
+● For any copyright issues, questions/ promo please get in touch.",2016-12-20T14:50:34Z,126248992,757000,673,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music']",LT,3737326,1277,93,10,Muzika,True,859,6213
+UCL-SD4SxzxpxxfYz3EpESkw,Andrius Talzunas,,2013-09-06T20:17:05Z,26992239,114000,202,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,1243600,2061,19,22,Žmonės ir tinklaraščiai,True,1287,8431
+UClIoXNB_OPXetcsubnNWMYA,Martas Tankevičius,"🌅 Mėgstu kurti verslus ir video turinį
 ⛩️ Įkvėpiu kitus daryti tai, kas juos įkvepia
-",2010-10-01T10:39:44Z,28619195,89200,272,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,1647885,3965,29,22,2383,True,10280,Žmonės ir tinklaraščiai
-71,UCljXizyWWmln_pbmNlup19A,Kiemo draugai,,2024-03-23T14:59:18.589552Z,1464579,20200,12,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1332451,1397,10,23,930,True,5428,Komedijos
-72,UCLn0F5zYXi_GrK9YQaKZwbg,Redakcija,"Redakciją įkūrė Rita Miliūtė, Birutė Davidonytė, Ignas Kinčinas ir Gediminas Vaitiekūnas. Šiame Youtube kanale pasakosime jums rūpimas istorijas ir kalbinsime įvairius žmones be jokių išankstinių nusistatymų. 
+",2010-10-01T10:39:44Z,28619195,89200,272,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,1647885,3965,29,22,Žmonės ir tinklaraščiai,True,2383,11569
+UCljXizyWWmln_pbmNlup19A,Kiemo draugai,,2024-03-23T14:59:18.589552Z,1464579,20200,12,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1332451,1397,10,23,Komedijos,True,930,5926
+UCLn0F5zYXi_GrK9YQaKZwbg,Redakcija,"Redakciją įkūrė Rita Miliūtė, Birutė Davidonytė, Ignas Kinčinas ir Gediminas Vaitiekūnas. Šiame Youtube kanale pasakosime jums rūpimas istorijas ir kalbinsime įvairius žmones be jokių išankstinių nusistatymų. 
 
 Mūsų stiprioji sritis – kokybiška žurnalistika ir kokybiškas turinys, darantis realų pokytį visuomenėje. Čia pamatysite išskirtinius pasakojimus iš Ukrainos. Redakcijoje publikuosime savo žurnalistinius tyrimus, kuriems skiriame daug laiko ir sunkaus darbo, o galutinis rezultatas nepalieka abejingų. 
  
 Be abejo nesame vien tik apie rimtus ir liūdnus dalykus kalbantys žmonės. Šiame kanale galėsite rasti ir kiek lengvesnio ar paprastesnio turinio, kuris galbūt padarys jūsų vakarą įdomesniu ir leis sužinoti vieną ar kitą naują dalyką. 
 
 Paremti Redakcijos darbus ir pamatyti tik mūsų Patronams skirtą turinį galite čia: patreon.com/Redakcija 
-",2023-08-31T11:42:53.123532Z,1457198,22200,96,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,922634,4609,40,25,1511,True,5448,Naujienos ir politika
-73,UCLrvi9IuWFmcfe4CGL7d1Ag,TV3 Televizija,"TV3 savo žiūrovams siūlo drauge kokybiškai, intelektualiai pramogauti, siekia sudominti žiūrovą išskirtinio turinio programomis, skatinti pilietiškumą ir ugdyti šeimos vertybes.",2009-09-15T12:54:28Z,66418694,98400,6342,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Television_program']",LT,3848563,16736,303,25,5638,True,5759,Naujienos ir politika
-74,UCM5zCiaSWs_tszheoNF1J7w,KITOKS PASAULIS,"Pabuskite ! pakaks miegoti ... Sulaužykit tuos rėmus į kuriuos jus uždarė , jūs esate daug daugiau nei jūs galvojate.
+",2023-08-31T11:42:53.123532Z,1457198,22200,96,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,922634,4609,40,25,Naujienos ir politika,True,1511,5972
+UCLrvi9IuWFmcfe4CGL7d1Ag,TV3 Televizija,"TV3 savo žiūrovams siūlo drauge kokybiškai, intelektualiai pramogauti, siekia sudominti žiūrovą išskirtinio turinio programomis, skatinti pilietiškumą ir ugdyti šeimos vertybes.",2009-09-15T12:54:28Z,66418694,98400,6342,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Television_program']",LT,3848563,16736,303,25,Naujienos ir politika,True,5638,6649
+UCLZuH5rn7V_iVEls7Qz3CMQ,Lietuvos Balsas / The Voice Of Lithuania,"Pasaulio scenas drebinantis ir talentų, o ne įvaizdžio specialistų ieškantis muzikinis šou „The Voice of..."" Lietuvoje jau devintas sezoną.
+
+Didžiajame finale dėl teisės vadintis Lietuvos balsu susikaus keturi talentingiausieji.
+
+Projekto „Lietuvos balsas"" dalyvius nuo aklųjų perklausų iki pat finalo lydės išskirtinai kokybiškas ir tik gyvas garsas bei mokytojų patarimai ir padrąsinimai. Talentams gyvai pritars profesionalių muzikantų grupė.",2011-11-10T13:08:10Z,108241639,84300,3006,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Television_program']",LT,3566444,2045,196,24,Pramogos,True,1041,3715
+UCM5zCiaSWs_tszheoNF1J7w,KITOKS PASAULIS,"Pabuskite ! pakaks miegoti ... Sulaužykit tuos rėmus į kuriuos jus uždarė , jūs esate daug daugiau nei jūs galvojate.
 Šis pasaulis yra visai ne toks kaip jūs manote, kaip jus mokė....
-",2019-11-10T10:41:18.362965Z,3540246,15800,454,['https://en.wikipedia.org/wiki/Knowledge'],LT,464626,2609,79,22,787,True,2437,Žmonės ir tinklaraščiai
-75,UCMBVDbDBZeEW_-xXlJaLFhw,Noeliukas,"Sveiki visi! 
+",2019-11-10T10:41:18.362965Z,3540246,15800,454,['https://en.wikipedia.org/wiki/Knowledge'],LT,464626,2609,79,22,Žmonės ir tinklaraščiai,True,787,3092
+UCMBVDbDBZeEW_-xXlJaLFhw,Noeliukas,"Sveiki visi! 
 
 Aš esu Mason13 / Noelis
 Senų žaidimų megėjas. Socialinis komentatorius, Transliuotojas streameris
@@ -293,9 +420,9 @@ AMD Ryzen 9 5900X 12C/24T 4.8GHz
 Nvidia Geforce GTX 1660 Super MSI Gaming Twin Frozr V 6GB
 6 sata SSD for 10TB storage
 Keli HDD bendrai 20TB vietos
-",2007-02-08T10:43:59Z,3140013,16100,427,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,197378,1607,18,27,610,True,4908,Švietimas
-76,UCMBW6j707v5WP_mvk5HhsBw,WhyDotas,,2013-05-18T17:10:36Z,90649060,400000,229,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,3148160,7521,23,28,4477,True,28298,Mokslas ir technologijos
-77,UCMfPBtm9CWGswAXohT5MFyQ,LaisvėsTV,"Sveiki atvykę į „Laisvės TV“ – pirmą nepriklausomą Youtube televiziją Lietuvoje.
+",2007-02-08T10:43:59Z,3140013,16100,427,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,197378,1607,18,27,Švietimas,True,610,5535
+UCMBW6j707v5WP_mvk5HhsBw,WhyDotas,,2013-05-18T17:10:36Z,90649060,400000,229,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,3148160,7521,23,28,Mokslas ir technologijos,True,4477,32348
+UCMfPBtm9CWGswAXohT5MFyQ,LaisvėsTV,"Sveiki atvykę į „Laisvės TV“ – pirmą nepriklausomą Youtube televiziją Lietuvoje.
 
 Čia laidas kuria vieni įtakingiausių, ilgametę patirtį turinčių Lietuvos žurnalistų. Visuomenės palaikymo dėka galime nuolatos stiprinti ir plėsti savo komandą.
 
@@ -308,42 +435,67 @@ Kviečiame tapti mūsų rėmėju: https://laisves.tv/remiu/paramos-budai/
 
 Kiti mūsų kanalai:
 Laisvės TV X: http://bit.ly/SubLTVX
-",2016-08-28T14:31:28Z,113907265,190000,3403,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,8978042,17727,311,24,5273,True,20038,Pramogos
-78,UCN9LNqoduSQkOdxlxKgPnnw,NISLT,"Hi, my name is siN
+",2016-08-28T14:31:28Z,113907265,190000,3403,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,8978042,17727,311,24,Pramogos,True,5273,22352
+UCMjZzC64vXNeyYOb2XmHGXQ,MYLIMIAUSIA LIETUVA,"Sveiki draugai.
+Esu Julia.
+Gyvenu Lietuvoje.
+",2020-12-03T16:22:11.822083Z,10363706,27900,394,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,6311707,100389,196,22,Žmonės ir tinklaraščiai,True,16546,2708
+UCmv7twu6B9RAF_qBT6LaWBw,Deividas Račkauskas,"Sveiki visi!Esu Deividas Račkauskas iš Trakų. Daugkartinis Lietuvos poledinės žūklės ir aukšlių gaudymo čempionas ir prizininkas🏆. Su Lietuvos rinktine esu tris kartus tapęs pasaulio poledinės žūklės čempionu 🥇🥇🥇,tai pat tris kartus lipęs ant prizininkų pakylos🥈🥉🥉. Šitame kanale išvysite video ir išgirsite mano subjektyvę nuomonę apie įvairių žuvų gaudymą. Nebūtinai tai bus tiesa... Tiesiog pamatysit kaip aš darau ir pasistengsiu suprantamai paaiškinti , kodėl aš  galvoju , kad taip daryti  reikia ...",2020-02-11T18:56:22.105837Z,2850767,12200,212,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Pet']",LT,526642,2411,54,17,Sportas,True,574,2896
+UCn5_PRSkrhG5Rtn-niafEMQ,MrRapolas,"Gaming Content with some crisp editing. I am one of the rare breeds on YouTube that read comments, if You suggest a video game 90% I will check it out. Lithuanian with a perfect English accent. Peace. Fortnite , Black Desert Online, Dinosaur game, survival video games.  9YDOH2 or 9YD0H2
+
+What's ur mic ? RODE NT1-A
+
+PC spec: Intel® Core™ i7-3770K CPU @ 3.50GHz RAM 16GB 8GB DDR3 1600MHZ NVIDIA® GeForce™ GTX660OC 2GB",2010-10-10T20:16:06Z,36219311,74600,1586,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Strategy_video_game']",LT,423193,954,22,20,Žaidimai,True,628,387
+UCN9LNqoduSQkOdxlxKgPnnw,NISLT,"Hi, my name is siN
 I've been making Team Fortress 2 clips since 2009.
 
 Thank you for watching!
 
-",2009-11-15T22:58:56Z,452246853,672000,1787,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,787939,4446,32,20,2488,True,761,Žaidimai
-79,UCnHy-1JQgRhAAdOZR_sxQDg,JK Sax - Juozas Kuraitis Saxophonist,"Best Romantic Instrumental Saxophone Music, Sax Cover Songs, Saksofonistas, Saksofonas",2010-06-29T21:07:37Z,47108193,151000,838,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Jazz', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music']",LT,1837125,27789,38,10,1443,True,695,Muzika
-80,UCNNpGmBkt-NTsjzHyEdUN_g,cheska,"Žaidžiu žaidimus ant didžiausio sunkumo ir renku visus trofėjus, ir man tai patinka.
-",2020-09-27T21:40:02.541602Z,9248915,49700,145,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,331846,524,20,20,330,True,4715,Žaidimai
-81,UCNssFrCzlfeWDjax2RtMDTQ,Man Kablys,"Aš Mindaugas ir man - Kablys ""ant"" žvejybos =)  Šiame kanale dalinuosi filmuota medžiaga is savo žvejybų.",2019-03-13T07:10:45Z,5632298,19800,214,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Pet']",LT,862449,3509,35,24,1184,True,3396,Pramogos
-82,UCNtQ6jbQgkV4kII043lU06w,A Friend,"i play rs
+",2009-11-15T22:58:56Z,452246853,672000,1787,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,787939,4446,32,20,Žaidimai,True,2488,863
+UCnC9-pkjw-mvlU2aIW0w6qw,Pranešimai iš Ukrainos,"Nauji pranešimai įkeliami 20:00.
+Tai yra oficialus ""Reporting from Ukraine"" kanalo vertimas.
+",2022-11-23T06:13:09.561364Z,3168728,11400,323,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,1477390,2819,113,25,Naujienos ir politika,True,492,3591
+UCnHy-1JQgRhAAdOZR_sxQDg,JK Sax - Juozas Kuraitis Saxophonist,"Best Romantic Instrumental Saxophone Music, Sax Cover Songs, Saksofonistas, Saksofonas",2010-06-29T21:07:37Z,47108193,151000,838,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Jazz', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music']",LT,1837125,27789,38,10,Muzika,True,1443,823
+UCNNpGmBkt-NTsjzHyEdUN_g,cheska,"Žaidžiu žaidimus ant didžiausio sunkumo ir renku visus trofėjus, ir man tai patinka.
+",2020-09-27T21:40:02.541602Z,9248915,49700,145,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,331846,524,20,20,Žaidimai,True,330,5239
+UCnS3HNfCBLKtig8XJNxQifw,Real Dreams Official,"Music Channel Real Dreams Official.
+Here you will find only our original songs. 
+Subscribe and enjoy our creations.
+Thanks!!!
+",2010-08-26T14:33:11Z,24201406,27700,547,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,169106,201,15,10,Muzika,True,75,2005
+UCNssFrCzlfeWDjax2RtMDTQ,Man Kablys,"Aš Mindaugas ir man - Kablys ""ant"" žvejybos =)  Šiame kanale dalinuosi filmuota medžiaga is savo žvejybų.",2019-03-13T07:10:45Z,5632298,19800,214,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Pet']",LT,862449,3509,35,24,Pramogos,True,1184,4888
+UCNtQ6jbQgkV4kII043lU06w,A Friend,"i play rs
 
 osrs main: A Friend 2
 osrs alt: whitest cat2 (old GIM)
 osrs hcim: black dog25
 rs3 ironman: Dovyduks
 
-Customize a PC - https://ironsidecomputers.com/ (use code ""afriend"" for discount)",2009-05-14T06:52:49Z,279405360,384000,1681,"['https://en.wikipedia.org/wiki/Strategy_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action-adventure_game']",LT,1960843,4630,50,20,1958,True,1671,Žaidimai
-83,UCOhHqkmtWZlK9rerX2QUkVw,dima_wallhacks,I rely on Russians for content,2013-08-22T18:40:57Z,13218537,147000,74,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,1323208,1868,4,20,1388,True,597,Žaidimai
-84,UCPg6jj8aU_NBQIVQGLDpvEQ,Žinių radijas,"„Žinių radijas“ – 2000 m. kovo 7 d. įkurta radijo stotis. Veiklos pradžioje transliavęs vien operatyviai atnaujinamas žinias, šiandien „Žinių radijas“ yra tapęs žiniasklaidos priemone, per savaitę parengiančia 120 laidų ir į jas sukviečiančia aukščiausius šalies vadovus, politikus, verslo atstovus, visuomenės veikėjus ir savo sričių lyderius. 
+Customize a PC - https://ironsidecomputers.com/ (use code ""afriend"" for discount)",2009-05-14T06:52:49Z,279405360,384000,1681,"['https://en.wikipedia.org/wiki/Strategy_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action-adventure_game']",LT,1960843,4630,50,20,Žaidimai,True,1958,1869
+UCoeR4H3LFUd4h02nIaV2uVA,Audrius Unikas,"Sveikas. Žūklė spiningu,laivyba,poledinė žūklė,žūklė balansyru ar avižėle ,plūdinė ar dugninė visa tai tau įdomu ir yra tavo hobis?
+ Junkis prie mūsų,prenumeruok kanalą ir patirk neeilinius nuotykius kartu su mumis!!!",2013-08-22T16:54:07Z,3499981,10800,396,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Pet']",LT,688235,2713,62,22,Žmonės ir tinklaraščiai,True,719,2489
+UCOhHqkmtWZlK9rerX2QUkVw,dima_wallhacks,I rely on Russians for content,2013-08-22T18:40:57Z,13218537,147000,74,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,1323208,1868,4,20,Žaidimai,True,1388,1212
+UCohuoMUNhJ9CArjFA2xoARg,iGAgro,"Sveiki, kuriu įvairiausius video susijusius su žemės ūkiu",2013-08-11T13:42:28Z,2346666,12900,162,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,219497,403,25,2,Automobiliai ir transporto priemonės,True,167,2177
+UCPg6jj8aU_NBQIVQGLDpvEQ,Žinių radijas,"„Žinių radijas“ – 2000 m. kovo 7 d. įkurta radijo stotis. Veiklos pradžioje transliavęs vien operatyviai atnaujinamas žinias, šiandien „Žinių radijas“ yra tapęs žiniasklaidos priemone, per savaitę parengiančia 120 laidų ir į jas sukviečiančia aukščiausius šalies vadovus, politikus, verslo atstovus, visuomenės veikėjus ir savo sričių lyderius. 
 
 UAB „Žinių radijas“ yra vienintelė privataus kapitalo finansuojama informacinio formato radijo stotis Lietuvoje. Bendrovė valdo dvi radijo stotis – nacionalinę radijo stotį „Žinių radijas“ bei Vilniuje ir Kaune transliuojančią išskirtinės muzikos radijo stotį „Easy FM“. Radijo turiniu dalijasi naujienų agentūros, didžiausi šalies naujienų portalai, socialinių tinklų vartotojai.
 
-„Žinių radijo“ eteryje ypač daug dėmesio skiriama aktualijoms, tiesioginėms diskusijų laidoms, specialistų vertinimams ir komentarams, klausytojų nuomonėms.",2011-10-17T13:01:23Z,20385990,42800,12689,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,775089,4899,174,25,1410,True,6813,Naujienos ir politika
-85,UCpYs9L4BfpV_-2Bfwpe5lNQ,Munis,"Pasakoju istorijas, kuriu filmus, skečus, podkastus, vlogus.",2011-04-20T21:02:58Z,9429939,68100,172,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,631121,611,5,23,440,True,13536,Komedijos
-86,UCPzzSNeZoxjJy9frS2FK3Sg,Vestro,"Jei man įdomu - bus video. Jei tau įdomu - bus daugiau. 
+„Žinių radijo“ eteryje ypač daug dėmesio skiriama aktualijoms, tiesioginėms diskusijų laidoms, specialistų vertinimams ir komentarams, klausytojų nuomonėms.",2011-10-17T13:01:23Z,20385990,42800,12689,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,775089,4899,174,25,Naujienos ir politika,True,1410,7652
+UCpSinvFZjtjA0XVFWwCRXIQ,Inga Jankauskaitė,Oficialus atlikėjos kanalas.,2018-04-03T08:05:58Z,13463866,15500,31,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,237075,313,3,10,Muzika,True,243,1379
+UCpYs9L4BfpV_-2Bfwpe5lNQ,Munis,"Pasakoju istorijas, kuriu filmus, skečus, podkastus, vlogus.",2011-04-20T21:02:58Z,9429939,68100,172,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,631121,611,5,23,Komedijos,True,440,15279
+UCPzzSNeZoxjJy9frS2FK3Sg,Vestro,"Jei man įdomu - bus video. Jei tau įdomu - bus daugiau. 
 
 👇 Turite temą, kurią reikėtų aptarti?
 👇 Dėl reklamos?
 👉vestroshow@gmail.com
-",2013-09-24T15:47:21Z,1428486,25000,9,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,453106,674,3,24,445,True,6133,Pramogos
-87,UCQGN5-eIjRRy6MGcHKDE_6g,Delfi Video,"Sveiki atvykę į Delfi Video kanalą. Čia rasite tiek naujas, tiek jūsų jau pamėgtas Delfi aktualijų laidas, diskusijas, naujienas iš Lietuvos ir viso pasaulio.
-",2019-01-31T15:20:58Z,5573177,13300,2073,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,1041828,4820,162,25,2319,True,2106,Naujienos ir politika
-88,UCQOI6VskaDDzeBsPWRU5jEg,IŠ NAUJO,"Pabandei ir nepavyko? Susimovei? Nerandi ką nori veikti gyvenime? Nekenti savo darbo? Įstojai „ne ten“? Nepaėjo verslas? Kam nepasitaiko. 🤷‍♂️ Tiesiog susiimk ir... pradėk iš naujo. Antrą kartą pavyks geriau. Karjera, santykiai, verslas, finansai, sveikata — pasikalbėkim su žmonėmis, kurie suteikė sau antrą šansą.",2019-11-16T19:54:26.464677Z,2830951,30000,86,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,636114,839,16,26,537,True,3794,Kaip ką nors padaryti ir stiliaus patarimai
-89,UCQrfx3Yav62H47zRG5q52vA,Dividendų Eksperimentas,"Sveiki 👋
+",2013-09-24T15:47:21Z,1428486,25000,9,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,453106,674,3,24,Pramogos,True,445,6845
+UCQGN5-eIjRRy6MGcHKDE_6g,Delfi Video,"Sveiki atvykę į Delfi Video kanalą. Čia rasite tiek naujas, tiek jūsų jau pamėgtas Delfi aktualijų laidas, diskusijas, naujienas iš Lietuvos ir viso pasaulio.
+",2019-01-31T15:20:58Z,5573177,13300,2073,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,1041828,4820,162,25,Naujienos ir politika,True,2319,2447
+UCqiHhRc5RGjaeFyFb4nSvFw,RU Delfi Литва,"Авторские эксклюзивные видео из Литвы и со всего мира! 
+Мы - русскоязычный портал Литвы Delfi.ru 
+Политика, экономика, культура, спорт.",2017-12-21T21:48:40Z,37403690,62200,2008,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,7718501,20212,363,25,Naujienos ir politika,True,7062,419
+UCQOI6VskaDDzeBsPWRU5jEg,IŠ NAUJO,"Pabandei ir nepavyko? Susimovei? Nerandi ką nori veikti gyvenime? Nekenti savo darbo? Įstojai „ne ten“? Nepaėjo verslas? Kam nepasitaiko. 🤷‍♂️ Tiesiog susiimk ir... pradėk iš naujo. Antrą kartą pavyks geriau. Karjera, santykiai, verslas, finansai, sveikata — pasikalbėkim su žmonėmis, kurie suteikė sau antrą šansą.",2019-11-16T19:54:26.464677Z,2830951,30000,86,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,636114,839,16,26,Kaip ką nors padaryti ir stiliaus patarimai,True,537,4126
+UCQrfx3Yav62H47zRG5q52vA,Dividendų Eksperimentas,"Sveiki 👋
 
 Esu Emilis, sertifikuotas finansų konsultantas socialinėje medijoje žinomas kaip Dividendų Eksperimentas. Šiuo metu esu pakeliui į finansinę laisvę. Kviečiu prisijungti ir tave.  
 
@@ -357,47 +509,57 @@ Nesvarbu ar norite pradėti investuoti savarankiškai ar reikia pagalbos su pirm
 Domina specifinis klausimas 👉 info@dividendueksperimentas.lt
 
 Nepamirškite - tai yra eksperimentas ir jis neturėtų būti naudojamas kaip finansinis patarimas.
-",2020-05-18T15:30:11.769097Z,2418941,16600,1072,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Society']",LT,320401,1601,122,27,335,True,2135,Švietimas
-90,UCQSeA3ydHGUrQOxLscZyLAQ,Emilis Jokūbas,YASSSS!,2018-05-11T06:21:15Z,13209701,71600,144,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Film']",LT,3316465,4112,33,23,2078,True,13326,Komedijos
-91,UCQTHLTWJaHM-fFup-rKMP7Q,HIPARIKAI,,2012-12-30T21:02:13Z,7779894,40900,79,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,2824464,3021,36,23,1507,True,10385,Komedijos
-92,UCq_nFvswsXRkfpSZCtDv-Dw,Evgenya Redko,,2019-01-04T08:52:13Z,24656283,21900,44,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Independent_music']",LT,201336,118,2,10,101,True,2433,Muzika
-93,UCR3lnMDr-wKZWAU9hwmb2kg,MrBegėdis,"Labas, aš Lukas.
+",2020-05-18T15:30:11.769097Z,2418941,16600,1072,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Society']",LT,320401,1601,122,27,Švietimas,True,335,2368
+UCQSeA3ydHGUrQOxLscZyLAQ,Emilis Jokūbas,YASSSS!,2018-05-11T06:21:15Z,13209701,71600,144,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Film']",LT,3316465,4112,33,23,Komedijos,True,2078,14936
+UCQTHLTWJaHM-fFup-rKMP7Q,HIPARIKAI,,2012-12-30T21:02:13Z,7779894,40900,79,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,2824464,3021,36,23,Komedijos,True,1507,11431
+UCq_nFvswsXRkfpSZCtDv-Dw,Evgenya Redko,,2019-01-04T08:52:13Z,24656283,21900,44,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Independent_music']",LT,201336,118,2,10,Muzika,True,101,2739
+UCR3lnMDr-wKZWAU9hwmb2kg,MrBegėdis,"Labas, aš Lukas.
 
-📌 Open for sponsorships / Bendradarbiavimo klausimams - begedziai19@gmail.com",2014-10-25T17:20:29Z,36727517,115000,482,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,630020,2135,36,20,959,True,6427,Žaidimai
-94,UCra6CoauJ0zgggbwoN8ww7A,prefis,"Filmuoju žaidimukus
-",2014-04-29T21:10:31Z,8897033,33200,783,"['https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Simulation_video_game']",LT,192351,680,58,20,229,True,2861,Žaidimai
-95,UCrKIAUackEyOIVFmvgxivOg,Rolandas,"Serijos kiekvieną trečiadienį!
+📌 Open for sponsorships / Bendradarbiavimo klausimams - begedziai19@gmail.com",2014-10-25T17:20:29Z,36727517,115000,482,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,630020,2135,36,20,Žaidimai,True,959,7245
+UCra6CoauJ0zgggbwoN8ww7A,prefis,"Filmuoju žaidimukus
+",2014-04-29T21:10:31Z,8897033,33200,783,"['https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Simulation_video_game']",LT,192351,680,58,20,Žaidimai,True,229,3210
+UCrdLb8ylc7Th9Ibl2gawoIQ,Pikaso oficialus puslapis,"Oficialiai ""Pikaso"" pradėjo gyvuoti 1999 metų gruodžio 1 dieną, tačiau grupė išgarsėjo 2000 m. pavasarį savo pirmuoju hitu ""Saulė"". Lietuvos klausytojai puikiai įvertino šį darbą - buvo nupirkta daugiau nei 20 000 jo kopijų (""auksinis"" albumas). ""Pikaso"" atsiradimas buvo įvertintas ir ""Radiocentro"" apdovanojimuose, iš kurių vaikinai parsivežė ""Geriausio metų debiuto"" statulėlę.
+
+Po ilgos petraukos ""Pikaso"" atnaujino veiklą ir pratęsė ją su nauja sudėtimi.
+Grupės ""Pikaso"" sudėtis: Rokas, Haroldas, Tomas.",2011-10-28T11:54:56Z,70476888,45600,171,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,2514384,332,6,24,Pramogos,True,250,1751
+UCrKIAUackEyOIVFmvgxivOg,Rolandas,"Serijos kiekvieną trečiadienį!
 VAŽIUOJAM!
 🚗 Nissan GT-R - In the process.. 🎦
-",2022-10-05T16:06:52.148837Z,3335129,27600,127,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,925255,3979,37,2,1726,True,6630,Automobiliai ir transporto priemonės
-96,UCSBxtVrJeY1gsOYhsmoDWGA,DamagePlanas,"Didžiausia žaidimų įvairovė, vaizdo įrašai, transliacijos ir 50 IQ vedėjas - tik šiame kanale!
-",2011-07-15T14:39:27Z,11837237,41100,822,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,820688,1357,96,20,450,True,5100,Žaidimai
-97,UCsHfldofgyhYmMaJaRsbXCQ,Šerifas,"Nori paremti? LAISVAI! Pirmyn https://serifas.lt
+",2022-10-05T16:06:52.148837Z,3335129,27600,127,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,925255,3979,37,2,Automobiliai ir transporto priemonės,True,1726,7680
+UCrZE18p_vcPnDVaR1s4_gsA,Kuzne,★Subscribe★,2012-02-13T14:49:27Z,14678157,26300,24,"['https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2171020,358,6,10,Muzika,True,193,1499
+UCSBxtVrJeY1gsOYhsmoDWGA,DamagePlanas,"Didžiausia žaidimų įvairovė, vaizdo įrašai, transliacijos ir 50 IQ vedėjas - tik šiame kanale!
+",2011-07-15T14:39:27Z,11837237,41100,822,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,820688,1357,96,20,Žaidimai,True,450,5768
+UCsHfldofgyhYmMaJaRsbXCQ,Šerifas,"Nori paremti? LAISVAI! Pirmyn https://serifas.lt
 Tapk mano kanalo nariu!
 
 for business inquiries: kaubojuserifas@gmail.com
 
-",2017-03-10T13:32:00Z,7428690,37400,641,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,405458,462,28,20,294,True,3468,Žaidimai
-98,UCSl5n-uyf2iq1-k_OidyXlw,Mantas Bartuševičius,"Tai yra oficialus Manto Bartuševičiaus kanalas.
+",2017-03-10T13:32:00Z,7428690,37400,641,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,405458,462,28,20,Žaidimai,True,294,3881
+UCSl5n-uyf2iq1-k_OidyXlw,Mantas Bartuševičius,"Tai yra oficialus Manto Bartuševičiaus kanalas.
 
 Trumpa Manto dosjė:
-Pavardė - Bartuševičius",2013-03-14T23:19:26Z,41903005,172000,116,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1215296,608,8,23,391,True,20011,Komedijos
-99,UCspn73RVGkNPix1Q6zD12zw,Svarbeuse Lankiti,"Tai mano antrasis kanalas. Labai patinka keliauti. Todėl nusprendžiau, kad kelti kelionių turinį prie GAMING turinio Svarbeuse Dariti kanale yra nesąmonė... Tai nusprendžiau tam sukurti dedikuotą kanalą ir čia bus visko kas susiję su mano gyvenimu, kai aš nesėdžiu prie kompiuterio!!! Spaudžiam LIKE, SUBSCRIBE ir VERPELĮ, bet ne VARPĄ!!! PEACE!!! ",2022-06-05T07:03:00.021089Z,3071485,21600,160,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,413579,1065,19,19,655,True,4801,Kelionės ir renginiai
-100,UCsWX1r2yHTbTqIDvF3Zbjug,Easternas,"Sveiki atvykę į mano žaidimų kanalą !
+Pavardė - Bartuševičius",2013-03-14T23:19:26Z,41903005,172000,116,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,1215296,608,8,23,Komedijos,True,391,22308
+UCsNvIo6gIIe75jZw-ePb7yA,Екатерина Орлова,,2017-11-29T09:47:08Z,1062431,13300,114,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society']",LT,293640,5442,33,25,Naujienos ir politika,True,1103,1146
+UCspn73RVGkNPix1Q6zD12zw,Svarbeuse Lankiti,"Tai mano antrasis kanalas. Labai patinka keliauti. Todėl nusprendžiau, kad kelti kelionių turinį prie GAMING turinio Svarbeuse Dariti kanale yra nesąmonė... Tai nusprendžiau tam sukurti dedikuotą kanalą ir čia bus visko kas susiję su mano gyvenimu, kai aš nesėdžiu prie kompiuterio!!! Spaudžiam LIKE, SUBSCRIBE ir VERPELĮ, bet ne VARPĄ!!! PEACE!!! ",2022-06-05T07:03:00.021089Z,3071485,21600,160,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,413579,1065,19,19,Kelionės ir renginiai,True,655,5736
+UCsqG5jI7Z2GC6Aid9lBaw8A,ROKO NUOTYKIAI,"Labas esu Rokas. Šį kanalą sukūrė man mama. Mes dalinamės mažais video, ką veikiam, kaip gyvenam. Mūsų močiutės ir daug giminių gyvena ne Lietuvoje, todėl jie labai nori žinoti kaip mum sekasi. Taigi per video mes tai pasakojame. Vlogai.
+Hi, my name is Rokas. I'm a 10 year boy from Lithuania. Showing my day vlogs, challenges and holidays. Please be my guest. Subscribe and lets be together :)
+#challenge #Vlogs #vlogai #rokonuotykiai #rokasfun",2013-06-04T18:54:07Z,52940259,70000,432,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,1215875,2259,41,24,Pramogos,True,1267,2920
+UCsWX1r2yHTbTqIDvF3Zbjug,Easternas,"Sveiki atvykę į mano žaidimų kanalą !
 Nepamirškit užsiprenumeruoti ir paspausti varpelio, kad nepraleistumėt nei vieno mano video !
-",2021-09-21T07:47:18.478707Z,4272351,27400,438,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,155371,154,22,20,115,True,5231,Žaidimai
-101,UCt7mDAmFbbisHYLY9q1Gwig,KARALIAI Official,"Lietuvoje Populiari Vaikinų Grupė - KARALIAI
+",2021-09-21T07:47:18.478707Z,4272351,27400,438,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,155371,154,22,20,Žaidimai,True,115,5940
+UCt7mDAmFbbisHYLY9q1Gwig,KARALIAI Official,"Lietuvoje Populiari Vaikinų Grupė - KARALIAI
 
 Grupės nariai bendravardžiai Lukas ir Lukas 
-Koncertų užsakymai: +370 612 60 000",2016-07-18T17:23:31Z,40614735,27000,32,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2593085,587,6,10,280,True,947,Muzika
-102,UCti3BRyfvIzcNQCQv470FRw,LNK Televizija,"Žiūrimiausia kanalų grupė Lietuvoje!
+Koncertų užsakymai: +370 612 60 000",2016-07-18T17:23:31Z,40614735,27000,32,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,2593085,587,6,10,Muzika,True,280,1156
+UCTaIqtgaOu1ypiGymBvHOcA,X Factor Lithuania,"X Faktorius - vienas didžiausių šou televizijos istorijoje grįžta. Jame teisėjaus sėkmingiausi Lietuvos muzikos atlikėjai: Samas, Marijonas Mikutavičius, Saulius Prūsaitis ir Jazzu. „X Faktorius“ - jau greitai per TV3!",2015-03-11T15:23:20Z,41215321,42200,1424,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Television_program', 'https://en.wikipedia.org/wiki/Music']",LT,125663,109,26,24,Pramogos,True,89,2236
+UCti3BRyfvIzcNQCQv470FRw,LNK Televizija,"Žiūrimiausia kanalų grupė Lietuvoje!
 
 Pamėgtos laidos, serialai, filmai ir originalus LNK.LT turinys visada su tavimi. Naršyk ir žiūrėk - kada tik nori ir kur nori ➡️ https://lnk.lt
 
 
 
-",2010-09-27T06:26:36Z,21724406,23000,1838,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Food', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Television_program', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,1262307,867,73,24,469,True,1521,Pramogos
-103,UCTn6o_IBoZZGzbrOrKNEl5Q,Benediktas Vanagas,"Oficialus Benedikto Vanago or Gurtam TOYOTA GAZOO Racing BalticsYoutube kanalas
+",2010-09-27T06:26:36Z,21724406,23000,1838,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Food', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Television_program', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,1262307,867,73,24,Pramogos,True,469,1709
+UCTn6o_IBoZZGzbrOrKNEl5Q,Benediktas Vanagas,"Oficialus Benedikto Vanago or Gurtam TOYOTA GAZOO Racing BalticsYoutube kanalas
 
 Benediktas Vanagas – lenktynininkas, 2024 m. Dakaro ralyje užėmęs rekordinę Baltijos šalių istorijoje 8 vietą, o 2015 m. Dakare laimėjęs privačių komandų įskaitoje. 
 Benediktas Vanagas Dakaro ralyje yra dalyvavęs jau 12 kartų. Lenktynininkas turi daugiau nei 25 metus patirties ralio, žiedo, ralio reido ir bekelės disciplinose ir yra vienas universaliausių lenktynininkų Europoje.
@@ -408,21 +570,28 @@ Official YouTube channel of Benediktas Vanagas (Racing Driver) & GURTAM TOYOTQ G
 
 Benediktas Vanagas is a racer, Dakar 2024 record holder (8th place) for Baltic states and the Privateer category winner of Dakar 2015 – most challenging race in the world.
 Benediktas Vanagas has already participated at Dakar 12 times, and with 25 years of experience in rally, racing, cross country and off-road he is named one of the most versatile rally drivers in Europe.
-",2012-02-06T15:00:56Z,7660447,45900,697,"['https://en.wikipedia.org/wiki/Motorsport', 'https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,255295,333,39,17,192,True,6603,Sportas
-104,UCTnFXscfndF6urqswqdgjHg,EnoxsPC,"🔦 Nuotykiai ir linksmybės! Įvairūs žaidimai! :D
+",2012-02-06T15:00:56Z,7660447,45900,697,"['https://en.wikipedia.org/wiki/Motorsport', 'https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,255295,333,39,17,Sportas,True,192,7727
+UCTnFXscfndF6urqswqdgjHg,EnoxsPC,"🔦 Nuotykiai ir linksmybės! Įvairūs žaidimai! :D
 
 
-Business Inquires: enoxsfan@gmail.com",2012-11-19T13:02:17Z,5126092,22900,379,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action_game']",LT,1117455,1457,46,20,622,True,2077,Žaidimai
-105,UCTonHhrZgVHg8HCMFcQvtEA,Zalgiris Kaunas,"The official YouTube channel for the Žalgiris Kaunas. Subscribe for interviews, behind-the-scenes player content, vintage videos, and more.",2007-12-14T10:11:53Z,53989267,83000,4647,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Basketball']",LT,1464417,1337,150,17,573,True,7583,Sportas
-106,UCtvVcE3hOyGNnugJOG2zwuQ,stasas777,"Mano tikrasis aš esu Stasys Poderis.Patinka lietuvių,rusų estradinės dainos.Mėgstu fotografuoti,
-filmuoti įvarius koncertinius renginius.Laisvalaikiu mėgstu važinėti po ivairias Lietuvos vietas. Filmavimas yra mano hobi ir laisvalaikio praleidimas.Mano feizbukas Stasys Poderis.",2011-11-20T14:00:51Z,14875481,17400,848,['https://en.wikipedia.org/wiki/Music'],LT,539652,307,84,10,143,True,257,Muzika
-107,UCTxo4IC4jAyaUxmbDD_GIOw,AntanasJ,"Email - vadyba@antanasj.lt
+Business Inquires: enoxsfan@gmail.com",2012-11-19T13:02:17Z,5126092,22900,379,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Action_game']",LT,1117455,1457,46,20,Žaidimai,True,622,2286
+UCTonHhrZgVHg8HCMFcQvtEA,Zalgiris Kaunas,"The official YouTube channel for the Žalgiris Kaunas. Subscribe for interviews, behind-the-scenes player content, vintage videos, and more.",2007-12-14T10:11:53Z,53989267,83000,4647,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Basketball']",LT,1464417,1337,150,17,Sportas,True,573,8535
+UCTPZpRzTKxnMZwdse4o-HWw,Ruslan Bas ,"С апреля 2018 года нахожусь в Литве город Паневежис, приехал из России города Ульяновска. Буду выкладывать видео о моем  прибывания в Литве, о политике и религии буду стараться не говорить!!! В основном о своей жизни и обычных людей!!!",2013-11-29T19:00:49Z,3921852,10700,303,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,756458,4180,83,22,Žmonės ir tinklaraščiai,True,977,1035
+UCtu6xz3aChDEuo6VUX8-3OQ,Dalia Sekmokienė,"Kanale publikuojami vaizdo įrašai apie  sveikatą, sveiką mitybą, gerą nuotaiką, laimę, saviugdą, asmenybės augimą, gyvenimą Lietuvoje. Daug video kuriama apie sveikatai palankius maisto produktus bei papildus, prieskonius, vaistažoles. Aptariama, koks maistas, produktai, vaistažolės palankiausios atskirų ligų prevencijai.
+Išskirtinė sritis - Kinų medicina bei filosofija. Aptariama jausmų, būsenos, aplinkos energijų , mitybos įtaka ligų atsiradimui ar jų gydymui.
+Kanalo sritis - Švietimas aukščiau nurodytomis temomis.
+Dalis publikacijų, surinktų iš YouTube, leidžiamų laisvai publikuoti, yra grojaraščiuose. 
+
+The channel will feature videos on health, healthy eating, good mood, happiness, self-education, yoga. Some of the publications collected from YouTube for free publishing are in playlists. ",2014-05-20T17:05:37Z,1189186,10900,556,"['https://en.wikipedia.org/wiki/Knowledge', 'https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,152860,1532,67,27,Švietimas,True,279,1049
+UCtvVcE3hOyGNnugJOG2zwuQ,stasas777,"Mano tikrasis aš esu Stasys Poderis.Patinka lietuvių,rusų estradinės dainos.Mėgstu fotografuoti,
+filmuoti įvarius koncertinius renginius.Laisvalaikiu mėgstu važinėti po ivairias Lietuvos vietas. Filmavimas yra mano hobi ir laisvalaikio praleidimas.Mano feizbukas Stasys Poderis.",2011-11-20T14:00:51Z,14875481,17400,848,['https://en.wikipedia.org/wiki/Music'],LT,539652,307,84,10,Muzika,True,143,324
+UCTxo4IC4jAyaUxmbDD_GIOw,AntanasJ,"Email - vadyba@antanasj.lt
 
 ⬇BŪKIME DRAUGAIS :) ⬇
 ►Facebook https://www.facebook.com/antanasjfit
-►Instagram https://www.instagram.com/antanasjfit/",2016-07-08T18:13:17Z,48805139,146000,343,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,2751663,4336,43,24,2559,True,10302,Pramogos
-108,UCu6A4xmskSOY_wPVOk6I3AA,Kūrybinis Potencialas,mes visi mirsim,2016-10-09T07:27:52Z,36492524,145000,265,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,700401,1717,9,23,1018,True,16016,Komedijos
-109,UCU6qC4-NNr2E6SDaUQoj_dw,Sisters On Wire," Management & Bookings: info@sistersonwire.com
+►Instagram https://www.instagram.com/antanasjfit/",2016-07-08T18:13:17Z,48805139,146000,343,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,2751663,4336,43,24,Pramogos,True,2559,11627
+UCu6A4xmskSOY_wPVOk6I3AA,Kūrybinis Potencialas,mes visi mirsim,2016-10-09T07:27:52Z,36492524,145000,265,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,700401,1717,9,23,Komedijos,True,1018,17801
+UCU6qC4-NNr2E6SDaUQoj_dw,Sisters On Wire," Management & Bookings: info@sistersonwire.com
 ""Sisters On Wire"" were formed in Vilnius in 2014, establishing their sound as a 'summerish' indie pop with elements of rock, electro and dreampop.
 2016 - Debut LP ""Never Turn the Lights Off"" was out. Songs ""Roads"", ""Parallel World"", ""Your Eyes"" and ""You & I"" were featured in several movies and TV programmes.
 In 2017 ""Sisters On Wire"" received nominations for Major Lithuanian Music Awards (M.A.M.A.) as a ""Rock Act of 2016"" and a ""Breakthrough of 2016"".
@@ -430,16 +599,16 @@ In 2018 the band was opening for ""A-ha"" concert in Trakai Castle.
 Following singles ""Taip Jau Gavosi"", ""Mėlyna Mėlyna"" , ""Ten Esi Tu"" and ""Paleisk  Mane"" scored millions views on YouTube and led the TOP charts of major Lithuanian radiostations.
 Dec 2020 - M.A.M.A. nominees as a ""Pop Act of 2020"", ""Mėlyna Mėlyna"" - ""Single of the Year"".
 Now the band is working on new album release and preparing for their concert at Žalgirio arena on April 14, 2023
-",2014-04-24T15:47:41Z,43902390,30800,70,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Independent_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Rock_music']",LT,459297,125,3,10,64,True,2790,Muzika
-110,UCUa8DC7w3jdut2gUrC99Bzg,Judzikas,"Sveiki visi, aš didelis vyras...
+",2014-04-24T15:47:41Z,43902390,30800,70,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Independent_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Rock_music']",LT,459297,125,3,10,Muzika,True,64,3211
+UCUa8DC7w3jdut2gUrC99Bzg,Judzikas,"Sveiki visi, aš didelis vyras...
 
 Šlovė Judzizmui
 
 Contact my email: 	judzebusiness@gmail.com
 Discord: judze#2531
 
-",2020-04-27T10:40:16.921484Z,6454722,18400,444,[],LT,2609880,3739,85,20,1736,True,2446,Žaidimai
-111,UCUB3l4p7RAoTQGEsJK4IVog,Lithuania Explained,"NEW VIDEOS EVERY WEEK + Additional content at lithuaniaexplained.com!
+",2020-04-27T10:40:16.921484Z,6454722,18400,444,[],LT,2609880,3739,85,20,Žaidimai,True,1736,2724
+UCUB3l4p7RAoTQGEsJK4IVog,Lithuania Explained,"NEW VIDEOS EVERY WEEK + Additional content at lithuaniaexplained.com!
 
 Exploring various aspects of Lithuania with a focus on geopolitics and defense. 
 
@@ -451,10 +620,13 @@ Join this channel as a Patreon Patron to get access to perks:
 https://www.patreon.com/user/posts?u=84794387
 
 Enjoy what you've seen so far? Buy me a coffee! https://buymeacoffee.com/lithuaniaexplained
-",2022-01-06T13:38:23.009641Z,3944039,23100,323,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Military']",LT,1341372,8055,88,19,2577,True,1725,Kelionės ir renginiai
-112,UCUmELkPGdpzp9Yn50BazIcg,TIKRA RIDA,"Sveiki atvykę į ""TIKRA RIDA"" – kanalą, skirtą visiems automobilių entuziastams ir tiems, kurie nori išmokti daugiau apie šią sritį. Šaras ir Ignelis yra du automobilių entuziastai, kurie dalinsis savo žiniomis ir patirtimi apie automobilių pirkimą bei pardavimą. Mūsų kanale rasite įdomių ir naudingų video, kuriuose aptarsime įvairius automobilių aspektus – nuo techninių detalių iki patarimų, kaip išsirinkti tinkamą automobilį. Žiūrėdami mūsų turinį, išmoksite dalykų, kurių anksčiau nežinojote apie automobilius, ir sužinosite, kaip atpažinti tikrą automobilio ridą. Prisijunkite prie mūsų bendruomenės ir kartu narpliokime automobilių pasaulį!",2023-11-19T10:54:37.152435Z,2127178,19100,123,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,1565752,4340,77,2,1879,True,5325,Automobiliai ir transporto priemonės
-113,UCUoEQqmvU-5sELIGexKT0QA,Bernužėliai,"Grupė Bernužėliai, tai linksma, smagi muzika visoms progoms. Dėl koncertų galite kreiptis telefonu : +37060580176",2019-03-17T21:42:56Z,70576125,52200,26,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,1167769,207,1,10,170,True,1623,Muzika
-114,UCU_EuxEpEbMD4K16mDcTaXA,Aurimas Valujavičius,"Labas! Aš - Aurimas Valujavičius iš Kauno. Man 30 metų. Daugiausiai savo
+",2022-01-06T13:38:23.009641Z,3944039,23100,323,"['https://en.wikipedia.org/wiki/Politics', 'https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Military']",LT,1341372,8055,88,19,Kelionės ir renginiai,True,2577,1985
+UCubjKKfcW968FwmEFv7aAKg,Gyvenimas Inkile,Tolimųjų reisų vairuotojo kasdienybė,2013-05-25T08:11:44Z,9800076,18800,790,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,667159,3259,95,22,Žmonės ir tinklaraščiai,True,789,4201
+UCUmELkPGdpzp9Yn50BazIcg,TIKRA RIDA,"Sveiki atvykę į ""TIKRA RIDA"" – kanalą, skirtą visiems automobilių entuziastams ir tiems, kurie nori išmokti daugiau apie šią sritį. Šaras ir Ignelis yra du automobilių entuziastai, kurie dalinsis savo žiniomis ir patirtimi apie automobilių pirkimą bei pardavimą. Mūsų kanale rasite įdomių ir naudingų video, kuriuose aptarsime įvairius automobilių aspektus – nuo techninių detalių iki patarimų, kaip išsirinkti tinkamą automobilį. Žiūrėdami mūsų turinį, išmoksite dalykų, kurių anksčiau nežinojote apie automobilius, ir sužinosite, kaip atpažinti tikrą automobilio ridą. Prisijunkite prie mūsų bendruomenės ir kartu narpliokime automobilių pasaulį!",2023-11-19T10:54:37.152435Z,2127178,19100,123,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,1565752,4340,77,2,Automobiliai ir transporto priemonės,True,1879,6031
+UCUoEQqmvU-5sELIGexKT0QA,Bernužėliai,"Grupė Bernužėliai, tai linksma, smagi muzika visoms progoms. Dėl koncertų galite kreiptis telefonu : +37060580176",2019-03-17T21:42:56Z,70576125,52200,26,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,1167769,207,1,10,Muzika,True,170,1982
+UCuyBE3w9LhY05SWOAQ6hbPg,Remigijus Virsila,"Sportas 💪Motyvacija 💯 Dainos🎵 ir Prikolai✌️! Viską gali rasti mano kanale!🖤 Gero laiko su mano video ❤️🌍💯
+Mane galite sekti https://www.instagram.com/aesthetic_remis?igsh=MWM3dzFpdXp5OWhsMg==",2011-12-25T10:49:28Z,11046823,36100,214,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Physical_fitness', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,119099,256,4,17,Sportas,True,177,3048
+UCU_EuxEpEbMD4K16mDcTaXA,Aurimas Valujavičius,"Labas! Aš - Aurimas Valujavičius iš Kauno. Man 30 metų. Daugiausiai savo
 gyvenimo laiko leidžiu tyrinėdamas pasaulį visais įmanomais būdais: dviračiu,
 motoroleriu, baidare, pačiūžomis, pėsčiomis, žygiais ar ekspedicijomis. Be noro
 pažinti tai, ką gali pasiūlyti mus supantis pasaulis, turiu ir keletą kitų pomėgių: sportą,
@@ -472,11 +644,20 @@ Prisidėti prie mano kelionių gali:
 ►Contribee: https://contribee.com/aurimas-valujavicius
 ►Revolut: https://pay.revolut.com/aurimarwzz
 Ačiū!
-",2008-10-01T18:23:50Z,55353600,171000,1377,"['https://en.wikipedia.org/wiki/Tourism', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,10148800,25850,174,19,5088,True,21065,Kelionės ir renginiai
-115,UCVCZ8gDIKlSG1IQDPfnkxNA,BasketNews․LT,BasketNews.lt — pirmaujantis krepšinio žinių šaltinis Lietuvoje nuo 2005 metų.,2009-01-04T21:58:38Z,54220940,58200,6132,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Basketball']",LT,8886160,14175,415,17,4711,True,10230,Sportas
-116,UCVDpaU9hU6UzlgwsR-nZnzw,#Mantaz,labas,2015-04-26T17:19:17Z,5094831,21700,231,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,148597,539,18,20,285,True,2110,Žaidimai
-117,UCvE5_PJFElK2aLSxCP4NEfA,Jovani,"Jovani is a world-known Lithuanian DJ, music producer, radio host, and TV personality. He first became known for his radio show at ZIP FM. He hosted the Jovani At Club show and interviewed many famous musicians such as Tiësto and David Guetta. He is a member of the Radistai - a duet that has their music festival, TV, and radio shows. His solo career as DJ Jovani kicked off in 2018 after he released his single Keep it to Myself. The single was recorded and released through a collaboration with the singer Jazzu and was ranked second in the Polish national music charts run by the largest radio station, RMF. Now he is playing all around the world: Sweden, Norway, Denmark, Estonia, Latvia, Poland, Spain, Monaco, UAE, USA, UK, Ireland, Canada, etc. He also has a DJ residency in Dublin, London, and Chicago. He has shared a stage with many well-known performers, such as David Guetta, Don Diablo, Tiësto.",2009-11-16T17:34:43Z,169205517,137000,97,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,14742601,1908,9,10,1342,True,8561,Muzika
-118,UCvEFtIm2D5ePEBbKaAyvZ2w,Delfi,"Sveiki atvykę į DELFI internetinę televiziją Youtube kanale!
+",2008-10-01T18:23:50Z,55353600,171000,1377,"['https://en.wikipedia.org/wiki/Tourism', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,10148800,25850,174,19,Kelionės ir renginiai,True,5088,24190
+UCv4Cecqpm3cOv7N5N9NkMsQ,OMERTA," OMERTA | Hiphop artist from Lithuania 🇱🇹
+",2011-10-03T17:32:35Z,25914864,32200,171,"['https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,489226,274,2,10,Muzika,True,186,3110
+UCv6IxW34rD3nyM1fhIKfO5w,Dj3P51LON,"EP51LON - Higher OUT NOW 
+Stream it here: https://clnz.us/higher
+
+Official channel of Dj Epsilon (EP51LON)
+Best mixes since 2011.",2011-07-11T05:45:05Z,4097179,396000,62,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,371031,120,18,10,Muzika,True,87,298
+UCvaU4x7PVu7wVWSp27HAnCQ,Zvejyba su Arunu,"Sveiki. Mano hobis yra žvejyba,kadangi patinka žvejoti todėl nusprendžiau visais įspūdžiais žvejyboje ir gamtoje pasidalinti su jumis žiurovais,jeigu atsiras tokių žiurovu kurie supras, kad norint nufilmuoti daugiau žvejybu ir pasidalinti su jumis man reikalinga jusu finansinė parama,todel kam negaila kažkiek euru galite paremti mano kanala,galima ir į saskaita, ačiū👍 sask.nr LT037044000335648565 SEB Arūnas Jankauskas 
+",2012-12-17T17:56:17Z,3184327,11800,160,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Pet']",LT,715861,3133,36,22,Žmonės ir tinklaraščiai,True,1040,3162
+UCVCZ8gDIKlSG1IQDPfnkxNA,BasketNews․LT,BasketNews.lt — pirmaujantis krepšinio žinių šaltinis Lietuvoje nuo 2005 metų.,2009-01-04T21:58:38Z,54220940,58200,6132,"['https://en.wikipedia.org/wiki/Sport', 'https://en.wikipedia.org/wiki/Basketball']",LT,8886160,14175,415,17,Sportas,True,4711,11294
+UCVDpaU9hU6UzlgwsR-nZnzw,#Mantaz,labas,2015-04-26T17:19:17Z,5094831,21700,231,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,148597,539,18,20,Žaidimai,True,285,2350
+UCvE5_PJFElK2aLSxCP4NEfA,Jovani,"Jovani is a world-known Lithuanian DJ, music producer, radio host, and TV personality. He first became known for his radio show at ZIP FM. He hosted the Jovani At Club show and interviewed many famous musicians such as Tiësto and David Guetta. He is a member of the Radistai - a duet that has their music festival, TV, and radio shows. His solo career as DJ Jovani kicked off in 2018 after he released his single Keep it to Myself. The single was recorded and released through a collaboration with the singer Jazzu and was ranked second in the Polish national music charts run by the largest radio station, RMF. Now he is playing all around the world: Sweden, Norway, Denmark, Estonia, Latvia, Poland, Spain, Monaco, UAE, USA, UK, Ireland, Canada, etc. He also has a DJ residency in Dublin, London, and Chicago. He has shared a stage with many well-known performers, such as David Guetta, Don Diablo, Tiësto.",2009-11-16T17:34:43Z,169205517,137000,97,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,14742601,1908,9,10,Muzika,True,1342,9786
+UCvEFtIm2D5ePEBbKaAyvZ2w,Delfi,"Sveiki atvykę į DELFI internetinę televiziją Youtube kanale!
 
 Nori jausti Lietuvos ir pasaulio įvykių pulsą, stebėti mėgstamas sporto varžybas, išgirsti muzikines premjeras ar žiūrėti pamėgtas laidas? Visa tai ir dar daugiau rasi Delfi Youtube kanale, kuriame kasdien pateikiame aktualiausią informaciją ir rodome pramogines laidas. 
 
@@ -484,11 +665,11 @@ Karščiausius dienos įvykius sekite laidose „Iš esmės“, „Delfi intervi
 
 Prenumeruok Delfi kanalą ir naujienas bei mėgstamas laidas pamatyk pirmas!
 
-",2013-07-31T07:11:29Z,143215959,155000,17153,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,13247001,20227,423,25,7997,True,13769,Naujienos ir politika
-119,UCVjDL0dfzx1ZN8N2PikURGQ,DeividasBen,"Tikslas - 100 000 SUBSCRIBE
-",2013-08-18T15:54:32Z,8075258,97100,80,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Television_program']",LT,5324384,16862,35,23,7524,True,12932,Komedijos
-120,UCVmP73OeV2pCzBW6lita6gA,Vaidas Baumila,Official Vaidas Baumila YouTube channel / Oficialus Vaido Baumilos YouTube kanalas,2014-04-25T00:38:57Z,90675490,70600,67,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,2612688,871,3,10,563,True,3925,Muzika
-121,UCVMU7tgB0JhUpzvpGBZRWKw,Aurimas Mockus,"Traveler - Extreme travel lover/bloger.
+",2013-07-31T07:11:29Z,143215959,155000,17153,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,13247001,20227,423,25,Naujienos ir politika,True,7997,15560
+UCVjDL0dfzx1ZN8N2PikURGQ,DeividasBen,"Tikslas - 100 000 SUBSCRIBE
+",2013-08-18T15:54:32Z,8075258,97100,80,"['https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Television_program']",LT,5324384,16862,35,23,Komedijos,True,7524,14145
+UCVmP73OeV2pCzBW6lita6gA,Vaidas Baumila,Official Vaidas Baumila YouTube channel / Oficialus Vaido Baumilos YouTube kanalas,2014-04-25T00:38:57Z,90675490,70600,67,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,2612688,871,3,10,Muzika,True,563,4462
+UCVMU7tgB0JhUpzvpGBZRWKw,Aurimas Mockus,"Traveler - Extreme travel lover/bloger.
 
 Keliautojas - ekstremalių kelionių mėgėjas/blogeris.
 
@@ -496,10 +677,10 @@ Keliautojas - ekstremalių kelionių mėgėjas/blogeris.
 Kelionę vykdyti - katorga. Kelionę prisiminti - visko atpildas. 
 Faktiškai gyvenimas ir yra kelionė.” 
 
-Antanas Poškevičius - Poška (1903-1992)",2012-02-11T08:21:28Z,1057048,16100,93,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,252600,1072,51,19,293,True,3661,Kelionės ir renginiai
-122,UCvNTp3DQkb46WYLM58o009g,Tomuxas,"⬇️Instagram : tomuxas__
-",2020-05-08T09:53:08.925587Z,7920231,35800,369,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Role-playing_video_game']",LT,1129355,2568,47,20,1289,True,4418,Žaidimai
-123,UCvR6BVkOt0gaqFjOIgfhtAQ,NeRedaguota,"Podcast’as apie politiką. Lietuvoje aktualios geopolitinės, ekonominės ir sociokultūrinės temos.
+Antanas Poškevičius - Poška (1903-1992)",2012-02-11T08:21:28Z,1057048,16100,93,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,252600,1072,51,19,Kelionės ir renginiai,True,293,4271
+UCvNTp3DQkb46WYLM58o009g,Tomuxas,"⬇️Instagram : tomuxas__
+",2020-05-08T09:53:08.925587Z,7920231,35800,369,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Role-playing_video_game']",LT,1129355,2568,47,20,Žaidimai,True,1289,4878
+UCvR6BVkOt0gaqFjOIgfhtAQ,NeRedaguota,"Podcast’as apie politiką. Lietuvoje aktualios geopolitinės, ekonominės ir sociokultūrinės temos.
 
 Prisidėkite prie nepriklausomą turino kūrybos
 
@@ -507,21 +688,61 @@ https://www.patreon.com/Neredaguota  👍🤝
 
 Savo klausimus kiekvienam epizodui galite rašyti Facebook grupėje: facebook.com/groups/132441985010746
 
-Backstage vaizdai: https://www.instagram.com/neredaguota/",2020-02-12T17:53:49.489178Z,6938013,28300,700,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,2038564,10263,135,25,2747,True,5862,Naujienos ir politika
-124,UCVTFt5LYteAqdoeMQaKiCPQ,Radvis,♪ Unt-ss Unt-ss Unt-ss Unt-ss ♪,2020-04-16T19:37:56.55548Z,8684598,12900,11,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,4603669,514,5,10,359,True,2137,Muzika
-125,UCvwaF9TlDu6F0zLajCW-PgQ,Natalija Bunke,,2011-12-23T15:09:33Z,57980759,57000,51,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,6325050,1350,3,10,902,True,2479,Muzika
-126,UCvWLMkxSv0dzApXbjmhuCzw,Jazzu,,2018-10-22T13:03:19Z,42896202,43100,36,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,349506,135,2,10,117,True,2383,Muzika
-127,UCV_59afytAhjWv9WWeixTFg,Kitokie pasikalbėjimai,„Kitokie pasikalbėjimai“ – vėlyvojo vakaro pokalbių šou,2014-09-06T17:21:31Z,76026101,159000,1001,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film']",LT,3816225,4283,93,24,2171,True,18921,Pramogos
-128,UCw2_fPm64IIfRo3SWpR8_lQ,Vital CSGO,"Video editor from Lithuania. I create CS content about the pro scene. Named as ""Fragmovie guy"" by Shroud
+Backstage vaizdai: https://www.instagram.com/neredaguota/",2020-02-12T17:53:49.489178Z,6938013,28300,700,"['https://en.wikipedia.org/wiki/Society', 'https://en.wikipedia.org/wiki/Politics']",LT,2038564,10263,135,25,Naujienos ir politika,True,2747,6823
+UCVTFt5LYteAqdoeMQaKiCPQ,Radvis,♪ Unt-ss Unt-ss Unt-ss Unt-ss ♪,2020-04-16T19:37:56.55548Z,8684598,12900,11,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,4603669,514,5,10,Muzika,True,359,2432
+UCvwaF9TlDu6F0zLajCW-PgQ,Natalija Bunke,,2011-12-23T15:09:33Z,57980759,57000,51,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,6325050,1350,3,10,Muzika,True,902,2856
+UCVwcZ-PFdOvdC4eootcKmAw,Kastytis Kerbedis Official,"Keturi dešimtmečiai neblėstančios šlovės scenoje, ilgai nevystančios, su meile įteiktos puokštės po koncertų. Lietuvos estrados veteranas, neperspjaunamai talentingas vokalistas, stilingas džentelmenas Kastytis Kerbedis, nepaisant visų savo ugningo charakterio sukeltų vėtrų, Lietuvos populiariosios muzikos scenoje tebestovi tiesus ir tvirtas kaip uola.
+K. Kerbedis tai žino, todėl nusilenkia, šypsodamasis likimo šypsena – kartais labai draugiška, kartais tokia, kokia šypsosi žmogus, žinantis savo vertę, mokantis stipriai mylėti, turintis į valias gaivališko polėkio ir kone demoniškų galių.",2016-10-11T17:44:55Z,24745445,21800,51,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,749110,121,3,10,Muzika,True,93,1390
+UCvWLMkxSv0dzApXbjmhuCzw,Jazzu,,2018-10-22T13:03:19Z,42896202,43100,36,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,349506,135,2,10,Muzika,True,117,2745
+UCvwrrOqLsyKcgvqbhBNfV9g,Ambertiii,"Labas ačiū, kad užsukai, čia rasi įkvėpimą paprastuose dalykuose. Tikiuosi tau patiks mano realistiški vlogai ir gerai leisim laiką kartu... 
+
+https://contribee.com/ambertiii
+https://www.instagram.com/ambertiii/
+
+",2017-10-07T19:42:45Z,2927991,17400,265,['https://en.wikipedia.org/wiki/Lifestyle_(sociology)'],LT,164750,406,20,24,Pramogos,True,161,926
+UCVZGsff4t_7_Te5pE6Otg-Q,Atikin,"Atikin Official - Music, Hip-hop/Rap.",2014-12-24T08:25:15Z,3162348,12600,46,"['https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,568396,722,13,10,Muzika,True,456,1706
+UCV_59afytAhjWv9WWeixTFg,Kitokie pasikalbėjimai,„Kitokie pasikalbėjimai“ – vėlyvojo vakaro pokalbių šou,2014-09-06T17:21:31Z,76026101,159000,1001,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Film']",LT,3816225,4283,93,24,Pramogos,True,2171,21150
+UCW1GmySsf3u-GJpkEH_kIAA,THE ROOP,"DIFFERENT KIND OF MAINSTREAM WHICH IS ON FIRE! 
+Music with a message, delivered with style and skill.
+---
+• Style: pop/dance-pop
+• Formed in Vilnius, Lithuania, in 2014 by Vaidotas Valiukevičius, Robertas Baranauskas, and Mantas Banišauskas, THE ROOP blends dance-pop with meaningful messages. The name means ""to shout out,"" reflecting their expressive style.
+• THE ROOP gained prominence in 2018 with ""Yes, I Do"" in the Lithuanian Eurovision National Selection, placing #3. Their 2020 entry, ""On Fire"", became a global sensation despite Eurovision's cancellation, winning numerous alternative contests. In 2021, they returned with ""Discoteque"", finishing #8 in the Eurovision Grand Final.
+• THE ROOP won Eurovision 2020 - Das Deutsche Finale on German TV with ""On Fire"". They were named Lithuania's Tourism Ambassador in 2021 and have received multiple M.A.M.A. Awards.
+• Known for energetic and emotional live shows, THE ROOP has performed at major festivals in Lithuania and across Europe.
+",2014-09-13T09:11:37Z,47648223,73300,137,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,1938877,1841,30,10,Muzika,True,1217,4164
+UCw2_fPm64IIfRo3SWpR8_lQ,Vital CSGO,"Video editor from Lithuania. I create CS content about the pro scene. Named as ""Fragmovie guy"" by Shroud
 Best way to contact me: 
 1. DM me on Twitter: https://twitter.com/vitalcs2
 2. Through the email provided below.
 
-Please don't fall for the scammers. DM me on Twitter @vitalcs2 if you received a suspicious email and want confirmation.",2012-03-12T18:55:57Z,49890488,171000,198,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Sports_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,187566,579,2,20,479,True,456,Žaidimai
-129,UCw_Z2gASwlQczYHkzXzWEwA,Radijo stotis M-1,Radijo Stotis M-1,2008-12-08T14:02:15Z,39496528,48800,1501,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Music']",LT,244946,158,10,24,117,True,2140,Pramogos
-130,UCX1D8LYoTWNEnkScPcTzy8Q,0029lt,,2012-02-15T12:27:20Z,1968812,12300,13,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Hip_hop_music']",LT,403716,322,2,10,248,True,1286,Muzika
-131,UCxuAkcAg7jsV_tuqx-YhsRg,televizijos bokštas,,2023-08-06T06:44:00.723696Z,1285617,13200,121,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Health']",LT,888124,3200,39,22,1251,True,3472,Žmonės ir tinklaraščiai
-132,UCYmzyutMIBgwqOsfZw2xyGw,Dainius Sinkevičius,"Esu Delfi.lt specialusis korespondentas, rašantis teisėsaugos ir teisėtvarkos temomis. Šiame kanale rasite vaizdo įrašus, kurie skelbiami Delfi.lt, tačiau dėl patogumo jie sudėti vienoje vietoje.
+Please don't fall for the scammers. DM me on Twitter @vitalcs2 if you received a suspicious email and want confirmation.",2012-03-12T18:55:57Z,49890488,171000,198,"['https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Sports_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture']",LT,187566,579,2,20,Žaidimai,True,479,598
+UCWsfGABc3RaJxKeE-VcYYGA,skill4ltu,"Streamer of World of Tanks from Lithuania. In this channel you will find: trolls, commentaries, good games, fun and all sorts of things! Tune in!
+
+My twitch channel: www.twitch.tv/skill4ltu
+
+My Instagram: https://www.instagram.com/baboon_paradise/
+
+My facebook: www.facebook.com/skill4ltu
+",2017-06-05T15:47:59Z,117502298,198000,2257,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Strategy_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Role-playing_video_game']",LT,12368462,38016,279,20,Žaidimai,True,9362,2808
+UCw_Z2gASwlQczYHkzXzWEwA,Radijo stotis M-1,Radijo Stotis M-1,2008-12-08T14:02:15Z,39496528,48800,1501,"['https://en.wikipedia.org/wiki/Humour', 'https://en.wikipedia.org/wiki/Entertainment', 'https://en.wikipedia.org/wiki/Music']",LT,244946,158,10,24,Pramogos,True,117,2459
+UCX1D8LYoTWNEnkScPcTzy8Q,0029lt,,2012-02-15T12:27:20Z,1968812,12300,13,"['https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Hip_hop_music']",LT,403716,322,2,10,Muzika,True,248,1478
+UCxuAkcAg7jsV_tuqx-YhsRg,televizijos bokštas,,2023-08-06T06:44:00.723696Z,1285617,13200,121,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Health']",LT,888124,3200,39,22,Žmonės ir tinklaraščiai,True,1251,3895
+UCYfwtrwvVQoUWSNgKL3foOw,В поиске кладов!,"В поиске кладов! Друзья, Вы любите путешествия? Тогда Вы попали по адресу!  Поиск монет металлоискателем, поиск золота и серебра. Коп с металлоискателем по старине и коп по войне, все это вы найдете на канале. Поиск и шурф на старых и заброшенных хуторах, ищем клад и тайник, а также коп в полях и на пляжах. Поисковой магнит для поиска железа в колодцах, озерах и реках. Коп по войне интересные находки ВОВ. Здесь Вы узнаете, что такое клад, а также поиск клада на канале В поиске кладов!
+
+ePN  - партнерская программа.
+
+ВСЕ ВИДЕО НА МОЕМ КАНАЛЕ НОСЯТ РАЗВЛЕКАТЕЛЬНЫЙ ХАРАКТЕР. ВСЕ НАХОДКИ КУПЛЕНЫ НА АНТИКВАРНОМ РЫНКЕ, А САМИ ВИДЕО ЯВЛЯЮТСЯ ПОСТАНОВОЧНЫМИ С ЦЕЛЬЮ ЗАРАБОТКА НА НИХ.
+Дзен: https://dzen.ru/vpoiskekladov
+Группа ВК : https://vk.com/vpoiskekladov
+Ссылка на все плейлисты канала: https://www.youtube.com/channel/UCYfwtrwvVQoUWSNgKL3foOw/playlists
+Дзен: 
+https://dzen.ru/vpoiskekladov
+https://dzen.ru/vpoiskekladov
+https://dzen.ru/vpoiskekladov
+
+",2013-07-03T08:10:43Z,732764591,1370000,1272,"['https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,12367132,4500,63,19,Kelionės ir renginiai,True,2828,703
+UCYmzyutMIBgwqOsfZw2xyGw,Dainius Sinkevičius,"Esu Delfi.lt specialusis korespondentas, rašantis teisėsaugos ir teisėtvarkos temomis. Šiame kanale rasite vaizdo įrašus, kurie skelbiami Delfi.lt, tačiau dėl patogumo jie sudėti vienoje vietoje.
 
 Daugiau apie mane:
 
@@ -535,11 +756,19 @@ TikTok: www.tiktok.com/@dainiussinkevicius
 
 Visa šiame kanale esanti vaizdo informacija yra mano ir Delfi.lt nuosavybė, juos naudoti be raštiško sutiko yra griežtai draudžiama. 
 
-",2009-02-07T16:45:16Z,9074296,29800,120,['https://en.wikipedia.org/wiki/Society'],LT,957016,2212,25,22,987,True,6178,Žmonės ir tinklaraščiai
-133,UCz3hp52IxIvLvy4OPBLp39g,norbefilms,"Doing in life what I can do best and most importantly – what I like doing. That is drifting, filming, traveling all over the world, always searching for new experiences and looking forward to the future’s unknowns. Subscribe to keep in touch!",2011-04-01T05:42:31Z,60445516,226000,449,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,1913398,5655,32,2,3125,True,16941,Automobiliai ir transporto priemonės
-134,UCZDC1NwOEX3DclqBwVUmsTw,Ertyez,Lots of Funny gameplay videos to be found here! Subscrib for Good laffs and fun tims!,2012-02-05T11:28:17Z,158425447,496000,1209,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Puzzle_video_game', 'https://en.wikipedia.org/wiki/Casual_game']",LT,212551,608,18,20,277,True,401,Žaidimai
-135,UCZiCgb0Ci1jDfNw9sbrHNUw,Gazas Dugnas TV,Prisidėkite prie mūsų kuriamo turinio: www.gazasdugnas.lt,2018-09-15T13:32:22Z,13779891,38000,790,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,1515536,4731,114,2,1428,True,7601,Automobiliai ir transporto priemonės
-136,UCZiGvRvQhtDC2gQWAByw8vg,"Sergej ""KUVALDA"" Maslobojev","Labas, mano vardas Sergej Maslobojev. Taip pat žinomas ringo slapyvardžiu KUVALDA. Esu daugkartinis pasaulio ir Europos kikboksingo čempionas. Turintis misiją savo kanale atskleisti konstruktyvią kovos menų galią ir itaką žmogui. Noriu pasidalinti savo patirtimi, patarimais ir tikslais. 
+",2009-02-07T16:45:16Z,9074296,29800,120,['https://en.wikipedia.org/wiki/Society'],LT,957016,2212,25,22,Žmonės ir tinklaraščiai,True,987,7072
+UCyWmj0hOwqhZms16ENLwbpw,Mad Money,"Kontaktinė informacija dėl koncertinės veiklos:
+https://www.facebook.com/MadMoneyLT
+Vadyba: +37068236706
+",2010-12-20T18:57:32Z,113005629,135000,115,"['https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Pop_music']",LT,381273,166,3,10,Muzika,True,133,7832
+UCz1VT_KCrjMdtGRcKLLznhg,ZvejoTV,"Sveiki, Žvejo TV tai legendinės tv laidos ,,vienam gale kablys,, dienoraštis. Čia rasite daugelį žinomiausio Lietuvos žvejo Pauliaus Korsako ir jo komandos sukurtų televizijos laidų apie žūklę. Visada pravartu pažiūrėti žūklės būdus, vietas, masalus, pasinerti į praeitį ir sugalvoti savo planuojamų žvejybų ateitį. Žinoma, visada galima gilintis ir giliau, tam Žvejo TV, kas savaitę kuria smagius ir informatyvius filmus šiose platformose.
+Išskirtinis turinys: https://contribee.com/zvejotv   https://www.patreon.com/zvejotv 
+Tai ir  žūklės  vietos,, ir pamokos, ir tiesiog geras ir smagus kontentas, kur narstoma begalė smulkmenų, kad jūsų žvejybos būtų žuvingos ir gražios. Ačiū, kad esame kartu. Pagarbiai, Paulius.
+",2016-12-27T22:03:40Z,1338746,13600,234,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Hobby', 'https://en.wikipedia.org/wiki/Pet']",LT,157746,189,37,24,Pramogos,True,97,2529
+UCz3hp52IxIvLvy4OPBLp39g,norbefilms,"Doing in life what I can do best and most importantly – what I like doing. That is drifting, filming, traveling all over the world, always searching for new experiences and looking forward to the future’s unknowns. Subscribe to keep in touch!",2011-04-01T05:42:31Z,60445516,226000,449,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,1913398,5655,32,2,Automobiliai ir transporto priemonės,True,3125,19451
+UCZDC1NwOEX3DclqBwVUmsTw,Ertyez,Lots of Funny gameplay videos to be found here! Subscrib for Good laffs and fun tims!,2012-02-05T11:28:17Z,158425447,496000,1209,"['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Puzzle_video_game', 'https://en.wikipedia.org/wiki/Casual_game']",LT,212551,608,18,20,Žaidimai,True,277,460
+UCZiCgb0Ci1jDfNw9sbrHNUw,Gazas Dugnas TV,Prisidėkite prie mūsų kuriamo turinio: www.gazasdugnas.lt,2018-09-15T13:32:22Z,13779891,38000,790,"['https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Vehicle']",LT,1515536,4731,114,2,Automobiliai ir transporto priemonės,True,1428,8769
+UCZiGvRvQhtDC2gQWAByw8vg,"Sergej ""KUVALDA"" Maslobojev","Labas, mano vardas Sergej Maslobojev. Taip pat žinomas ringo slapyvardžiu KUVALDA. Esu daugkartinis pasaulio ir Europos kikboksingo čempionas. Turintis misiją savo kanale atskleisti konstruktyvią kovos menų galią ir itaką žmogui. Noriu pasidalinti savo patirtimi, patarimais ir tikslais. 
 Čia iš arčiau galėsite pamatyti kaip atrodo kovotojo kelias ir kokia svarbi motyvacija yra kiekvienam iš mūsų. 
 
 Visa tai rasite mano kanale: 
@@ -552,5 +781,14 @@ Motyvacija ir darbas su savimi.
 
 Tikiu, kad šiame kanale kiekvienas galėsite rasti sau įkvėpimo ir paskatinimo nerti į kovos menų filosofiją, tuo pačiu kuriant geriausią savo paties versiją. 
 Prisimink, kad mes patys rašome savo istoriją..
-",2012-01-25T11:29:57Z,5065616,33700,417,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,422895,1346,50,17,713,True,6667,Sportas
-137,UCZJe-xLM1G1wCVmXGil0P6A,GURIS,Facebook MOTO GURIS,2011-10-27T14:42:42Z,12745564,37500,498,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,638467,2039,56,22,857,True,6008,Žmonės ir tinklaraščiai
+",2012-01-25T11:29:57Z,5065616,33700,417,"['https://en.wikipedia.org/wiki/Health', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Entertainment']",LT,422895,1346,50,17,Sportas,True,713,7586
+UCZJe-xLM1G1wCVmXGil0P6A,GURIS,Facebook MOTO GURIS,2011-10-27T14:42:42Z,12745564,37500,498,"['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']",LT,638467,2039,56,22,Žmonės ir tinklaraščiai,True,857,7108
+UCZjWm48_XMAA2DZ5bUzrzyQ,Ghetto Records,"Welcome to official Ghetto Records channel, we promise to deliver electronic music to the next level
+Spotify playlist : https://open.spotify.com/playlist/1pfgfBHyeeDXlaKIJF4gRW?si=8bc7dd40b466463d
+
+Ghetto Records is a project dedicated for promoting and sharing the best fresh music and helping the artists achieve higher number of audience by promoting their work. We are keen on helping to rise worldwide awareness of an artist.
+",2014-04-21T20:32:00Z,28545865,72400,2962,"['https://en.wikipedia.org/wiki/Electronic_music', 'https://en.wikipedia.org/wiki/Hip_hop_music', 'https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,2383862,1046,305,10,Muzika,True,296,381
+UCZxARTFK_HfPftwb-TqDSvg,dima_aimbots,#1 CS2 STREAMER IN MY FAMILY,2022-11-10T19:54:50.286998Z,129583643,175000,621,"['https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Role-playing_video_game']",LT,70973330,49438,349,20,Žaidimai,True,21180,1579
+UC_J22QdSwBtmjj-VfaQbjrw,Sandra ir Viktoras Official,,2020-02-26T21:48:18.094697Z,17146305,17500,17,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music']",LT,573035,219,3,10,Muzika,True,124,753
+UC_nn8jRjoDzkvNOBZznPjow,kamaniusilelis,"„The minimalistic, rhythmic, and gently psychedelic music of the Kamanių šilelis duo could be described as contemporary electrified indie folk with an internationally appealing sound. However, what distinguishes it from most of the output in a similar vein, predominantly sung in English, is that the lyrics are often traditional Lithuanian folk songs, instantly recognizable yet treated in a novel, laidback vocal manner by the singer Kamilė Gudmonaitė. Recently, though, the duo have been gravitating increasingly towards original lyrics, which nevertheless still sound folk-like. In their records and live performances, Kamanių šilelis use traditional instruments from near and far, such as ukulele and didgeridoo, and occasionally even everyday-use objects. As a result, the music of this evolving and innovative project enjoys a crossover audience, and attracts fans who do not usually listen to more conventional folk, post-folk, or even world music.“
+Jurij Dobriakov",2011-06-10T09:08:27Z,6571524,12000,36,"['https://en.wikipedia.org/wiki/Pop_music', 'https://en.wikipedia.org/wiki/Music', 'https://en.wikipedia.org/wiki/Independent_music']",LT,349411,108,2,10,Muzika,True,99,1256
