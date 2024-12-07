@@ -20,6 +20,11 @@ library(data.table)
 library(factoextra)
 library(plotly)
 library(hopkins)
+library(Rtsne)
+library(uwot)
+library(pheatmap)
+library(dendextend)
+
 
 ############## DATA ##############
 
@@ -52,24 +57,22 @@ distance_matrix <- as.dist(1 - similarity_matrix)
 distance_matrix_full <- as.matrix(distance_matrix)
 
 # Multidimensional Scaling (MDS) for Visualization
-mds_coords <- cmdscale(distance_matrix, k = 2)
+mds_coords <- cmdscale(distance_matrix_full, k = 2)
 
 # Compute Hopkins Statistic
 set.seed(123)
-hopkins_stat <- hopkins(mds_coords) 
-
-# Print the Hopkins Statistic
+hopkins_stat <- hopkins(mds_coords)
 print(paste("Hopkins Statistic:", round(hopkins_stat, 4)))
 
-############## K-Medoids Clustering ############## 
+############## K-Medoids Clustering ##############
 
 # Elbow Method to Determine Optimal k
 k_values <- 2:15
 total_wsd_medoids <- sapply(k_values, function(k) {
-  kmedoids_result <- pam(distance_matrix, k)
+  kmedoids_result <- pam(distance_matrix_full, k)
   sum(sapply(1:k, function(cluster) {
     cluster_members <- which(kmedoids_result$clustering == cluster)
-    cluster_distances <- distance_matrix[cluster_members, cluster_members]
+    cluster_distances <- distance_matrix_full[cluster_members, cluster_members]
     sum(cluster_distances)
   }))
 })
@@ -81,8 +84,8 @@ plot(k_values, total_wsd_medoids, type = "b", pch = 19, frame = FALSE,
 
 # Store average silhouette width for each k
 silhouette_scores <- sapply(k_values, function(k) {
-  kmedoids_result <- pam(distance_matrix, k)
-  silhouette_result <- silhouette(kmedoids_result$clustering, dist(distance_matrix))
+  kmedoids_result <- pam(distance_matrix_full, k)
+  silhouette_result <- silhouette(kmedoids_result$clustering, distance_matrix_full)
   mean(silhouette_result[, 3])  # Average silhouette width
 })
 # Plot Silhouette Scores
@@ -105,7 +108,7 @@ k <- 7  # probably 6 or 8 according to Elbow
 # 4 according to Gap Statistic
 
 # Perform K-Medoids clustering with the chosen number of clusters
-kmedoids_result <- pam(distance_matrix, k = k)
+kmedoids_result <- pam(distance_matrix_full, k = k)
 
 # Extract cluster labels
 kmedoids_clusters <- kmedoids_result$clustering
@@ -142,7 +145,10 @@ ggplot(kmedoids_data, aes(x = X1, y = X2, color = cluster)) +
 ############## K-Means Clustering ############## 
 
 # Reduction to 2D
-kmeans_data <- data.frame(X1 = mds_coords[, 1], X2 = mds_coords[, 2])
+kmeans_data <- data.frame(
+  X1 = mds_coords[, 1],
+  X2 = mds_coords[, 2]
+)
 
 # Elbow Method for K-Means
 set.seed(123)
@@ -157,11 +163,11 @@ plot(k_values, wss_means, type = "b", pch = 19, frame = FALSE,
      ylab = "Total Within-Cluster Sum of Squares (WSS)",
      main = "Elbow Method for K-Means")
 
-# Silhouette Analysis for K-Means
+# Silhouette for K-Means
 silhouette_scores_means <- sapply(k_values, function(k) {
   kmeans_result <- kmeans(kmeans_data[, 1:2], centers = k, nstart = 25)
-  silhouette_result <- silhouette(kmeans_result$cluster, dist(kmeans_data[, 1:2]))
-  mean(silhouette_result[, 3])  # Average silhouette width
+  silhouette_result <- silhouette(kmeans_result$cluster, distance_matrix_full)
+  mean(silhouette_result[, 3])
 })
 # Plot Silhouette Scores
 plot(k_values, silhouette_scores_means, type = "b", pch = 19, frame = FALSE,
@@ -251,6 +257,42 @@ hc_result <- hclust(distance_matrix, method = "ward.D2")
 # Plot the dendrogram
 plot(hc_result, main = "Agglomerative Hierarchical Clustering", sub = "", xlab = "", cex = 0.8)
 
+# Set range of clusters to evaluate
+k_values <- 2:15
+# Compute silhouette scores for each number of clusters
+silhouette_scores_hc <- sapply(k_values, function(k) {
+  # Cut the dendrogram into k clusters
+  clusters <- cutree(hc_result, k)
+  # Compute silhouette scores directly
+  silhouette_result <- silhouette(clusters, distance_matrix_full)
+  # Return the mean silhouette score
+  mean(silhouette_result[, 3], na.rm = TRUE) # Avoid NA issues
+})
+# Plot Silhouette Scores
+plot(k_values, silhouette_scores_hc, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)",
+     ylab = "Average Silhouette Score",
+     main = "Simplified Silhouette Method for Hierarchical Clustering")
+
+
+# Compute total within-cluster sum of squares (WSS) for each k
+wss_hc <- sapply(k_values, function(k) {
+  # Cut the dendrogram into k clusters
+  clusters <- cutree(hc_result, k)
+  # Calculate WSS for each cluster and sum them up
+  cluster_wss <- sapply(unique(clusters), function(cluster) {
+    cluster_points <- which(clusters == cluster)
+    cluster_distances <- distance_matrix_full[cluster_points, cluster_points]
+    mean(as.matrix(cluster_distances)) * length(cluster_points)
+  })
+  sum(cluster_wss)
+})
+# Plot the Elbow Curve
+plot(k_values, wss_hc, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)",
+     ylab = "Total Within-Cluster Sum of Squares (WSS)",
+     main = "Elbow Method for Hierarchical Clustering")
+
 # Cut the dendrogram into clusters
 k <- 6  
 hc_clusters <- cutree(hc_result, k = k)
@@ -295,9 +337,40 @@ plot(as.hclust(divisive_result),
      xlab = "", 
      cex = 0.8)
 
+k_values <- 2:15  
+# Compute silhouette scores for divisive clustering
+silhouette_scores_div <- sapply(k_values, function(k) {
+  clusters <- cutree(as.hclust(divisive_result), k)
+  silhouette_result <- silhouette(clusters, distance_matrix)
+  mean(silhouette_result[, 3], na.rm = TRUE)
+})
+
+# Plot silhouette scores
+plot(k_values, silhouette_scores_div, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)",
+     ylab = "Average Silhouette Score",
+     main = "Silhouette Method for Divisive Clustering")
+
+# Compute WSS for divisive clustering
+wss_div <- sapply(k_values, function(k) {
+  clusters <- cutree(as.hclust(divisive_result), k)
+  cluster_wss <- sapply(unique(clusters), function(cluster) {
+    cluster_points <- which(clusters == cluster)
+    cluster_distances <- distance_matrix_full[cluster_points, cluster_points]
+    mean(as.matrix(cluster_distances)) * length(cluster_points)
+  })
+  sum(cluster_wss)
+})
+
+# Plot the Elbow Curve
+plot(k_values, wss_div, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)",
+     ylab = "Total Within-Cluster Sum of Squares (WSS)",
+     main = "Elbow Method for Divisive Clustering")
+
 # Cut the dendrogram into 6 clusters
-num_clusters <- 6
-divisive_clusters <- cutree(as.hclust(divisive_result), k = num_clusters)
+k <- 6
+divisive_clusters <- cutree(as.hclust(divisive_result), k = k)
 
 # Add cluster labels to the dataset
 commenter_jaccard$divisive_cluster <- divisive_clusters
@@ -329,16 +402,32 @@ ggplot(visualization_data_div, aes(x = X1, y = X2, color = cluster)) +
 
 ############## Probabilistic Hierarchical Clustering ############## 
 
-# Use the commenter Jaccard similarity data
-data_matrix <- as.matrix(distance_matrix)
-
 # Perform model-based clustering
-#phc_result <- Mclust(data_matrix)
+#phc_result <- Mclust(distance_matrix_full)
 
 # Set the number of clusters manually (otherwise it's equal to 1)
-phc_result <- Mclust(data_matrix, G = 6)
+phc_result <- Mclust(distance_matrix_full)
 summary(phc_result)
 
+# Plot BIC values for different numbers of clusters
+plot(phc_result, what = "BIC", main = "BIC for Probabilistic Hierarchical Clustering")
+
+k_values <- 2:15
+# Compute silhouette scores for probabilistic clustering
+silhouette_scores_phc <- sapply(k_values, function(k) {
+  phc_temp <- Mclust(distance_matrix_full, G = k)
+  clusters <- phc_temp$classification
+  silhouette_result <- silhouette(clusters, distance_matrix_full)
+  mean(silhouette_result[, 3], na.rm = TRUE)
+})
+
+# Plot silhouette scores
+plot(k_values, silhouette_scores_phc, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)",
+     ylab = "Average Silhouette Score",
+     main = "Silhouette Method for Probabilistic Clustering")
+
+k <- 6
 # Add cluster labels to the dataset
 commenter_jaccard$phc_cluster <- phc_result$classification
 
@@ -362,21 +451,44 @@ ggplot(visualization_data_prob, aes(x = X1, y = X2, color = cluster)) +
 
 ############## Spectral Clustering ############## 
 
-# Number of clusters
-num_clusters <- 6
 
-# Symmetrize the similarity matrix
+# Symmetrize and normalize the similarity matrix
 symmetric_similarity_matrix <- (similarity_matrix + t(similarity_matrix)) / 2
-
-# Fix dimnames to ensure consistency
+symmetric_similarity_matrix <- symmetric_similarity_matrix / max(symmetric_similarity_matrix)
 dimnames(symmetric_similarity_matrix) <- NULL
 
-# Normalize the matrix to a [0, 1] range
-symmetric_similarity_matrix <- symmetric_similarity_matrix / max(symmetric_similarity_matrix)
+# Eigen Gap Method
+laplacian <- diag(rowSums(symmetric_similarity_matrix)) - symmetric_similarity_matrix  # Unnormalized Laplacian
+eigen_result <- eigen(laplacian, symmetric = TRUE)
+eigenvalues <- sort(eigen_result$values, decreasing = FALSE)
+
+# Plot the eigenvalues to visualize the eigen gap
+plot(eigenvalues[1:15], type = "b", pch = 19, xlab = "Index", ylab = "Eigenvalue",
+     main = "Eigenvalues of Laplacian (Eigen Gap Method)")
+eigen_gap <- diff(eigenvalues[1:15])
+optimal_k_eigen <- which.max(eigen_gap) + 1
+cat("Optimal number of clusters (Eigen Gap):", optimal_k_eigen, "\n")
+
+# Silhouette Method
+k_values <- 2:15
+silhouette_scores_spec <- sapply(k_values, function(k) {
+  spectral_result <- specc(symmetric_similarity_matrix, centers = k)
+  silhouette_result <- silhouette(as.integer(spectral_result@.Data), dist(symmetric_similarity_matrix))
+  mean(silhouette_result[, 3], na.rm = TRUE)
+})
+
+# Plot Silhouette Scores
+plot(k_values, silhouette_scores_spec, type = "b", pch = 19, frame = FALSE,
+     xlab = "Number of Clusters (k)", ylab = "Average Silhouette Score",
+     main = "Silhouette Method for Spectral Clustering")
+optimal_k_silhouette <- k_values[which.max(silhouette_scores_spec)]
+cat("Optimal number of clusters (Silhouette):", optimal_k_silhouette, "\n")
+
+k <- optimal_k_silhouette 
 
 # Perform spectral clustering (first time - error, second time it works) as nezinau, kas cia per xujne naxui
-spectral_result <- specc(symmetric_similarity_matrix, centers = num_clusters)
-spectral_result <- specc(symmetric_similarity_matrix, centers = num_clusters)
+spectral_result <- specc(symmetric_similarity_matrix, centers = k)
+spectral_result <- specc(symmetric_similarity_matrix, centers = k)
 
 # Add cluster labels to the dataset
 commenter_jaccard$spectral_cluster <- as.factor(spectral_result@.Data)
@@ -425,9 +537,7 @@ commenter_jaccard$graph_cluster <- cluster_memberships
 # Visualize the graph with clusters
 layout <- layout_with_fr(graph)  # Fruchterman-Reingold layout for visualization
 
-# Another layout option
-#layout <- layout_with_kk(graph)  # Kamada-Kawai layout (NOT KAWAII AT ALL)
-
+# Plot
 plot(graph, layout = layout, 
      vertex.color = cluster_memberships, 
      vertex.label = commenter_jaccard$title,  # Add channel names as labels
@@ -439,8 +549,8 @@ plot(graph, layout = layout,
      main = "Graph-Based Clustering")
 
 # INTERACTIVE GRAPH!!!!!!!!!!!!!!! OMG OMG!!!!!!!! CRAZY
-visIgraph(graph) %>% visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
-
+visIgraph(graph) %>%
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
 
 # MDS-based visualization
 visualization_data_grph <- data.frame(
