@@ -25,28 +25,18 @@ library(uwot)
 library(pheatmap)
 library(dendextend)
 
-
 ############## DATA ##############
 
-# Load the data (Justas)
-channel_info <- read_csv("youtube/clustering/channel_info.csv")
-# View(channel_info)
-
-commenter_jaccard <- read_csv("youtube/clustering/commenter_jaccard.csv")
-# View(commenter_jaccard)
-
-# Load the data (Matas)
-setwd("C:/Users/DELL i5/OneDrive/Desktop/Data Mining/data-mining")
 channel_info <- read_csv("data/channel_info.csv")
-commenter_jaccard <- read_csv("data/comment_jaccard_matrix.csv")
+similarity <- read_csv("data/comment_jaccard_matrix.csv")
 
 ############## Similarity and Distance Matrix Preparation ##############
 
-# Define similarity matrix
-similarity_matrix <- as.matrix(commenter_jaccard[, -1])
+# Ensure that information and distance matrix line up
+stopifnot(all(channel_info$title == similarity$title))
 
-# Ensure the similarity matrix is symmetric
-similarity_matrix <- (similarity_matrix + t(similarity_matrix)) / 2
+# Define similarity as matrix
+similarity_matrix <- as.matrix(similarity[, -1])
 
 # Remove dimnames to avoid warnings
 rownames(similarity_matrix) <- NULL
@@ -61,7 +51,7 @@ mds_coords <- cmdscale(distance_matrix_full, k = 2)
 
 # Compute Hopkins Statistic
 set.seed(123)
-hopkins_stat <- hopkins(mds_coords)
+hopkins_stat <- hopkins(mds_coords, m=nrow(mds_coords)-1)
 print(paste("Hopkins Statistic:", round(hopkins_stat, 4)))
 
 ############## K-Medoids Clustering ##############
@@ -103,7 +93,7 @@ plot(k_values, silhouette_scores, type = "b", pch = 19, frame = FALSE,
 #print(gap_stat)
 
 # Choose the optimal k (based on the Elbow Method, or use silhouette width)
-k <- 7  # probably 6 or 8 according to Elbow
+k <- 4  # probably 6 or 8 according to Elbow
 # 7 according to Silhoutte
 # 4 according to Gap Statistic
 
@@ -114,14 +104,14 @@ kmedoids_result <- pam(distance_matrix_full, k = k)
 kmedoids_clusters <- kmedoids_result$clustering
 
 # Add cluster labels to the original data
-commenter_jaccard$kmedoids_cluster <- kmedoids_clusters
+channel_info$kmedoids_cluster <- kmedoids_clusters
 
 # Prepare data for visualization
 kmedoids_data <- data.frame(
   X1 = mds_coords[, 1],
   X2 = mds_coords[, 2],
   cluster = as.factor(kmedoids_clusters),
-  title = commenter_jaccard$title
+  title = channel_info$title
 )
 
 # Plot the K-Medoids clustering result
@@ -144,17 +134,14 @@ ggplot(kmedoids_data, aes(x = X1, y = X2, color = cluster)) +
 
 ############## K-Means Clustering ############## 
 
-# Reduction to 2D
-kmeans_data <- data.frame(
-  X1 = mds_coords[, 1],
-  X2 = mds_coords[, 2]
-)
+# Use MDS for k means clustering
+kmeans_data <- data.frame(mds_coords)
 
 # Elbow Method for K-Means
 set.seed(123)
 k_values <- 2:15
 wss_means <- sapply(k_values, function(k) {
-  kmeans_result <- kmeans(kmeans_data[, 1:2], centers = k, nstart = 25)
+  kmeans_result <- kmeans(kmeans_data, centers = k, nstart = 25)
   kmeans_result$tot.withinss
 })
 # Plot the Elbow Curve
@@ -165,7 +152,7 @@ plot(k_values, wss_means, type = "b", pch = 19, frame = FALSE,
 
 # Silhouette for K-Means
 silhouette_scores_means <- sapply(k_values, function(k) {
-  kmeans_result <- kmeans(kmeans_data[, 1:2], centers = k, nstart = 25)
+  kmeans_result <- kmeans(kmeans_data [, 1:2], centers = k, nstart = 25)
   silhouette_result <- silhouette(kmeans_result$cluster, distance_matrix_full)
   mean(silhouette_result[, 3])
 })
@@ -182,7 +169,7 @@ plot(k_values, silhouette_scores_means, type = "b", pch = 19, frame = FALSE,
 
 # Run K-means
 k <- 6
-kmeans_result <- kmeans(kmeans_data[, 1:2], centers = k, nstart = 25)
+kmeans_result <- kmeans(kmeans_data, centers = k, nstart = 25)
 
 # Add cluster labels to the dataset
 kmeans_data$cluster <- as.factor(kmeans_result$cluster)
@@ -190,7 +177,7 @@ kmeans_data$cluster <- as.factor(kmeans_result$cluster)
 # Visualize the clusters
 ggplot(kmeans_data, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +
-  geom_text(aes(label = commenter_jaccard$title), 
+  geom_text(aes(label = channel_info$title), 
             size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
   labs(
     title = "K-Means Clustering",
@@ -221,7 +208,7 @@ min_points <- 7    # Typical values are between 3 and 10
 dbscan_result <- dbscan(distance_matrix, eps = eps_value, minPts = min_points)
 
 # Add cluster labels to the dataset
-commenter_jaccard$dbscan_cluster <- dbscan_result$cluster
+channel_info$dbscan_cluster <- dbscan_result$cluster
 
 # Prepare data for visualization
 visualization_data_dbscan <- data.frame(
@@ -298,7 +285,7 @@ k <- 6
 hc_clusters <- cutree(hc_result, k = k)
 
 # Add cluster labels to the dataset
-commenter_jaccard$hc_cluster <- hc_clusters
+channel_info$hc_cluster <- hc_clusters
 
 # Visualize clusters using MDS
 visualization_data_aggl <- data.frame(
@@ -310,7 +297,7 @@ visualization_data_aggl <- data.frame(
 # Plot with channel names
 ggplot(visualization_data_aggl, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +
-  geom_text(aes(label = commenter_jaccard$title),  # Add channel names
+  geom_text(aes(label = channel_info$title),  # Add channel names
             size = 3,  # Adjust text size
             hjust = 0.5, vjust = -0.5,  # Position the labels slightly above the points
             check_overlap = TRUE) +  # Prevent overlapping labels where possible
@@ -373,7 +360,7 @@ k <- 6
 divisive_clusters <- cutree(as.hclust(divisive_result), k = k)
 
 # Add cluster labels to the dataset
-commenter_jaccard$divisive_cluster <- divisive_clusters
+channel_info$divisive_cluster <- divisive_clusters
 
 # Visualize the clusters using MDS
 visualization_data_div <- data.frame(
@@ -385,7 +372,7 @@ visualization_data_div <- data.frame(
 # Plot with channel names
 ggplot(visualization_data_div, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +  # Plot the points
-  geom_text(aes(label = commenter_jaccard$title),  # Add channel names
+  geom_text(aes(label = channel_info$title),  # Add channel names
             size = 3,  # Adjust text size
             hjust = 0.5, vjust = -0.5,  # Position the labels slightly above the points
             check_overlap = TRUE) +  # Avoid label overlap
@@ -429,7 +416,7 @@ plot(k_values, silhouette_scores_phc, type = "b", pch = 19, frame = FALSE,
 
 k <- 6
 # Add cluster labels to the dataset
-commenter_jaccard$phc_cluster <- phc_result$classification
+channel_info$phc_cluster <- phc_result$classification
 
 # Visualize the clustering results using MDS
 visualization_data_prob <- data.frame(
@@ -440,7 +427,7 @@ visualization_data_prob <- data.frame(
 
 ggplot(visualization_data_prob, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +
-  geom_text(aes(label = commenter_jaccard$title), 
+  geom_text(aes(label = channel_info$title), 
             size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
   labs(
     title = "Probabilistic Hierarchical Clustering",
@@ -491,19 +478,19 @@ spectral_result <- specc(symmetric_similarity_matrix, centers = k)
 spectral_result <- specc(symmetric_similarity_matrix, centers = k)
 
 # Add cluster labels to the dataset
-commenter_jaccard$spectral_cluster <- as.factor(spectral_result@.Data)
+channel_info$spectral_cluster <- as.factor(spectral_result@.Data)
 
 # Visualize the clusters using MDS
 visualization_data_spec <- data.frame(
   X1 = mds_coords[, 1],
   X2 = mds_coords[, 2],
-  cluster = commenter_jaccard$spectral_cluster
+  cluster = channel_info$spectral_cluster
 )
 
 # Plot the clustering result with channel names
 ggplot(visualization_data_spec, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +  # Plot the points
-  geom_text(aes(label = commenter_jaccard$title),  # Add channel names
+  geom_text(aes(label = channel_info$title),  # Add channel names
             size = 3,  # Adjust text size
             hjust = 0.5, vjust = -0.5,  # Position labels slightly above the points
             check_overlap = TRUE) +  # Avoid label overlap
@@ -532,7 +519,7 @@ community_result <- cluster_louvain(graph)
 cluster_memberships <- membership(community_result)
 
 # Add cluster labels to the dataset
-commenter_jaccard$graph_cluster <- cluster_memberships
+channel_info$graph_cluster <- cluster_memberships
 
 # Visualize the graph with clusters
 layout <- layout_with_fr(graph)  # Fruchterman-Reingold layout for visualization
@@ -540,7 +527,7 @@ layout <- layout_with_fr(graph)  # Fruchterman-Reingold layout for visualization
 # Plot
 plot(graph, layout = layout, 
      vertex.color = cluster_memberships, 
-     vertex.label = commenter_jaccard$title,  # Add channel names as labels
+     vertex.label = channel_info$title,  # Add channel names as labels
      vertex.label.cex = 0.7,  # Adjust label size
      vertex.label.color = "black",  # Set label color
      vertex.size = 20,  # Increase node size for better visibility
@@ -561,7 +548,7 @@ visualization_data_grph <- data.frame(
 
 ggplot(visualization_data_grph, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +
-  geom_text(aes(label = commenter_jaccard$title), 
+  geom_text(aes(label = channel_info$title), 
             size = 3, 
             hjust = 0.5, vjust = -0.5, 
             check_overlap = TRUE) +
@@ -599,7 +586,7 @@ library(plotly)
 plot_ly(
   x = mds_coords[, 1],
   y = mds_coords[, 2],
-  text = commenter_jaccard$title,  # Hover text (channel names)
+  text = channel_info$title,  # Hover text (channel names)
   color = as.factor(cluster_memberships),  # Cluster colors
   type = 'scatter',
   mode = 'markers+text'
@@ -626,7 +613,7 @@ grid_data$grid_cluster <- as.factor(paste(grid_data$grid_x, grid_data$grid_y, se
 # Visualize the grid-based clustering
 ggplot(grid_data, aes(x = X1, y = X2, color = grid_cluster)) +
   geom_point(size = 3) +
-  geom_text(aes(label = commenter_jaccard$title), 
+  geom_text(aes(label = channel_info$title), 
             size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
   labs(
     title = "Grid-Based Clustering",
@@ -634,3 +621,4 @@ ggplot(grid_data, aes(x = X1, y = X2, color = grid_cluster)) +
     y = "MDS Dimension 2"
   ) +
   theme_minimal()
+
