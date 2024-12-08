@@ -1,0 +1,11 @@
+requests
+pandas
+tqdm
+matplotlib
+black
+black[jupyter]
+ipywidgets
+mypy
+types-requests
+pandas-stubs
+types-tqdm
