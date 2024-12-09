@@ -118,43 +118,35 @@ set.seed(123)
 hopkins_stat_co_means <- hopkins(mds_coords_co_means, m = nrow(mds_coords_co_means) - 1)
 print(paste("Hopkins Statistic:", round(hopkins_stat_co_means, 4)))
 
-# Use MDS for K-Means clustering
 kmeans_data_co_means <- data.frame(mds_coords_co_means)
 
-# Elbow Method for K-Means
 set.seed(123)
 k_values_means <- 2:15
 wss_means_co <- sapply(k_values_means, function(k) {
   kmeans_result_co <- kmeans(kmeans_data_co_means, centers = k, nstart = 25)
   kmeans_result_co$tot.withinss
 })
-# Plot the Elbow Curve
 plot(k_values_means, wss_means_co, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Squares (WSS)",
      main = "Elbow Method for K-Means (Commenters Overlap)")
 
-# Silhouette for K-Means
 set.seed(123)
 silhouette_scores_means_co <- sapply(k_values_means, function(k) {
   kmeans_result_co <- kmeans(kmeans_data_co_means, centers = k, nstart = 25)
   silhouette_result_co <- silhouette(kmeans_result_co$cluster, distance_matrix_co_means)
   mean(silhouette_result_co[, 3])
 })
-# Plot Silhouette Scores
 plot(k_values_means, silhouette_scores_means_co, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
      main = "Silhouette Method for K-Means (Commenters Overlap)")
 
-# Run K-Means
 k_co_means <- 5 # elbow - 5, silhouette - 5
 kmeans_result_co <- kmeans(kmeans_data_co_means, centers = k_co_means, nstart = 25)
 
-# Add cluster labels to the dataset
 kmeans_data_co_means$cluster <- as.factor(kmeans_result_co$cluster)
 
-# Visualize the clusters
 ggplot(kmeans_data_co_means, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +
   geom_text(aes(label = channel_info$title), 
@@ -185,43 +177,35 @@ set.seed(123)
 hopkins_stat_sj_means <- hopkins(mds_coords_sj_means, m = nrow(mds_coords_sj_means) - 1)
 print(paste("Hopkins Statistic:", round(hopkins_stat_sj_means, 4)))
 
-# Use MDS for K-Means clustering
 kmeans_data_sj_means <- data.frame(mds_coords_sj_means)
 
-# Elbow Method for K-Means
 set.seed(123)
 k_values_means <- 2:15
 wss_means_sj <- sapply(k_values_means, function(k) {
   kmeans_result_sj <- kmeans(kmeans_data_sj_means, centers = k, nstart = 25)
   kmeans_result_sj$tot.withinss
 })
-# Plot the Elbow Curve
 plot(k_values_means, wss_means_sj, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Squares (WSS)",
      main = "Elbow Method for K-Means (Subs Jaccard)")
 
-# Silhouette for K-Means
 set.seed(123)
 silhouette_scores_means_sj <- sapply(k_values_means, function(k) {
   kmeans_result_sj <- kmeans(kmeans_data_sj_means, centers = k, nstart = 25)
   silhouette_result_sj <- silhouette(kmeans_result_sj$cluster, distance_matrix_sj_means)
   mean(silhouette_result_sj[, 3])
 })
-# Plot Silhouette Scores
 plot(k_values_means, silhouette_scores_means_sj, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
      main = "Silhouette Method for K-Means (Subs Jaccard)")
 
-# Run K-Means
 k_sj_means <- 5 # elbow - 5, silhouette - 4
 kmeans_result_sj <- kmeans(kmeans_data_sj_means, centers = k_sj_means, nstart = 25)
 
-# Add cluster labels to the dataset
 kmeans_data_sj_means$cluster <- as.factor(kmeans_result_sj$cluster)
 
-# Visualize the clusters
 ggplot(kmeans_data_sj_means, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +
   geom_text(aes(label = channel_info$title), 
@@ -248,43 +232,35 @@ distance_matrix_so_means <- as.dist(1 - similarity_matrix_so_means)
 
 mds_coords_so_means <- cmdscale(distance_matrix_so_means, k = 2)
 
-# Use MDS for K-Means clustering
 kmeans_data_so_means <- data.frame(mds_coords_so_means)
 
-# Elbow Method for K-Means
 set.seed(123)
 k_values_means <- 2:15
 wss_means_so <- sapply(k_values_means, function(k) {
   kmeans_result_so <- kmeans(kmeans_data_so_means, centers = k, nstart = 25)
   kmeans_result_so$tot.withinss
 })
-# Plot the Elbow Curve
 plot(k_values_means, wss_means_so, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Squares (WSS)",
      main = "Elbow Method for K-Means (Subs Overlap)")
 
-# Silhouette for K-Means
 set.seed(123)
 silhouette_scores_means_so <- sapply(k_values_means, function(k) {
   kmeans_result_so <- kmeans(kmeans_data_so_means, centers = k, nstart = 25)
   silhouette_result_so <- silhouette(kmeans_result_so$cluster, distance_matrix_so_means)
   mean(silhouette_result_so[, 3])
 })
-# Plot Silhouette Scores
 plot(k_values_means, silhouette_scores_means_so, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
      main = "Silhouette Method for K-Means (Subs Overlap)")
 
-# Run K-Means
 k_so_means <- 4 # elbow - 6, silhouette - 4
 kmeans_result_so <- kmeans(kmeans_data_so_means, centers = k_so_means, nstart = 25)
 
-# Add cluster labels to the dataset
 kmeans_data_so_means$cluster <- as.factor(kmeans_result_so$cluster)
 
-# Visualize the clusters
 ggplot(kmeans_data_so_means, aes(x = X1, y = X2, color = cluster)) +
   geom_point(size = 3) +
   geom_text(aes(label = channel_info$title), 
