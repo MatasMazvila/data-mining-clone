@@ -13,7 +13,6 @@ library(mclust)
 library(data.table)
 library(factoextra)
 library(plotly)
-library(hopkins)
 library(Rtsne)
 library(uwot)
 library(pheatmap)
@@ -45,11 +44,6 @@ distance_matrix_cj_means <- as.dist(1 - similarity_matrix_cj_means)
 
 # Multidimensional Scaling (MDS) for Visualization
 mds_coords_cj_means <- cmdscale(distance_matrix_cj_means, k = 2)
-
-# Compute Hopkins Statistic
-set.seed(123)
-hopkins_stat_cj_means <- hopkins(mds_coords_cj_means, m = nrow(mds_coords_cj_means) - 1)
-print(paste("Hopkins Statistic:", round(hopkins_stat_cj_means, 4)))
 
 # Use MDS for K-Means clustering
 kmeans_data_cj_means <- data.frame(mds_coords_cj_means)
@@ -114,10 +108,6 @@ distance_matrix_co_means <- as.dist(1 - similarity_matrix_co_means)
 
 mds_coords_co_means <- cmdscale(distance_matrix_co_means, k = 2)
 
-set.seed(123)
-hopkins_stat_co_means <- hopkins(mds_coords_co_means, m = nrow(mds_coords_co_means) - 1)
-print(paste("Hopkins Statistic:", round(hopkins_stat_co_means, 4)))
-
 kmeans_data_co_means <- data.frame(mds_coords_co_means)
 
 set.seed(123)
@@ -172,10 +162,6 @@ colnames(similarity_matrix_sj_means) <- NULL
 distance_matrix_sj_means <- as.dist(1 - similarity_matrix_sj_means)
 
 mds_coords_sj_means <- cmdscale(distance_matrix_sj_means, k = 2)
-
-set.seed(123)
-hopkins_stat_sj_means <- hopkins(mds_coords_sj_means, m = nrow(mds_coords_sj_means) - 1)
-print(paste("Hopkins Statistic:", round(hopkins_stat_sj_means, 4)))
 
 kmeans_data_sj_means <- data.frame(mds_coords_sj_means)
 

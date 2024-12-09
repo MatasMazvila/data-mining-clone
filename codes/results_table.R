@@ -60,6 +60,25 @@ avg_silhouette_sj_hac <- round(mean(silhouette_sj_hac[, 3]), 4)
 silhouette_so_hac <- silhouette(hc_clusters_hac_so, distance_matrix_hac_so)
 avg_silhouette_so_hac <- round(mean(silhouette_so_hac[, 3]), 4)
 
+# Collect silhouette scores for HDC
+silhouette_cj_hdc <- silhouette(divisive_clusters_hdc_cj, distance_matrix_hdc_cj)
+avg_silhouette_cj_hdc <- round(mean(silhouette_cj_hdc[, 3]), 4)
+
+silhouette_co_hdc <- silhouette(divisive_clusters_hdc_co, distance_matrix_hdc_co)
+avg_silhouette_co_hdc <- round(mean(silhouette_co_hdc[, 3]), 4)
+
+silhouette_sj_hdc <- silhouette(divisive_clusters_hdc_sj, distance_matrix_hdc_sj)
+avg_silhouette_sj_hdc <- round(mean(silhouette_sj_hdc[, 3]), 4)
+
+silhouette_so_hdc <- silhouette(divisive_clusters_hdc_so, distance_matrix_hdc_so)
+avg_silhouette_so_hdc <- round(mean(silhouette_so_hdc[, 3]), 4)
+
+# Compute modularity scores for GBC
+modularity_score_cj_gbc <- round(modularity(community_result_gbc_cj), 4)
+modularity_score_co_gbc <- round(modularity(community_result_gbc_co), 4)
+modularity_score_sj_gbc <- round(modularity(community_result_gbc_sj), 4)
+modularity_score_so_gbc <- round(modularity(community_result_gbc_so), 4)
+
 # Create the data frame
 clustering_scores_df <- data.frame(
   dataset = c("commenter jaccard", "commenter overlap", "subscriber jaccard", "subscriber overlap"),
@@ -92,6 +111,18 @@ clustering_scores_df <- data.frame(
     avg_silhouette_co_hac,
     avg_silhouette_sj_hac,
     avg_silhouette_so_hac
+  ),
+  silhouette_hdc = c(
+    avg_silhouette_cj_hdc,
+    avg_silhouette_co_hdc,
+    avg_silhouette_sj_hdc,
+    avg_silhouette_so_hdc
+  ),
+  modularity_gbc = c(
+    modularity_score_cj_gbc,
+    modularity_score_co_gbc,
+    modularity_score_sj_gbc,
+    modularity_score_so_gbc
   )
 )
 
@@ -103,7 +134,9 @@ library(knitr)
 clustering_scores_table <- kable(
   clustering_scores_df,
   format = "simple",
-  col.names = c("Dataset", "Hopkins Statistic", "Silhouette (K-Medoids)", "Silhouette (K-Means)", "Silhouette (DBSCAN)", "Silhouette (HAC)"),
-  align = c("l", "c", "c", "c", "c") 
+  col.names = c("Dataset", "Hopkins Statistic", "Silhouette (K-Medoids)",
+                "Silhouette (K-Means)", "Silhouette (DBSCAN)", "Silhouette (HAC)",
+                "Silhouette (HDC)", "Modularity (GBC)"),
+  align = c("l", "c", "c", "c", "c", "c", "c") 
 )
 print(clustering_scores_table)

@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-############## Hierarchical Agglomerative Method ##############
+############## Hierarchical Agglomerative Clustering (HAC) ##############
 #------------------------------------------------------------------------------
 # Libraries
 library(readr)
@@ -13,7 +13,6 @@ library(mclust)
 library(data.table)
 library(factoextra)
 library(plotly)
-library(hopkins)
 library(Rtsne)
 library(uwot)
 library(pheatmap)
@@ -51,7 +50,7 @@ mds_coords_hac_cj <- cmdscale(distance_matrix_hac_cj, k = 2)
 ############## Hierarchical Agglomerative Clustering ##############
 #------------------------------------------------------------------------------
 
-# Perform hierarchical clustering using Ward's method
+# Perform hierarchical clustering using ward.d2 method
 hc_result_hac_cj <- hclust(distance_matrix_hac_cj, method = "ward.D2")
 
 # Plot the dendrogram
@@ -97,7 +96,7 @@ plot(k_values_hac_cj, wss_hac_cj, type = "b", pch = 19, frame = FALSE,
      main = "Elbow Method for HAC (Commenters Jaccard)")
 
 # Cut the dendrogram into clusters
-k_hac_cj <- 5 # visual insoection
+k_hac_cj <- 5 # visual inspection
 hc_clusters_hac_cj <- cutree(hc_result_hac_cj, k = k_hac_cj)
 
 # Add cluster labels to the dataset
@@ -254,7 +253,7 @@ plot(k_values_hac_sj, wss_hac_sj, type = "b", pch = 19, frame = FALSE,
      ylab = "Total Within-Cluster Sum of Squares (WSS)",
      main = "Elbow Method for HAC (Subs Jaccard)")
 
-k_hac_sj <- 4 # visual insoection
+k_hac_sj <- 4 # visual inspection
 hc_clusters_hac_sj <- cutree(hc_result_hac_sj, k = k_hac_sj)
 
 channel_info$hac_cluster_sj <- hc_clusters_hac_sj

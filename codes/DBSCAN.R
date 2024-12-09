@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-############## DBSCAN ##############
+############## Density-Based Spatial Clustering of Applications with Noise (DBSCAN) ##############
 #------------------------------------------------------------------------------
 # Libraries
 library(readr)
@@ -13,7 +13,6 @@ library(mclust)
 library(data.table)
 library(factoextra)
 library(plotly)
-library(hopkins)
 library(Rtsne)
 library(uwot)
 library(pheatmap)
