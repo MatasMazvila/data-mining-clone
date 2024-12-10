@@ -74,7 +74,7 @@ total_wsd_medoids_cj <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, total_wsd_medoids_cj, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Distances",
-     main = "Elbow Method for K-Medoids")
+     main = "Elbow Method for K-Medoids (Commenters Jaccard)")
 
 # Store average silhouette width for each k
 set.seed(123)
@@ -87,7 +87,7 @@ silhouette_scores_cj_medoids <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, silhouette_scores_cj_medoids, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
-     main = "Silhouette Method for K-Medoids")
+     main = "Silhouette Method for K-Medoids (Commenters Jaccard)")
 
 k_cj_medoids <- 6 # elbow - 6, silhouette - 6
 # Perform K-Medoids clustering with the chosen number of clusters
@@ -113,7 +113,7 @@ ggplot(kmedoids_data_cj_medoids, aes(x = X1, y = X2, color = cluster)) +
   geom_text(aes(label = title),        # Add channel names
             size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
   labs(
-    title = "K-Medoids Clustering",
+    title = "K-Medoids Clustering (Commenters Jaccard)",
     x = "MDS Dimension 1",
     y = "MDS Dimension 2"
   ) +
@@ -157,7 +157,7 @@ total_wsd_medoids_co <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, total_wsd_medoids_co, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Distances",
-     main = "Elbow Method for K-Medoids")
+     main = "Elbow Method for K-Medoids (Commenters Overlap)")
 
 set.seed(123)
 silhouette_scores_co_medoids <- sapply(k_values_medoids, function(k) {
@@ -168,7 +168,7 @@ silhouette_scores_co_medoids <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, silhouette_scores_co_medoids, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
-     main = "Silhouette Method for K-Medoids")
+     main = "Silhouette Method for K-Medoids (Commenters Overlap)")
 
 k_co_medoids <- 7 # elbow - 7, silhouette - 13
 
@@ -190,7 +190,7 @@ ggplot(kmedoids_data_co_medoids, aes(x = X1, y = X2, color = cluster)) +
   geom_text(aes(label = title), 
             size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
   labs(
-    title = "K-Medoids Clustering",
+    title = "K-Medoids Clustering (Commenters Overlap)",
     x = "MDS Dimension 1",
     y = "MDS Dimension 2"
   ) +
@@ -234,7 +234,7 @@ total_wsd_medoids_sj <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, total_wsd_medoids_sj, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Distances",
-     main = "Elbow Method for K-Medoids")
+     main = "Elbow Method for K-Medoids (Subs Jaccard)")
 
 set.seed(123)
 silhouette_scores_sj_medoids <- sapply(k_values_medoids, function(k) {
@@ -245,9 +245,9 @@ silhouette_scores_sj_medoids <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, silhouette_scores_sj_medoids, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
-     main = "Silhouette Method for K-Medoids")
+     main = "Silhouette Method for K-Medoids (Subs Jaccard)")
 
-k_sj_medoids <- 9 # elbow - 7, silhouette - 9
+k_sj_medoids <- 5 # elbow - 7, silhouette - 9
 
 kmedoids_result_sj <- pam(distance_matrix_sj_medoids, k = k_sj_medoids)
 
@@ -267,7 +267,7 @@ ggplot(kmedoids_data_sj_medoids, aes(x = X1, y = X2, color = cluster)) +
   geom_text(aes(label = title), 
             size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
   labs(
-    title = "K-Medoids Clustering",
+    title = "K-Medoids Clustering (Subs Jaccard)",
     x = "MDS Dimension 1",
     y = "MDS Dimension 2"
   ) +
@@ -311,7 +311,7 @@ total_wsd_medoids_so <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, total_wsd_medoids_so, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Total Within-Cluster Sum of Distances",
-     main = "Elbow Method for K-Medoids")
+     main = "Elbow Method for K-Medoids (Subs Overlap)")
 
 set.seed(123)
 silhouette_scores_so_medoids <- sapply(k_values_medoids, function(k) {
@@ -322,7 +322,7 @@ silhouette_scores_so_medoids <- sapply(k_values_medoids, function(k) {
 plot(k_values_medoids, silhouette_scores_so_medoids, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of Clusters (k)",
      ylab = "Average Silhouette Score",
-     main = "Silhouette Method for K-Medoids")
+     main = "Silhouette Method for K-Medoids (Subs Overlap)")
 
 k_so_medoids <- 7 # elbow - 6, silhouette - 7
 
@@ -344,7 +344,7 @@ ggplot(kmedoids_data_so_medoids, aes(x = X1, y = X2, color = cluster)) +
   geom_text(aes(label = title), 
             size = 3, hjust = 0.5, vjust = -0.5, check_overlap = TRUE) +
   labs(
-    title = "K-Medoids Clustering",
+    title = "K-Medoids Clustering (Subs Overlap)",
     x = "MDS Dimension 1",
     y = "MDS Dimension 2"
   ) +
@@ -355,3 +355,4 @@ ggplot(kmedoids_data_so_medoids, aes(x = X1, y = X2, color = cluster)) +
     axis.title = element_text(size = 12),
     axis.text = element_text(size = 10)
   )
+

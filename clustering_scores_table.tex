@@ -1,0 +1,38 @@
+\documentclass[border=1mm]{standalone}
+\usepackage{amssymb, amsmath}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xunicode}
+\usepackage{xcolor}
+\begin{document}
+\begin{table}[!h]
+\centering
+\begin{tabular}{l|c|c|c|c|c|c|c}
+\hline
+Dataset & Hopkins Statistic & Silhouette (K-Medoids) & Silhouette (K-Means) & Silhouette (DBSCAN) & Silhouette (HAC) & Silhouette (HDC) & Modularity (GBC)\\
+\hline
+\cellcolor{gray!10}{commenter jaccard} & \cellcolor{gray!10}{0.9547} & \cellcolor{gray!10}{0.0075} & \cellcolor{gray!10}{0.0059} & \cellcolor{gray!10}{0.1305} & \cellcolor{gray!10}{0.0067} & \cellcolor{gray!10}{0.0033} & \cellcolor{gray!10}{0.3225}\\
+\hline
+commenter overlap & 0.9127 & 0.0136 & 0.0153 & -3.4079 & 0.0172 & -0.0071 & 0.2597\\
+\hline
+\cellcolor{gray!10}{subscriber jaccard} & \cellcolor{gray!10}{0.8563} & \cellcolor{gray!10}{0.0461} & \cellcolor{gray!10}{0.0137} & \cellcolor{gray!10}{-15.4830} & \cellcolor{gray!10}{0.0177} & \cellcolor{gray!10}{0.0396} & \cellcolor{gray!10}{0.1630}\\
+\hline
+subscriber overlap & 0.7807 & 0.0763 & 0.0723 & -0.0168 & 0.0897 & 0.0151 & 0.1115\\
+\hline
+\end{tabular}
+\end{table}
+\end{document}

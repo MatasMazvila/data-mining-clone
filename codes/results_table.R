@@ -131,6 +131,7 @@ print(clustering_scores_df)
 
 # Table
 library(knitr)
+library(kableExtra)
 clustering_scores_table <- kable(
   clustering_scores_df,
   format = "simple",
@@ -140,3 +141,4 @@ clustering_scores_table <- kable(
   align = c("l", "c", "c", "c", "c", "c", "c") 
 )
 print(clustering_scores_table)
+

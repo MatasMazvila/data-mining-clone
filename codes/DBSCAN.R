@@ -51,7 +51,7 @@ distance_matrix_dbscan_cj <- as.dist(1 - similarity_matrix_dbscan_cj_scaled)
 #------------------------------------------------------------------------------
 
 # Compute the k-nearest neighbor distances (k = minPts - 1)
-k_dbscan_cj <- 4  # Adjust based on dataset characteristics
+k_dbscan_cj <- 5
 kNNdist_dbscan_cj <- kNNdist(similarity_matrix_dbscan_cj_scaled, k = k_dbscan_cj)
 
 # Plot the k-distance graph
